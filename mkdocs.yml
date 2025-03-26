@@ -2,6 +2,26 @@ site_name: WEB1
 site_url: https://kasperknop.github.io/WEB1
 theme:
     name: material
+    font:
+        text: Merriweather Sans
+        code: Red Hat Mono
     palette:
-        scheme: slate
-        primary: green
+        # Palette toggle for light mode
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          toggle:
+              icon: material/brightness-7
+              name: Switch to dark mode
+
+        # Palette toggle for dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          toggle:
+              icon: material/brightness-4
+              name: Switch to light mode
+
+markdown_extensions:
+    - attr_list
+    - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
