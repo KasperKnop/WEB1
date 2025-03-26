@@ -1,0 +1,8 @@
+site_name: WEB1
+site_url: https://kasperknop.github.io/WEB1
+theme:
+    name: material
+    palette:
+        scheme: slate
+        primary: green
+        accent: deep purple
