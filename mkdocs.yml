@@ -5,6 +5,8 @@ theme:
     font:
         text: Merriweather Sans
         code: Red Hat Mono
+    icon:
+        logo: material/web
     palette:
         # Palette toggle for light mode
         - media: "(prefers-color-scheme: light)"
