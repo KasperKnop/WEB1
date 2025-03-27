@@ -1,6 +1,11 @@
 site_name: WEB1
 site_url: https://kasperknop.github.io/WEB1
 theme:
+    features:
+        - navigation.instant
+        - navigation.instant.prefetch
+        - navigation.instant.progress
+
     name: material
     font:
         text: Merriweather Sans
