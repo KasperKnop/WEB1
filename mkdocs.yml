@@ -40,19 +40,19 @@ markdown_extensions:
           emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
-    - "Introduction": 00-index.md
-    - "Web infrastructure & HTML": 01-web-infrastructure-and-html.md
-    - "CSS Fundamentals": 02-css-fundamentals.md
-    - "Forms & Validation": 03-forms-and-validation.md
-    - "First Project": 04-project-1.md
-    - "Responsive Layouts": 05-responsive-layouts.md
-    - "Web Design for Developers": 06-web-design-for-developers.md
-    - "Second Project": 07-project-2.md
-    - "JavaScript Fundamentals": 08-javascript-fundamentals.md
-    - "The DOM, Events & Storage": 09-the-dom-events-and-storage.md
-    - "Data Fetching": 10-data-fetching.md
-    - "Third Project": 11-project-3.md
-    - "Wrap Up": 12-wrap-up.md
+    - "Introduction": index.md
+    - "01 Web infrastructure & HTML": 01-web-infrastructure-and-html.md
+    - "02 CSS Fundamentals": 02-css-fundamentals.md
+    - "03 Forms & Validation": 03-forms-and-validation.md
+    - "04 First Project": 04-first-project.md
+    - "05 Responsive Layouts": 05-responsive-layouts.md
+    - "06 Web Design for Developers": 06-web-design-for-developers.md
+    - "07 Second Project": 07-second-project.md
+    - "08 JavaScript Fundamentals": 08-javascript-fundamentals.md
+    - "09 The DOM, Events & Storage": 09-the-dom-events-and-storage.md
+    - "10 Data Fetching": 10-data-fetching.md
+    - "11 Third Project": 11-third-project.md
+    - "12 Wrap Up": 12-wrap-up.md
 
 extra_css:
     - stylesheets/extra.css

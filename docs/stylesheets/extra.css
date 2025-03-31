@@ -91,3 +91,7 @@ iframe {
     border-radius: 0.5rem;
     margin: auto;
 }
+
+h1 {
+    text-align: center;
+}
