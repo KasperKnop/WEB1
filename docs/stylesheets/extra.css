@@ -84,3 +84,10 @@ del.critic {
 .md-typeset table:not([class]) {
     border-radius: var(--base-border-radius);
 }
+
+iframe {
+    display: block;
+    border: 0px;
+    border-radius: 0.5rem;
+    margin: auto;
+}

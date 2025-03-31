@@ -40,18 +40,18 @@ markdown_extensions:
           emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
-    - "Introduction": index.md
+    - "Introduction": 00-index.md
     - "Web infrastructure & HTML": 01-web-infrastructure-and-html.md
     - "CSS Fundamentals": 02-css-fundamentals.md
     - "Forms & Validation": 03-forms-and-validation.md
-    - "Project 1": 04-project-1.md
+    - "First Project": 04-project-1.md
     - "Responsive Layouts": 05-responsive-layouts.md
     - "Web Design for Developers": 06-web-design-for-developers.md
-    - "Project 2": 07-project-2.md
+    - "Second Project": 07-project-2.md
     - "JavaScript Fundamentals": 08-javascript-fundamentals.md
     - "The DOM, Events & Storage": 09-the-dom-events-and-storage.md
     - "Data Fetching": 10-data-fetching.md
-    - "Project 3": 11-project-3.md
+    - "Third Project": 11-project-3.md
     - "Wrap Up": 12-wrap-up.md
 
 extra_css:
