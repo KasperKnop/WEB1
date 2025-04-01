@@ -4,8 +4,6 @@ This is the course website for WEB1 - a course that serves as an introduction to
 
 In the sidebar, you'll find all 12 course sessions, each with its own preparation materials and exercises
 
-<iframe src="https://drive.google.com/file/d/1nEnjF90P7fXhXl2XOfOz6ABF2tmeg070/preview" width="640" height="360" allow="autoplay" allowfullscreen></iframe>
-
 ## Structure & Activities
 
 The course is structured into 12 sessions, covering 9 topics and 3 hands-on projects. Each session will generally consist of the following:

@@ -1,7 +1,28 @@
+iframe {
+    display: block;
+    border: 0px;
+    border-radius: 0.5rem;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    border-left: none !important;
+    padding-left: 0;
+    background: var(--md-code-bg-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
 :root {
     --base-border-radius: 0.5rem;
 }
-
+/* 
 /* Change font family of filename present on top of code block. */
 .highlight span.filename {
     border-bottom: none;
@@ -33,14 +54,15 @@
 .md-typeset .md-button {
     border-radius: var(--base-border-radius);
 }
+*/
 
 /* Critic, Mark */
-ins.critic,
+/* ins.critic,
 del.critic {
     text-decoration: none;
-}
+} */
 
-.md-typeset .critic,
+/* .md-typeset .critic,
 .md-typeset mark {
     border-radius: 0.2rem;
     padding: 0 0.2rem;
@@ -56,7 +78,7 @@ del.critic {
 
 .md-typeset del.critic {
     box-shadow: 0 0 0 0.1rem var(--md-typeset-del-color);
-}
+} */
 
 /* Forms */
 .md-search__form {
@@ -73,25 +95,7 @@ del.critic {
     border-bottom-left-radius: var(--base-border-radius);
 }
 
-/* Blog - index.md */
-.md-post--excerpt {
-    background-color: var(--md-accent-fg-color--transparent);
-    box-shadow: 0 0 0 1rem var(--md-accent-fg-color--transparent);
-    border-radius: var(--base-border-radius);
-}
-
 /* Table */
 .md-typeset table:not([class]) {
     border-radius: var(--base-border-radius);
-}
-
-iframe {
-    display: block;
-    border: 0px;
-    border-radius: 0.5rem;
-    margin: auto;
-}
-
-h1 {
-    text-align: center;
 }
