@@ -20,7 +20,7 @@ The course is structured into 12 sessions, covering 9 topics and 3 hands-on proj
 
 This structure gives you the flexibility to engage with the theory at your own pace before each session, allowing our time together to be dynamic, interactive, and focused on applying what you’ve learned rather than just passively absorbing information. However, to get the most out of each session, it’s essential that you come prepared and actively participate.
 
-## Content & Learning Objectives
+## Learning Objectives
 
 ### Knowledge
 
