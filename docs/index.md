@@ -1,8 +1,10 @@
 # Welcome To WEB1
 
-This is the course website for WEB1 - a course that serves as an introduction to front-end web development and core web standards. Students will gain proficiency in HTML, CSS, and JavaScript, while developing the competencies necessary to create responsive, user-friendly, interactive, and dynamic websites.
+Welcome to WEB1 - an introductory course in web development offered by VIA Software Technology Engineering.
 
-In the sidebar, you'll find all 12 course sessions, each with its own preparation materials and exercises
+The course serves as an introduction to front-end web development and core web standards. Students will gain proficiency in HTML, CSS, and JavaScript, while developing the competencies necessary to create responsive, user-friendly, interactive, and dynamic websites.
+
+In the sidebar, you'll find all 12 course sessions, each with its own preparation materials and exercises.
 
 ## Structure & Activities
 
@@ -22,7 +24,7 @@ This structure gives you the flexibility to engage with the theory at your own p
 
 ### Knowledge
 
-After completing the course, students will be able to:
+You will gain the knowledge to:
 
 -   Describe the fundamental principles of the web infrastructure.
 -   Understand the roles of HTML, CSS, and JavaScript in web development.
@@ -36,7 +38,7 @@ After completing the course, students will be able to:
 
 ### Skills
 
-Upon course completion, students will have gained skills to:
+You will gain the skills to:
 
 -   Create the structure of a web page with basic HTML elements and attributes.
 -   Create a responsive layout using flow, flexbox, grid, and media queries.
@@ -51,7 +53,7 @@ Upon course completion, students will have gained skills to:
 
 ### Competencies
 
-Upon completing this course, students will have gained the competencies to:
+You will gain the competencies to:
 
 -   Create responsive, user-friendly, interactive, and dynamic websites.
 -   Establish a strong foundation in core web standards, preparing for the development of web applications using modern frameworks and tools.
