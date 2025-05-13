@@ -9,8 +9,6 @@
 [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work){:target="\_blank"} <br>
 [How the web works](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works){:target="\_blank"} <br>
 
----
-
 ### Setting Up Your Development Environment
 
 > Video about setting up VS Code
