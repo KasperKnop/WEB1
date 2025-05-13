@@ -57,12 +57,12 @@ blockquote {
 */
 
 /* Critic, Mark */
-/* ins.critic,
+ ins.critic,
 del.critic {
     text-decoration: none;
-} */
+}
 
-/* .md-typeset .critic,
+.md-typeset .critic,
 .md-typeset mark {
     border-radius: 0.2rem;
     padding: 0 0.2rem;
@@ -78,7 +78,7 @@ del.critic {
 
 .md-typeset del.critic {
     box-shadow: 0 0 0 0.1rem var(--md-typeset-del-color);
-} */
+}
 
 /* Forms */
 .md-search__form {

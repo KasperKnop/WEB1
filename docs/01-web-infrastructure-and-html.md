@@ -1,27 +1,51 @@
 # Web Infrastructure & HTML
 
-> "Hejsa!"
+## Preperation
 
-=== "js"
+### Web Infrastructure
 
-    ```js
-    export function add(a, b) {
-        return a + b
-    }
-    ```
+> Video about web infrastructure
 
-=== "css"
+[How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work) <br>
+[How the web works](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works) <br>
 
-    ```css
-    h1 {
-        text-align: center;
-    }
-    ```
+---
 
-```js
-export function add(a, b) {
-    return a + b
-}
-```
+### Setting Up Your Development Environment
 
-<iframe src="https://drive.google.com/file/d/1nEnjF90P7fXhXl2XOfOz6ABF2tmeg070/preview" width="640" height="360" allow="autoplay" allowfullscreen></iframe>
+> Video about setting up VS Code
+
+[Download VS Code](https://code.visualstudio.com/)
+
+### HTML Basics
+
+> Video about HTML Basics
+
+[Basic HTML Syntax](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax) <br>
+[Web page metadata](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Webpage_metadata) <br>
+[Headings and paragraphs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs) <br>
+[Emphasis and importance](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Emphasis_and_importance) <br>
+[Lists](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists) <br>
+[Creating links](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links) <br>
+[HTML images](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images) <br>
+[HTML table basics](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics) <br>
+
+### Semantic HTML
+
+> Video about Semantic HTML
+
+[Structuring documents](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents) <br>
+
+## Exercises
+
+-   Internet/web
+-   Hello World
+-   Structure
+-   Links
+-   Tables
+-   Lists
+-   Images
+-   Change a website using dev tools
+-   Personlig hjemmeside / lær at kende (90'er style!)
+-   (Star Pizza)
+-   Glemt noget?
