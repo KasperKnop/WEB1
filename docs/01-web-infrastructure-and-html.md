@@ -38,19 +38,25 @@ comments: true
 
 [Structuring documents](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents){:target="\_blank"} <br>
 
+---
+
 ## Exercises
 
 ### Web Infrastructure
 
+Lorem Ipsum
+
 ### Star Pizza
 
-1. Use the text below as a starting point for your website. Start by adding markup to the text.
-2. Add more items to the menu (e.g. pasta, beverages)
-3. Organize menu items into groups with headlines (Pizzas, Pasta, and Beverages).
-4. Use the pizza images to create an appetizing menu for Star Pizza.
-   Use Paint or another picture editing tool to resize (make a small version) the images of pasta dishes and beverages and add these to this menu page.
-   Make image links for all images. Clicking on one should open a new window with a large version of the item clicked.
-   Complete the learning path on itslearning (videos, links, and exercises).
+Congratulations - you are now the restaurant owner of Star Pizza!
+
+1. Use the text below as a starting point for your website. Start by adding markup to it.
+2. Add a catchy title to the website in the `<head>` element.
+3. Add more items to the menu (e.g. pasta, beverages)
+4. Organize menu items into groups with headlines (Pizzas, Pasta, and Beverages).
+5. Use these [pizza images](https://github.com/KasperKnop/WEB1/raw/refs/heads/main/resources/star-pizza-images.zip) to create an appetizing menu for Star Pizza.
+6. Use Paint or another picture editing tool to resize the images of pasta dishes and beverages and add these to this menu page.
+7. Make image links for all images. Clicking on one should open a new window with a large version of the item clicked.
 
 ```
 Star Pizza
@@ -81,39 +87,44 @@ Monday, Tuesday     15.00 - 22.00
 Wednesday           15.00 - 22.00
 Thursday, Friday    15.00 - 22.00
 Saturday, Sunday    13.00 - 22.00
-
 ```
-
-### Introduce Yourself!
-
-Create your own personal website, that the class can visit to get to know you!
-
--   Create an account on [GitHub](https://github.com/signup).
--   In VS Code, click on the Source Control tab and select "Publish to Github" to publish a public repository with all your project files to your account.
--   Click the "Open on Github" popup.
--   On Github, go to "Settings" > "Pages". Click on "None", select "main" and click "Save".
--   Wait a minute and refresh the page. The URL to your website should now appear in the top of the page.
--   Share the URL in the comment section below!
-
-### Hello, HTML!
-
-### Creating Lists
-
-### Tables
-
-### Linking Webpages
 
 ### An Early April's Fools!
 
-### Star Pizza
+Dev console is important!
 
--   Structure
--   Links
--   Tables
--   Lists
--   Images
--   Change a website using dev tools
--   Personlig hjemmeside / lær at kende (90'er style!)
--   (Star Pizza)
--   Explore and give comments on other personal sites posted (remember that you can see their source code using the browser dev tools)
--   Glemt noget?
+### Introduce Yourself!
+
+Create your own personal website that the class can visit to get to know you!
+
+Requirements:
+
+-   A minimum of 3 HTML pages:
+    -   index.html: Your homepage with an introduction and picture (optional).
+    -   about.html: More details about who you are.
+    -   interests.html: Hobbies, interests, or things you’re passionate about.
+-   A shared navigation bar (on all pages) that lets users click between your pages.
+-   Use of semantic HTML elements where appropriate (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`, etc.)
+-   A table to organize information. It could be your weekly schedule, your favorite movies/games/books or something else entirely.
+-   A footer with contact information and links to your social accounts. It is okay to put in fake data here if you want privacy.
+
+### Hosting Your Site
+
+A website without hosting is like a concert with no audience - let’s get your website online so the world can see it!
+
+1. Create an account on [GitHub](https://github.com/signup){:target="\_blank"}.
+2. In VS Code, click on the Source Control tab and select "Publish to Github" to publish a public repository.
+3. Click the "Open on Github" popup.
+4. On Github, go to "Settings" > "Pages". Go to "Branch", click on "None", select "main" and click "Save".
+5. Wait a minute and refresh the page. The URL to your website should now appear at the top of the page.
+6. Share the URL in the comment section below!
+
+As an alternative to Github Pages, you can use [Netlify Drop](https://app.netlify.com/drop){:target="\_blank"} - just drag and drop your project files, and your site will be live in seconds! It's free to use, though you'll need an account to keep your site password free and online permanently.
+
+### Check Out Each Other’s Sites!
+
+Take a few minutes to browse the personal websites your classmates have made. Click around, get to know them, and see how everyone approached the exercise in their own way. Leave a comment on their post if it caught your attention.
+
+For the curious: Remember that you can use your browser’s developer tools to inspect the source code and learn from the websites you are visiting!
+
+---
