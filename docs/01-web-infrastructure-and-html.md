@@ -4,7 +4,7 @@ comments: true
 
 # Web Infrastructure & HTML
 
-## Preperation
+## Preparation
 
 ### Web Infrastructure
 
