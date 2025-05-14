@@ -124,7 +124,7 @@ A website without hosting is like a concert with no audience - let’s get your 
 3. Click the "Open on Github" popup.
 4. On Github, go to "Settings" > "Pages". Go to "Branch", click on "None", select "main" and click "Save".
 5. Wait a minute and refresh the page. The URL to your website should now appear at the top of the page.
-6. Share the URL in the comment section below!
+6. Share the URL in the comment section below (again, HTML is supported, so you can use the `<a>` (anchor) element)!
 
 As an alternative to Github Pages, you can use [Netlify Drop](https://app.netlify.com/drop){:target="\_blank"} - just drag and drop your project files, and your site will be live in seconds! It's free to use, though you'll need an account to keep your site password free and online permanently.
 
