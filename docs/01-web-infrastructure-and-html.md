@@ -93,12 +93,12 @@ Saturday, Sunday    13.00 - 22.00
 
 Getting comfortable with your browser’s developer tools is an essential skill for any web developer. It lets you inspect, debug, and experiment with a websites code directly in the browser.
 
-Use your browser’s developer tools to temporarily edit a real website and make it look like something unbelievable has happened — just like a digital April Fool's joke!
+Use your browser’s developer tools to temporarily edit a real website and make it look like something unbelievable has happened!
 
 1. Visit a real website — a news site, Wikipedia article, product page, etc. (Choose something with a lot of text and structure you can play with.)
 2. Open your browser’s developer tools (Right-click > Inspect or press F12)
 3. Modify the text, headlines, images, or layout directly in the browser to create a fake but convincing piece of news.
-4. Take a screenshot, [upload it to imgur](https://imgur.com/upload) and share it in the comment section below. The comment section accepts HTML, so use an `<img>` element to share it! Remember to use the preview tab to make sure that the image is working, and don't forget to add the extension of the image in the url!
+4. Take a screenshot, [upload it to imgur](https://imgur.com/upload) and share it in the comment section below. The comments accepts HTML, so you can use an `<img>` element to share it (don't forget to add the image extension to the URL!). You can use the preview tab to make sure that the image is working before posting.
 
 ### Introduce Yourself!
 
