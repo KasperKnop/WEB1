@@ -97,7 +97,7 @@ Use your browser’s developer tools to temporarily edit a real website and make
 
 1. Visit a real website — a news site, Wikipedia article, product page, etc. (Choose something with a lot of text and structure you can play with.)
 2. Open your browser’s developer tools (Right-click > Inspect or press F12)
-3. Modify the text, headlines, images, or layout directly in the browser to create a fake but convincing piece of news.
+3. Modify the text, headlines, or images directly in the browser to create a fake but convincing piece of news.
 4. Take a screenshot, [upload it to imgur](https://imgur.com/upload) and share it in the comment section below. The comments accepts HTML, so you can use an `<img>` element to share it (don't forget to add the image extension to the URL!). You can use the preview tab to make sure that the image is working before posting.
 
 ### Introduce Yourself!
