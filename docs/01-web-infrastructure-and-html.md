@@ -128,9 +128,9 @@ A website without hosting is like a concert with no audience - let’s get your 
 
 As an alternative to Github Pages, you can use [Netlify Drop](https://app.netlify.com/drop){:target="\_blank"} - just drag and drop your project files, and your site will be live in seconds! It's free to use, though you'll need an account to keep your site password free and online permanently.
 
-### Check Out Each Other’s Sites!
+### Check Out Each Other’s Work!
 
-Take a few minutes to browse the personal websites your classmates have made. Click around, get to know them, and see how everyone approached the exercise in their own way. Leave a comment on their post if it caught your attention.
+Take a few minutes to browse the images and personal websites your classmates have made. Click around, get to know them, and see how everyone approached the exercises in their own way. Leave a comment on their post if it caught your attention :slight_smile:
 
 Remember that you can use your browser’s developer tools to inspect the source code and learn from the websites you are visiting!
 
