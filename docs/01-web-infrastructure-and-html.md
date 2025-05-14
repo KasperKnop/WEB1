@@ -98,7 +98,7 @@ Use your browser’s developer tools to temporarily edit a real website and make
 1. Visit a real website — a news site, Wikipedia article, product page, etc. (Choose something with a lot of text and structure you can play with.)
 2. Open your browser’s developer tools (Right-click > Inspect or press F12)
 3. Modify the text, headlines, or images directly in the browser to create a fake but convincing piece of news.
-4. Take a screenshot, [upload it to imgur](https://imgur.com/upload) and share it in the comment section below. The comments accepts HTML, so you can use an `<img>` element to share it (don't forget to add the image extension to the URL!). You can use the preview tab to make sure that the image is working before posting.
+4. Take a screenshot, [upload it to imgur](https://imgur.com/upload), and share it in the comment section below. The comments accepts some HTML, so you can use an `<img>` element to share it (don't forget to add the image extension to the URL!). You can use the preview tab to make sure that the image is working before posting it.
 
 ### Introduce Yourself!
 
@@ -132,6 +132,6 @@ As an alternative to Github Pages, you can use [Netlify Drop](https://app.netlif
 
 Take a few minutes to browse the personal websites your classmates have made. Click around, get to know them, and see how everyone approached the exercise in their own way. Leave a comment on their post if it caught your attention.
 
-For the curious: Remember that you can use your browser’s developer tools to inspect the source code and learn from the websites you are visiting!
+Remember that you can use your browser’s developer tools to inspect the source code and learn from the websites you are visiting!
 
 ---
