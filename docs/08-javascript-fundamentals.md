@@ -1,1 +1,5 @@
+---
+comments: true
+---
+
 # JavaScript Fundamentals

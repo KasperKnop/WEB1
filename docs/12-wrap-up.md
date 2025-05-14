@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Wrap Up
 
 > "Hejsa!"

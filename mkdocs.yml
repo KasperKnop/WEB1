@@ -8,6 +8,7 @@ theme:
         - navigation.top
         - content.code.copy
     name: material
+    custom_dir: overrides
     icon:
         logo: material/web
     palette:
