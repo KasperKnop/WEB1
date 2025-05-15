@@ -42,7 +42,7 @@ comments: true
 
 ## Exercises
 
-### 01 The Journey of a Web Request
+### The Journey of a Web Request
 
 What happens behind the scenes when you visit a website? Create a visual map of the web's underlying infrastructure — and share it with your peers!
 
@@ -50,7 +50,7 @@ What happens behind the scenes when you visit a website? Create a visual map of 
 2. Create a diagram of the interaction between the elements - either on pen and paper or using a drawing program such as [excalidraw](https://excalidraw.com/){:target="\_blank"}.
 3. Upload an image of the diagram to [imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below. The comments accepts some HTML, so you can use an `<img>` element to display it (don't forget to add the image extension to the URL!). You can use the preview tab to make sure that the image is working before posting it.
 
-### 02 Star Pizza
+### Star Pizza
 
 Congratulations - you are now the restaurant owner of Star Pizza!
 
@@ -93,7 +93,7 @@ Thursday, Friday    15.00 - 22.00
 Saturday, Sunday    13.00 - 22.00
 ```
 
-### 03 An Early April's Fools!
+### An Early April's Fools!
 
 Getting comfortable with your browser’s developer tools is an essential skill for any web developer. It lets you inspect, debug, and experiment with a websites code directly in the browser.
 
@@ -104,7 +104,7 @@ Use your browser’s developer tools to temporarily edit a real website and make
 3. Modify the text, headlines, or images directly in the browser to create a fake but convincing piece of news.
 4. Take a screenshot, [upload it to imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below.
 
-### 04 Introduce Yourself!
+### Introduce Yourself!
 
 Create your own personal website that the class can visit to get to know you!
 
@@ -119,7 +119,7 @@ Requirements:
 -   A table to organize information. It could be your weekly schedule, your favorite movies/games/books or something else entirely.
 -   A footer with contact information and links to your social accounts. It is okay to put in fake data here if you want privacy.
 
-### 05 Hosting Your Site
+### Hosting Your Site
 
 A website without hosting is like a concert with no audience - let’s get your website online so the world can see it!
 
@@ -132,7 +132,7 @@ A website without hosting is like a concert with no audience - let’s get your 
 
 As an alternative to Github Pages, you can use [Netlify Drop](https://app.netlify.com/drop){:target="\_blank"} - just drag and drop your project files, and your site will be live in seconds! It's free to use, though you'll need an account to keep your site password free and online permanently.
 
-### 06 Nice Work!
+### Nice Work!
 
 Take a few minutes to browse the images and personal websites your classmates have made. Click around, get to know them, and see how everyone approached the exercises in their own way. Leave a comment on a post if it caught your attention :slight_smile:
 
