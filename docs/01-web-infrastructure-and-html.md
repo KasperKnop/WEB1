@@ -44,10 +44,10 @@ comments: true
 
 ### 01 The Journey of a Web Request
 
-What happens behind the scenes when you visit a website? In this exercise, you'll create a visual map of the web's underlying infrastructure — and share it with your peers!
+What happens behind the scenes when you visit a website? Create a visual map of the web's underlying infrastructure — and share it with your peers!
 
-1. Think about what’s involved when your browser loads a website. Some key elements might include: Browser, DNS, HTTP, router, HTML...
-2. Create a diagram of the interaction between the elements - either on pen and paper or using a drawing program such as [excalidraw](https://excalidraw.com/).
+1. Think about what’s involved when your browser loads a website. Some key elements might include: The browser, DNS, HTTP, routers, HTML...
+2. Create a diagram of the interaction between the elements - either on pen and paper or using a drawing program such as [excalidraw](https://excalidraw.com/){:target="\_blank"}.
 3. Upload an image of the diagram to [imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below. The comments accepts some HTML, so you can use an `<img>` element to display it (don't forget to add the image extension to the URL!). You can use the preview tab to make sure that the image is working before posting it.
 
 ### 02 Star Pizza
