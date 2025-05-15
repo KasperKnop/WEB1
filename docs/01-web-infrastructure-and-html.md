@@ -42,7 +42,7 @@ comments: true
 
 ## Exercises
 
-### 01 Map the Journey of a Web Request
+### 01 The Journey of a Web Request
 
 What happens behind the scenes when you visit a website? In this exercise, you'll create a visual map of the web's underlying infrastructure — and share it with your peers!
 
