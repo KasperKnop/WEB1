@@ -42,9 +42,13 @@ comments: true
 
 ## Exercises
 
-### Web Infrastructure
+### Map the Journey of a Web Request
 
-Lorem Ipsum
+What happens behind the scenes when you visit a website? In this exercise, you'll create a visual map of the web's underlying infrastructure — and share it with your peers!
+
+1. Think about what’s involved when your browser loads a website. Some key elements might include: Browser, DNS, HTTP, router, HTML...
+2. Create a diagram of the interaction between the elements - either on pen and paper or using a drawing program such as [excalidraw](https://excalidraw.com/).
+3. Upload an image of the diagram to [imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below. The comments accepts some HTML, so you can use an `<img>` element to display it (don't forget to add the image extension to the URL!). You can use the preview tab to make sure that the image is working before posting it.
 
 ### Star Pizza
 
@@ -98,7 +102,7 @@ Use your browser’s developer tools to temporarily edit a real website and make
 1. Visit a real website — a news site, Wikipedia article, product page, etc. (Choose something with a lot of text and structure you can play with.)
 2. Open your browser’s developer tools (Right-click > Inspect or press F12)
 3. Modify the text, headlines, or images directly in the browser to create a fake but convincing piece of news.
-4. Take a screenshot, [upload it to imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below. The comments accepts some HTML, so you can use an `<img>` element to share it (don't forget to add the image extension to the URL!). You can use the preview tab to make sure that the image is working before posting it.
+4. Take a screenshot, [upload it to imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below.
 
 ### Introduce Yourself!
 
