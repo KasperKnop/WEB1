@@ -48,7 +48,7 @@ What happens behind the scenes when you visit a website? Create a visual map of 
 
 1. Think about what’s involved when your browser loads a website. Some key elements might include: The browser, DNS, HTTP, routers, HTML...
 2. Create a diagram of the interaction between the elements - either on pen and paper or using a drawing program such as [excalidraw](https://excalidraw.com/){:target="\_blank"}.
-3. Upload an image of the diagram to [imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below. The comments accepts some HTML, so you can use an `<img>` element to display it (don't forget to add the image extension to the URL!). You can use the preview tab to make sure that the image is working before posting it.
+3. Upload an image of the diagram to e.g. [imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below. The comments accepts some HTML, so you can use an `<img>` element to display it (don't forget to add the image extension to the URL!). You can use the preview tab to make sure that the image is working before posting it.
 
 ### Star Pizza
 
