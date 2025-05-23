@@ -8,7 +8,7 @@ comments: true
 
 ### Web Infrastructure
 
-> Video about web infrastructure
+<iframe class="video" src="https://drive.google.com/file/d/1yZIrnc5s_JVPRzkFlq5-Nsv4iGTZjnDu/preview" width="640" height="360" allow="autoplay" allowfullscreen></iframe>
 
 [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work){:target="\_blank"} <br>
 [How the web works](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works){:target="\_blank"} <br>
