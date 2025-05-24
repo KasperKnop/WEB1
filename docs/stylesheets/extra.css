@@ -2,7 +2,9 @@
     display: block;
     border: 0px;
     border-radius: 0.5rem;
-    margin: auto;
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
+    width: 99%;
 }
 
 h1 {
