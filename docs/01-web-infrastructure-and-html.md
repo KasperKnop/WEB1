@@ -8,20 +8,32 @@ comments: true
 
 ### Web Infrastructure
 
+Start by watching the video below. It introduces the core infrastructure behind the web - from how the internet works to how browsers retrieve and display websites - covering essential concepts like IP addresses, DNS, HTTP, and the client-server model.
+
 <iframe class="video" src="https://drive.google.com/file/d/1yZIrnc5s_JVPRzkFlq5-Nsv4iGTZjnDu/preview" allowfullscreen></iframe>
+
+If you want to learn more, here are some additional resources on the topic:
 
 [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work){:target="\_blank"} <br>
 [How the web works](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works){:target="\_blank"} <br>
 
 ### VS Code Setup
 
-> Video about setting up VS Code
+The choice of IDE or text editor is up to you, but the recommended steps below will get you up and running smoothly:
 
-[Download VS Code](https://code.visualstudio.com/){:target="\_blank"}
+1. [Download and install VS Code](https://code.visualstudio.com){:target="\_blank"}.
+2. Turn on auto save (Go to **File > Auto Save**)
+3. Enable format on save: Open Settings, search for “Format On Save,” and check **Editor: Format On Save**
+4. Install [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode){:target="\_blank"}. Set it as the default formatter by searching “Default Formatter” in Settings and selecting **Prettier - Code formatter**.
+5. Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="\_blank"}. To use it: Open your HTML file, right-click in the editor, and select **Open with Live Server** to preview your site with automatic reload on save.
 
 ### HTML Basics
 
-> Video about HTML Basics
+Watch the video below to create your first website by learning the fundamentals of HTML, including the structure of web pages through elements, tags, attributes, and best practices like semantic markup and proper nesting.
+
+<iframe class="video" src="https://drive.google.com/file/d/1e__FNnjDuzckCgq9r8XrH_77ksOMImC5/preview" allowfullscreen></iframe>
+
+After watching the video, explore these additional resources from MDN to deepen your understanding:
 
 [Basic HTML Syntax](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax){:target="\_blank"} <br>
 [Web page metadata](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Webpage_metadata){:target="\_blank"} <br>
@@ -31,16 +43,12 @@ comments: true
 [Creating links](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links){:target="\_blank"} <br>
 [HTML images](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images){:target="\_blank"} <br>
 [HTML table basics](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics){:target="\_blank"} <br>
-
-### Semantic HTML
-
-> Video about Semantic HTML
-
 [Structuring documents](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents){:target="\_blank"} <br>
 
 ---
 
 ## Exercises
+
 
 ### The Journey of a Web Request
 
@@ -106,7 +114,7 @@ Use your browser’s developer tools to temporarily edit a real website and make
 
 ### Introduce Yourself!
 
-Create your own personal website that the class can visit to get to know you!
+Create your own personal website that the class can visit to get to know you!  It is okay to put in fake data if you want privacy :slight_smile:
 
 Requirements:
 
@@ -117,7 +125,7 @@ Requirements:
 -   A shared navigation bar (on all pages) that lets users click between your pages.
 -   Use of semantic HTML elements where appropriate (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`, etc.)
 -   A table to organize information. It could be your weekly schedule, your favorite movies/games/books or something else entirely.
--   A footer with contact information and links to your social accounts. It is okay to put in fake data here if you want privacy.
+-   A footer with contact information and links to your social accounts.
 
 ### Hosting Your Site
 
