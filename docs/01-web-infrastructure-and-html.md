@@ -4,7 +4,7 @@ comments: true
 
 # Web Infrastructure & HTML
 
-## Preparation
+## Preparation :books:
 
 ### Web Infrastructure
 
@@ -47,7 +47,7 @@ After watching the video, explore these additional resources from MDN to deepen 
 
 ---
 
-## Exercises
+## Exercises :writing_hand_tone2:
 
 
 ### The Journey of a Web Request
