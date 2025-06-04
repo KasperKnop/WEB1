@@ -20,6 +20,8 @@ comments: true
 
 ### CSS Selectors & Specificity
 
+<iframe class="video" src="https://drive.google.com/file/d/1a9kIszPbCU5wx7ZjStNavVKGzGz1o3Ir/preview" allowfullscreen></iframe>
+
 ## Exercises :writing_hand_tone2:
 
 ### Exercise 01
