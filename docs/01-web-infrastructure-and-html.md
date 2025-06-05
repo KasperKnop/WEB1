@@ -6,7 +6,7 @@ comments: true
 
 ## Preparation :books:
 
-In your first session, we’ll cover how the web works — from internet basics to how browsers load sites — and dive into HTML fundamentals to build your first web page. You’ll also get set up with VS Code. Let’s get started!
+In your first session, we'll cover how the web works — from internet basics to how browsers load sites — and dive into HTML fundamentals to build your first web page. You'll also get set up with VS Code. Let's get started!
 
 ### Web Infrastructure
 
@@ -56,7 +56,7 @@ After watching the video, explore these additional resources from MDN to deepen 
 
 Creating diagrams is a valuable skill for software engineers — it helps you break down complex systems and communicate ideas effectively. Draw a diagram that illustrates what happens behind the scenes when you visit a website:
 
-1. Think about what’s involved when your browser loads a website. Some key elements might include: The browser, DNS, HTTP, routers, HTML...
+1. Think about what's involved when your browser loads a website. Some key elements might include: The browser, DNS, HTTP, routers, HTML...
 2. Create a diagram of the interaction between the elements — either on pen and paper or using a drawing program such as [excalidraw](https://excalidraw.com/){:target="\_blank"}.
 3. (Optional) Upload an image of the diagram to e.g. [imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below. The comments accepts some HTML, so you can use an `<img>` element to display it (don't forget to add the image extension to the URL!). You can use the preview tab to make sure that the image is working before posting it.
 
@@ -105,12 +105,12 @@ Saturday, Sunday    13.00 - 22.00
 
 ### An Early April's Fools!
 
-Getting comfortable with your browser’s developer tools is an essential skill for any web developer. It lets you inspect, debug, and experiment with a websites code directly in the browser.
+Getting comfortable with your browser's developer tools is an essential skill for any web developer. It lets you inspect, debug, and experiment with a websites code directly in the browser.
 
-Use your browser’s developer tools to temporarily edit a real website and make it look like something unbelievable has happened!
+Use your browser's developer tools to temporarily edit a real website and make it look like something unbelievable has happened!
 
 1. Visit a real website — a news site, Wikipedia article, product page, etc. (Choose something with a lot of text and structure you can play with.)
-2. Open your browser’s developer tools (Right-click > Inspect or press F12)
+2. Open your browser's developer tools (Right-click > Inspect or press F12)
 3. Modify the text, headlines, or images directly in the browser to create a fake but convincing piece of news.
 4. (Optional) Take a screenshot, [upload it to imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below.
 
@@ -123,7 +123,7 @@ Requirements:
 -   A minimum of 3 HTML pages:
     -   index.html: Your homepage with an introduction and picture (optional).
     -   about.html: More details about who you are.
-    -   interests.html: Hobbies, interests, or things you’re passionate about.
+    -   interests.html: Hobbies, interests, or things you're passionate about.
 -   A shared navigation bar (on all pages) that lets users click between your pages.
 -   Use of semantic HTML elements where appropriate (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`, etc.)
 -   A table to organize information. It could be your weekly schedule, your favorite movies/games/books or something else entirely.
@@ -131,7 +131,7 @@ Requirements:
 
 ### Hosting Your Site
 
-A website without hosting is like a concert with no audience — let’s get your website online so the world can see it!
+A website without hosting is like a concert with no audience — let's get your website online so the world can see it!
 
 1. Create an account on [GitHub](https://github.com/signup){:target="\_blank"}.
 2. In VS Code, click on the Source Control tab and select "Publish to Github" to publish a public repository.
@@ -146,6 +146,6 @@ As an alternative to Github Pages, you can use [Netlify Drop](https://app.netlif
 
 Take a few minutes to browse the images and personal websites your classmates have made. Click around, get to know them, and see how everyone approached the exercises in their own way. Leave a comment on a post if it caught your attention :slight_smile:
 
-Remember that you can use your browser’s developer tools to inspect the source code and learn from the websites you are visiting!
+Remember that you can use your browser's developer tools to inspect the source code and learn from the websites you are visiting!
 
 ---

@@ -10,15 +10,15 @@ In the sidebar, you'll find all 12 course sessions, each with their own preparat
 
 The course is structured into 12 sessions, covering 9 topics and 3 hands-on projects. Each session will generally consist of the following:
 
-1. **Preparation**: Before class, you’ll go through assigned material - primarily videos, supplemented by selected online readings. Expect to dedicate some time to preparation, as most of the theoretical content is covered in advance.
+1. **Preparation**: Before class, you'll go through assigned material - primarily videos, supplemented by selected online readings. Expect to dedicate some time to preparation, as most of the theoretical content is covered in advance.
 
-2. **Recap**: We’ll kick things off with a brief but focused review of the most essential concepts.
+2. **Recap**: We'll kick things off with a brief but focused review of the most essential concepts.
 
-3. **Exercises**: You’ll dive into exercises that reinforce and expand on what you’ve learned.
+3. **Exercises**: You'll dive into exercises that reinforce and expand on what you've learned.
 
-4. **Review & Discussion**: We’ll go through some of the exercises together and discuss their solutions.
+4. **Review & Discussion**: We'll go through some of the exercises together and discuss their solutions.
 
-This structure gives you the flexibility to engage with the theory at your own pace before each session, allowing our time together to be dynamic, interactive, and focused on applying what you’ve learned rather than just passively absorbing information. However, to get the most out of each session, it’s essential that you come prepared and actively participate.
+This structure gives you the flexibility to engage with the theory at your own pace before each session, allowing our time together to be dynamic, interactive, and focused on applying what you've learned rather than just passively absorbing information. However, to get the most out of each session, it's essential that you come prepared and actively participate.
 
 ## Learning Objectives
 
