@@ -130,6 +130,7 @@ It might be worth noting that you can set the property `list-style-type` to `non
     nav {
         margin: auto;
         font-family: sans-serif;
+        font-weight: bold;
         background-color: #2196f3;
         padding-block: 1rem;
     }
