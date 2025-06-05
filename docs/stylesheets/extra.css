@@ -122,3 +122,39 @@ del.critic {
     mask-image: var(--md-admonition-icon--q);
 }
 /* Custom admonitions end */
+
+/* NavBar in CSS fundamentals exercise */
+nav#exercise {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #2196f3;
+    padding: 1rem 0;
+}
+
+nav#exercise ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav#exercise li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav#exercise a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav#exercise a:hover {
+    background-color: #1976d275;
+}
+
+nav#exercise a.active {
+    background-color: #1976d2;
+}
