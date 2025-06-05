@@ -37,9 +37,9 @@ nav:
     - "Introduction": index.md
     - "01 Web infrastructure & HTML": 01-web-infrastructure-and-html.md
     - "02 CSS Fundamentals": 02-css-fundamentals.md
-    - "03 Forms & Validation": 03-forms-and-validation.md
+    - "03 Responsive Layouts": 03-responsive-layouts.md
     - "04 First Project": 04-first-project.md
-    - "05 Responsive Layouts": 05-responsive-layouts.md
+    - "05 Forms": 05-forms.md
     - "06 Web Design for Developers": 06-web-design-for-developers.md
     - "07 Second Project": 07-second-project.md
     - "08 JavaScript Fundamentals": 08-javascript-fundamentals.md

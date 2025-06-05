@@ -1,7 +1,3 @@
----
-comments: true
----
-
 # Third Project
 
-## A Dynamic Website
+## A Dynamic Website / Interative Website

@@ -1,7 +1,3 @@
----
-comments: true
----
-
 # First Project
 
-## A Static Website
+## A Responsive Website

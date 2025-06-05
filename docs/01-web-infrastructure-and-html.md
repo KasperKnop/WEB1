@@ -6,9 +6,11 @@ comments: true
 
 ## Preparation :books:
 
+In your first session, we’ll cover how the web works — from internet basics to how browsers load sites — and dive into HTML fundamentals to build your first web page. You’ll also get set up with VS Code. Let’s get started!
+
 ### Web Infrastructure
 
-Start by watching the video below. It introduces the core infrastructure behind the web - from how the internet works to how browsers retrieve and display websites - covering essential concepts like IP addresses, DNS, HTTP, and the client-server model.
+Start by watching the video below. It introduces the core infrastructure behind the web — from how the internet works to how browsers retrieve and display websites — covering essential concepts like IP addresses, DNS, HTTP, and the client-server model.
 
 <iframe class="video" src="https://drive.google.com/file/d/1yZIrnc5s_JVPRzkFlq5-Nsv4iGTZjnDu/preview" allowfullscreen></iframe>
 
@@ -24,7 +26,7 @@ The choice of IDE or text editor is up to you, but the recommended steps below w
 1. [Download and install VS Code](https://code.visualstudio.com){:target="\_blank"}.
 2. Turn on auto save (Go to **File > Auto Save**)
 3. Enable format on save: Open Settings, search for “Format On Save,” and check **Editor: Format On Save**
-4. Install [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode){:target="\_blank"}. Set it as the default formatter by searching “Default Formatter” in Settings and selecting **Prettier - Code formatter**.
+4. Install [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode){:target="\_blank"}. Set it as the default formatter by searching “Default Formatter” in Settings and selecting **Prettier — Code formatter**.
 5. Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="\_blank"}. To use it: Open your HTML file, right-click in the editor, and select **Open with Live Server** to preview your site with automatic reload on save.
 
 ### HTML Basics
@@ -52,15 +54,15 @@ After watching the video, explore these additional resources from MDN to deepen 
 
 ### The Journey of a Web Request
 
-What happens behind the scenes when you visit a website? Create a visual map of the web's underlying infrastructure — and share it with your peers!
+Creating diagrams is a valuable skill for software engineers — it helps you break down complex systems and communicate ideas effectively. Draw a diagram that illustrates what happens behind the scenes when you visit a website:
 
 1. Think about what’s involved when your browser loads a website. Some key elements might include: The browser, DNS, HTTP, routers, HTML...
-2. Create a diagram of the interaction between the elements - either on pen and paper or using a drawing program such as [excalidraw](https://excalidraw.com/){:target="\_blank"}.
-3. Upload an image of the diagram to e.g. [imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below. The comments accepts some HTML, so you can use an `<img>` element to display it (don't forget to add the image extension to the URL!). You can use the preview tab to make sure that the image is working before posting it.
+2. Create a diagram of the interaction between the elements — either on pen and paper or using a drawing program such as [excalidraw](https://excalidraw.com/){:target="\_blank"}.
+3. (Optional) Upload an image of the diagram to e.g. [imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below. The comments accepts some HTML, so you can use an `<img>` element to display it (don't forget to add the image extension to the URL!). You can use the preview tab to make sure that the image is working before posting it.
 
 ### Star Pizza
 
-Congratulations - you are now the restaurant owner of Star Pizza!
+Congratulations — you are now the restaurant owner of Star Pizza!
 
 1. Use the text below as a starting point for your website. Start by adding markup to it.
 2. Add a catchy title to the website in the `<head>` element.
@@ -110,7 +112,7 @@ Use your browser’s developer tools to temporarily edit a real website and make
 1. Visit a real website — a news site, Wikipedia article, product page, etc. (Choose something with a lot of text and structure you can play with.)
 2. Open your browser’s developer tools (Right-click > Inspect or press F12)
 3. Modify the text, headlines, or images directly in the browser to create a fake but convincing piece of news.
-4. Take a screenshot, [upload it to imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below.
+4. (Optional) Take a screenshot, [upload it to imgur](https://imgur.com/upload){:target="\_blank"}, and share it in the comment section below.
 
 ### Introduce Yourself!
 
@@ -129,7 +131,7 @@ Requirements:
 
 ### Hosting Your Site
 
-A website without hosting is like a concert with no audience - let’s get your website online so the world can see it!
+A website without hosting is like a concert with no audience — let’s get your website online so the world can see it!
 
 1. Create an account on [GitHub](https://github.com/signup){:target="\_blank"}.
 2. In VS Code, click on the Source Control tab and select "Publish to Github" to publish a public repository.
@@ -138,7 +140,7 @@ A website without hosting is like a concert with no audience - let’s get your 
 5. Wait a minute and refresh the page. The URL to your website should now appear at the top of the page.
 6. Share the URL in the comment section below (again, HTML is supported, so you can use the `<a>` (anchor) element)!
 
-As an alternative to Github Pages, you can use [Netlify Drop](https://app.netlify.com/drop){:target="\_blank"} - just drag and drop your project files, and your site will be live in seconds! It's free to use, though you'll need an account to keep your site password free and online permanently.
+As an alternative to Github Pages, you can use [Netlify Drop](https://app.netlify.com/drop){:target="\_blank"} — just drag and drop your project files, and your site will be live in seconds! It's free to use, though you'll need an account to keep your site password free and online permanently.
 
 ### Nice Work!
 
