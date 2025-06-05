@@ -56,11 +56,48 @@ The concepts are also covered on web.dev:
 
 To practice your CSS selector skills, try out [CSS Diner](https://flukeout.github.io/){:target="\_blank"} — a game where you have to select the right elements on a table using CSS!
 
-### Box Model Exercise
+### Box Sizing
+
+The webpage below contains two boxes. Change the width of the second box to match that of the first box.
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Sizing</title>
+        <style>
+            .box {
+                text-align: center;
+                border: 10px solid;
+                padding: 50px;
+                margin: 20px;
+                width: 400px;
+            }
+
+            .alternate {
+                box-sizing: border-box;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="box">I use content-box box-sizing</div>
+        <div class="box alternate">I use border-box box-sizing</div>
+    </body>
+</html>
+```
+
+??? note "Solution"
+    ```css
+    .alternate {
+        box-sizing: border-box;
+        width: 520px;
+    }
+    ```
 
 ### A Navbar
 
-Build a horizontal navigation bar using the unordered list below. Style the bar with background color, spacing, and hover effects. Bonus points for creating a style that highlights the active page link.
+Build a horizontal navigation bar using the unordered list below. Style the bar with background color, spacing, and hover effects, and create a style that highlights the active page link.
 
 ```html
 <nav>
@@ -78,6 +115,42 @@ Here is an example of what the navigation bar could look like:
 <img style="display: block; margin: auto;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/navbar.png?raw=true">
 
 It might be worth noting that you can set the property `list-style-type` to `none` on list elements to remove their markers. Also, you can use the `display` property to set whether an element is treated as a block or inline box.
+
+??? note "Example Solution"
+    ```css
+    nav {
+        margin: auto;
+        font-family: sans-serif;
+        background-color: #2196f3;
+        padding-block: 1rem;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+    }
+
+    nav a:hover {
+        background-color: #1976d275;
+    }
+
+    nav a.active {
+        background-color: #1976d2;
+    }
+    ```
 
 ### CSS Zen Garden
 
