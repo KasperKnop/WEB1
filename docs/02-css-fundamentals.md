@@ -75,14 +75,7 @@ Build a horizontal navigation bar using the unordered list below. Style the bar 
 
 Here is an example of what the navigation bar could look like:
 
-<nav id="exercise">
-    <ul>
-        <li><a href="https://kasperknop.github.io/WEB1/02-css-fundamentals/#a-navbar" class="active">Home</a></li>
-        <li><a href="https://kasperknop.github.io/WEB1/02-css-fundamentals/#a-navbar">Services</a></li>
-        <li><a href="https://kasperknop.github.io/WEB1/02-css-fundamentals/#a-navbar">About</a></li>
-        <li><a href="https://kasperknop.github.io/WEB1/02-css-fundamentals/#a-navbar">Contact</a></li>
-    </ul>
-</nav>
+<img style="display: block; margin: auto;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/navbar.png?raw=true">
 
 It might be worth noting that you can set the property `list-style-type` to `none` on list elements to remove their markers. Also, you can use the `display` property to set whether an element is treated as a block or inline box.
 
