@@ -143,8 +143,8 @@ It might be worth noting that you can set the property `list-style-type` to `non
 
     nav li {
         display: inline;
-        padding: 0rem;
-        margin: 0rem;
+        margin: 0;
+        padding: 0;
     }
 
     nav a {
