@@ -2,7 +2,9 @@
 comments: true
 ---
 
-# Forms
+# Browser APIs
+
+The DOM, Events & Storage...
 
 ## Preparation :books:
 

@@ -21,9 +21,5 @@ comments: true
         text-align: center;
     }
     ```
-
-```js
-export function add(a, b) {
-    return a + b
-}
+    
 ```

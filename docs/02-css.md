@@ -2,11 +2,11 @@
 comments: true
 ---
 
-# CSS Fundamentals
-
-## Preparation :books:
+# CSS
 
 In this session, we'll take our first steps into the world of CSS – Cascading Style Sheets. You'll learn how CSS helps us style and design web pages, from changing colors and fonts to adjusting alignments and spacing. Let's make the web look good!
+
+## Preparation :books:
 
 ### CSS Basics
 

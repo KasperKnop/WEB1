@@ -2,11 +2,11 @@
 comments: true
 ---
 
-# Web Infrastructure & HTML
-
-## Preparation :books:
+# The Web & HTML
 
 In your first session, we'll cover how the web works — from internet basics to how browsers load sites — and dive into HTML fundamentals to build your first web page. You'll also get set up with VS Code. Let's get started!
+
+## Preparation :books:
 
 ### Web Infrastructure
 
