@@ -54,6 +54,6 @@ Your website must also meet the following technical requirements:
 
 ## Submission📤
 
-This is an **individual assignment**. The deadline can be found on itslearning.
+This is an **individual assignment**. The deadline can be found on itslearning. Hand in before the deadline to get feedback on your assignment.
 
 You must host your website using **GitHub Pages** and **submit a link to your site** using the **handin slot on itslearning**.
