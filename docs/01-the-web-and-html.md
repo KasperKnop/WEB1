@@ -122,7 +122,7 @@ Requirements:
 
 -   A minimum of 3 HTML pages:
     -   index.html: Your homepage with an introduction and picture (optional).
-    -   about.html: More details about who you are.
+    -   about.html: More details about who you are. Why did you chose to study at VIA?
     -   interests.html: Hobbies, interests, or things you're passionate about.
 -   A shared navigation bar (on all pages) that lets users click between your pages.
 -   Use of semantic HTML elements where appropriate (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`, etc.)
