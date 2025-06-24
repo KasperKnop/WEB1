@@ -20,7 +20,7 @@ The course is structured into 12 sessions, covering 9 topics and 3 hands-on proj
 
 This structure gives you the flexibility to engage with the theory at your own pace before each session, allowing our time together to be dynamic, interactive, and focused on applying what you've learned rather than just passively absorbing information. However, to get the most out of each session, it's essential that you come prepared and actively participate.
 
-## Learning Objectives
+<!-- ## Learning Objectives
 
 ### Knowledge
 
@@ -68,4 +68,4 @@ The student will draw from a pool of known questions and is expected to referenc
 
 The final grade will be based on an overall assessment of the projects presented and the oral examination.
 
-Internal assessment.
+Internal assessment. -->
