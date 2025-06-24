@@ -24,10 +24,10 @@ If you want to learn more, here are some additional resources on the topic:
 The choice of IDE or text editor is up to you, but the recommended steps below will get you up and running smoothly:
 
 1. [Download and install VS Code](https://code.visualstudio.com){:target="\_blank"}.
-2. Turn on auto save (Go to **File > Auto Save**)
-3. Enable format on save: Open Settings, search for “Format On Save,” and check **Editor: Format On Save**
-4. Install [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode){:target="\_blank"}. Set it as the default formatter by searching “Default Formatter” in Settings and selecting **Prettier — Code formatter**.
-5. Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="\_blank"}. To use it: Open your HTML file, right-click in the editor, and select **Open with Live Server** to preview your site with automatic reload on save.
+2. Turn on auto save (Go to `File > Auto Save`)
+3. Enable format on save: Open Settings, search for “Format On Save,” and check `Editor: Format On Save`
+4. Install [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode){:target="\_blank"}. Set it as the default formatter by searching “Default Formatter” in Settings and selecting `Prettier — Code formatter`.
+5. Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="\_blank"}. To use it: Open your HTML file, right-click in the editor, and select `Open with Live Server` to preview your site with automatic reload on save.
 
 ### HTML Basics
 
