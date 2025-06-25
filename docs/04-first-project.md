@@ -6,7 +6,7 @@ For your first project, you will create a personal website that serves as both a
 
 ---
 
-Your website must meet the following requirements:
+Requirements:
 
 - Include at least three separate pages:
     - **About Me** – A brief introduction with your name, background, interests, and a profile image.
@@ -33,4 +33,4 @@ You are more than welcome to get creative and add more requirements, but we are 
 
 This is an individual project. The deadline can be found on itslearning. Hand in before the deadline if you want feedback.
 
-You must host your website using GitHub Pages and submit the link to your site using the handin slot on itslearning.
+You must host the website using GitHub Pages and submit the link to the site using the handin slot on itslearning.
