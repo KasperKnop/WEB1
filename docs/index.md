@@ -1,14 +1,10 @@
 # Welcome To WEB1
 
-> Course Overview video here
-
 This is the course website for WEB1 - a course that serves as an introduction to front-end web development and core web standards. Students will gain proficiency in HTML, CSS, and JavaScript, while developing the competencies necessary to create responsive, user-friendly, interactive, and dynamic websites.
 
-In the sidebar, you'll find all 12 course sessions, each with their own preparation material and exercises.
+In the sidebar, you'll find the course sessions, each with their own preparation material and exercises.
 
-## Structure & Activities
-
-The course is structured into 12 sessions, covering 9 topics and 3 hands-on projects. Each session will generally consist of the following:
+The course is structured into 12 sessions, covering 8 topics and 3 hands-on projects. Each session will generally consist of the following:
 
 1. **Preparation**: Before class, you'll go through assigned material - primarily videos, supplemented by selected online readings. Expect to dedicate some time to preparation, as most of the theoretical content is covered in advance.
 
