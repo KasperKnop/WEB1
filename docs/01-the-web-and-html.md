@@ -27,7 +27,7 @@ The choice of IDE or text editor is up to you, but the recommended steps below w
 2. Turn on auto save (Go to `File > Auto Save`)
 3. Enable format on save: Open Settings, search for “Format On Save,” and check `Editor: Format On Save`
 4. Install [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode){:target="\_blank"}. Set it as the default formatter by searching “Default Formatter” in Settings and selecting `Prettier — Code formatter`.
-5. Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="\_blank"}. To use it: Open your HTML file, right-click in the editor, and select `Open with Live Server` to preview your site with automatic reload on save.
+5. Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="\_blank"}. This plugin allows you to preview your site with automatic reload on save. To use it: Right-click your HTML file in the editor, and select `Open with Live Server`.
 
 ### HTML Basics
 
