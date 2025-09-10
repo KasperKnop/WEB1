@@ -58,8 +58,11 @@ Make your personal website from last session truly your own by styling it:
 2. Change the text color of specific elements (e.g., headings or paragraphs).
 3. Choose a different font by updating the font-family and adjusting the font-size for better readability.
 4. Center some of the content, such as the main heading or introduction text.
-5. Come up with more styling improvements to your site!
-6. Share your updated work in the comment section below.
+5. Style the included tables.
+6. Include margin, padding and borders on relevant boxes.
+8. Use custom properties for your websites colors.
+8. Come up with more styling improvements to your site!
+9. Share your updated work in the comment section below.
 
 ### Box Sizing
 
@@ -99,6 +102,58 @@ The HTML below contains two boxes. Change the width of the second box to match t
         width: 520px;
     }
     ```
+
+### Sizing Units
+
+CSS gives you many ways to size elements. The most common are:
+
+- `px` → absolute size in pixels
+- `%` → relative to the size of the parent element
+- `rem` → relative to the font size of the root (html)
+- `em` → relative to the font size of the element
+
+Experiment with the website below, answering the following questions:
+
+- What happens when you change the font size for the html element? Why?
+- Change the width of the inner box to 200 pixels. How is this different from 50% here?
+- Change the font-size unit of the inner element from rem to em. What happens? Why?
+- Which unit scales when resizing the browser window?
+- Why might rem be better for consistent typography across the site?
+- What would be the issue of using pixel units across the site?
+- When would you use pixels instead of relative units?
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html {
+                font-size: 16px;
+            }
+
+            .outer {
+                width: 400px;
+                height: 200px;
+                background-color: lightblue;
+                padding: 20px;
+                font-size: 2em; 
+            }
+
+            .inner {
+                width: 50%;
+                height: 50%; 
+                background-color: coral;
+                font-size: 2rem; 
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="inner">Inner box</div>
+        </div>
+    </body>
+</html>
+```
 
 ### A Taste For Selectors!
 
