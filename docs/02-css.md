@@ -178,7 +178,7 @@ Here is an example of what the navigation bar could look like:
 
 <img style="display: block; margin: auto;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/navbar.png?raw=true">
 
-It might be worth noting that you can use the `display` property to set whether an element is treated as a block or inline box. Lists do not have markers when they are treated as inline elements.
+It might be worth noting that you can use the `display` property to set whether an element is treated as a block or inline box. List items do not have markers when they are treated as inline elements.
 
 ??? note "Example Solution"
     ```css
