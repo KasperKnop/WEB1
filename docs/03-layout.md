@@ -4,19 +4,23 @@ comments: true
 
 # Layout
 
+In this session, we'll dive into CSS layouts. You’ll learn how to make web pages adapt to various screen sizes while exploring essential layout tools like Flexbox, Grid and media queries.
+
 ## Preparation :books:
 
 ### Responsive Web Design
 
+HTML is naturally responsive, but once you start styling your website, that flexibility can break. Fixed widths and absolute positioning may look fine on your current device, but it's important to consider how your site appears across different screen sizes. Watch the video below for an introduction to the basics of responsive design, and learn how to work *with* the browser rather than against it!
+
 <iframe class="video" src="https://drive.google.com/file/d/1vxfyvjf9VOWt9B4lceF9-DJbGgYJ6qXo/preview" allowfullscreen></iframe>
-
-### CSS Grid
-
-> Video on CSS Grid
 
 ### Flexbox
 
 > Video on Flexbox
+
+### CSS Grid
+
+<iframe class="video" src="https://www.youtube.com/embed/EiNiSFIPIQE?si=4JU7jyPsXXLtjTxR" allowfullscreen></iframe>
 
 ### Media Queries
 
@@ -68,7 +72,7 @@ You have been hired to make the website for the startup "EcoBottles" more respon
             <h1>Welcome to EcoBottle - Sustainable Water Bottles</h1>
         </header>
 
-        <main class="container">
+        <main>
             <section>
                 <h2>What is EcoBottle?</h2>
                 <p>
@@ -138,12 +142,6 @@ You have been hired to make the website for the startup "EcoBottles" more respon
 
 ### Maybe Exercise With Position
 
-### Grid Garden
-
-Learn the basics of CSS Grid with [Grid Garden](https://cssgridgarden.com/){:target="\_blank"}!
-
-Focus on how grid-area, grid-template, and the fr unit work and try to explain it in your own words.
-
 ### FlexBox Froggy
 
 Practice your flexbox skills by playing [Flexbox Froggy](https://flexboxfroggy.com/){:target="\_blank"}!
@@ -152,9 +150,68 @@ Pay attention to how properties like justify-content, align-items, and flex-dire
 
 ### One More Flexbox Exercise
 
-### Media Queries Exercise
-
 ### Collapsible NavBar
+
+Improve the navigation bar that you made last week. It needs to be collapsible as shown in the animation below.
+
+??? note "Example Solution"
+    ```html
+    <html>
+    <head>
+        <style>
+            nav {
+                text-align: center;
+                font-family: sans-serif;
+                font-weight: bold;
+                background: #2196f3;
+            }
+
+            nav ul {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                list-style: none;
+            }
+
+            nav a {
+                text-decoration: none;
+                color: white;
+                padding: 1rem;
+                display: block;
+            }
+
+            nav a:hover {
+                background: #1976d275;
+            }
+
+            nav a.active {
+                background: #1976d2;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </body>
+    </html>
+    ```
+
+
+### Grid Garden
+
+Learn the basics of CSS Grid with [Grid Garden](https://cssgridgarden.com/){:target="\_blank"}!
+
+Focus on how grid-area, grid-template, and the fr unit work and try to explain it in your own words.
+
+### Media Queries Exercise
 
 ### Common Layout Patterns
 

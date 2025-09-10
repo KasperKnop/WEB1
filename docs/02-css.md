@@ -178,22 +178,21 @@ Here is an example of what the navigation bar could look like:
 
 <img style="display: block; margin: auto;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/navbar.png?raw=true">
 
-It might be worth noting that you can set the property `list-style-type` to `none` on list elements to remove their markers. Also, you can use the `display` property to set whether an element is treated as a block or inline box.
+It might be worth noting that you can use the `display` property to set whether an element is treated as a block or inline box. Lists do not have markers when they are treated as inline elements.
 
 ??? note "Example Solution"
     ```css
     nav {
-        margin: auto;
+        text-align: center;
         font-family: sans-serif;
         font-weight: bold;
-        background-color: #2196f3;
+        background: #2196f3;
         padding-block: 1rem;
     }
 
     nav ul {
         margin: 0;
         padding: 0;
-        text-align: center;
     }
 
     nav li {
@@ -209,11 +208,11 @@ It might be worth noting that you can set the property `list-style-type` to `non
     }
 
     nav a:hover {
-        background-color: #1976d275;
+        background: #1976d275;
     }
 
     nav a.active {
-        background-color: #1976d2;
+        background: #1976d2;
     }
     ```
 
