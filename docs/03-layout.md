@@ -16,7 +16,9 @@ HTML is naturally responsive, but once you start styling your website, that flex
 
 ### Flexbox
 
-> Video on Flexbox
+<iframe class="video" src="https://www.youtube.com/embed/phWxA89Dy94?si=YATCIVIQQU__jdAr" allowfullscreen></iframe>
+
+https://internetingishard.netlify.app/html-and-css/flexbox/index.html
 
 ### CSS Grid
 
@@ -150,9 +152,13 @@ Pay attention to how properties like justify-content, align-items, and flex-dire
 
 ### One More Flexbox Exercise
 
-### Collapsible NavBar
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Flexbox
 
-Improve the navigation bar that you made last week. It needs to be collapsible as shown in the animation below.
+### Flexible NavBar
+
+Implement the navigation bar from last week using FlexBox. See if you can arrange the menu so that it looks similar to the one in the picture below.
+
+> Image
 
 ??? note "Example Solution"
     ```html
