@@ -134,8 +134,8 @@ Requirements:
 A website without hosting is like a concert with no audience — let's get your website online so the world can see it!
 
 1. Create an account on [GitHub](https://github.com/signup){:target="\_blank"}.
-2. Install and setup git on your computer. An easy way to do this is to install [GitHub Desktop](https://desktop.github.com/download/){:target="\_blank"} and follow the setup.
-3. In VS Code, sign in to your Github account through the profile icon in the lower left hand part of the window. When signed in, click on the Source Control tab and select "Publish to Github" to publish a public repository. (You can also use Github Desktop to publish and control your repository if you wish)
+2. [Install git](https://git-scm.com/downloads){:target="\_blank"} on your computer.
+3. In VS Code, click on the Source Control tab and select "Publish to Github" to publish a public repository.
 4. Click the "Open on Github" popup.
 5. On Github, go to "Settings" > "Pages". Go to "Branch", click on "None", select "main" and click "Save".
 5. Wait a minute and refresh the page. The URL to your website should now appear at the top of the page.
