@@ -16,13 +16,13 @@ HTML is naturally responsive, but once you start styling your website, that flex
 
 ### Flexbox
 
-<iframe class="video" src="https://www.youtube.com/embed/phWxA89Dy94?si=YATCIVIQQU__jdAr" allowfullscreen></iframe>
+<iframe class="video" src="https://drive.google.com/file/d/1F444WY1-zNNrNsWjrgKNiMUogZb0ov5d/preview" allowfullscreen></iframe>
 
-https://internetingishard.netlify.app/html-and-css/flexbox/index.html
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ### CSS Grid
 
-<iframe class="video" src="https://www.youtube.com/embed/EiNiSFIPIQE?si=4JU7jyPsXXLtjTxR" allowfullscreen></iframe>
+> Video on CSS Grid
 
 ### Media Queries
 
