@@ -30,7 +30,7 @@ CSS Grid is a powerful two-dimensional layout system that organizes content into
 
 <iframe class="video" src="https://drive.google.com/file/d/1a8hC3q84ci-Ekm1bSWo9sVSR7bdONvCX/preview" allowfullscreen></iframe>
 
-You can read about [CSS Grid on CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/){:target="\_blank"}.
+You can also read about [CSS Grid on CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/){:target="\_blank"}.
 
 ### Media Queries
 
