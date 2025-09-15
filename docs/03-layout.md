@@ -18,7 +18,7 @@ If you want a written overview of todays session, MDN has created [an article on
 
 ### Flexbox
 
-Flexbox is a CSS layout model that makes it easier to arrange items in a rows or columns. It creates a container that can adapt to different screen sizes, letting its child elements grow, shrink, or align neatly. Watch the video below to get an overview of the problems Flexbox tries to solve and how to use it.
+Flexbox is a one-dimensional layout model that makes it easier to arrange items in rows or columns. It creates a container that can adapt to different screen sizes, letting its child elements grow, shrink, or align neatly. Watch the video below to get an overview of the problems Flexbox tries to solve and how to use it.
 
 <iframe class="video" src="https://drive.google.com/file/d/1F444WY1-zNNrNsWjrgKNiMUogZb0ov5d/preview" allowfullscreen></iframe>
 
@@ -26,7 +26,7 @@ CSS-Tricks has [a comprehensive guide on Flexbox](https://css-tricks.com/snippet
 
 ### CSS Grid
 
-CSS Grid is a powerful two-dimensional layout system that organizes content into rows and columns, giving you precise control over both horizontal and vertical alignment. Because most websites naturally follow a grid structure, CSS Grid is especially well-suited for designing the overall layout of a page. Watch the video below to get a deeper understand of how it works.
+CSS Grid is a powerful two-dimensional layout model that organizes content into rows and columns, giving you precise control over both horizontal and vertical alignment. Because most websites naturally follow a grid structure, CSS Grid is especially well-suited for designing the overall layout of a page. Watch the video below to get a deeper understand of how it works.
 
 <iframe class="video" src="https://drive.google.com/file/d/1a8hC3q84ci-Ekm1bSWo9sVSR7bdONvCX/preview" allowfullscreen></iframe>
 
@@ -34,7 +34,7 @@ You can also read about [CSS Grid on CSS-Tricks](https://css-tricks.com/snippets
 
 ### Media Queries
 
-Flexbox and Grid are inherently responsive and often sufficient for most layouts. However, media queries let you go further by applying styles conditionally based on factors like screen size or device features. They allow you to define breakpoints - specific screen width ranges where the design changes - so you can fine-tune layouts beyond what Flexbox and Grid can handle on their own.
+Flexbox and Grid are inherently responsive and often sufficient for most layouts. However, media queries let you go further by applying styles conditionally based on factors like screen size or device features. They allow you to define breakpoints - specific screen widths where the design changes - so you can fine-tune layouts beyond what Flexbox and Grid can handle on their own.
 
 <iframe class="video" src="https://drive.google.com/file/d/1uzgq1ngyuzjfiRUXAwSISthaJx-hzcuq/preview" allowfullscreen></iframe>
 
