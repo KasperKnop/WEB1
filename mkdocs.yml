@@ -37,7 +37,7 @@ nav:
     - "Introduction": index.md
     - "01 The Web & HTML": 01-the-web-and-html.md
     - "02 CSS": 02-css.md
-    # - "03 Layout": 03-layout.md
+    - "03 Layout": 03-layout.md
     # - "04 First Project": 04-first-project.md
     # - "05 Forms": 05-forms.md
     # - "06 Web Design": 06-web-design.md

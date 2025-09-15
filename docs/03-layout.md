@@ -4,7 +4,7 @@ comments: true
 
 # Layout
 
-In this session, we'll dive into CSS layouts. You’ll learn how to make web pages adapt to various screen sizes while exploring essential layout tools like Flexbox, Grid and media queries.
+In this session, we'll dive into CSS layouts. You’ll learn how to make web pages adapt to various screen sizes while exploring the essential layout tools: Flexbox, Grid and media queries.
 
 ## Preparation :books:
 
@@ -14,23 +14,39 @@ HTML is naturally responsive, but once you start styling your website, that flex
 
 <iframe class="video" src="https://drive.google.com/file/d/1vxfyvjf9VOWt9B4lceF9-DJbGgYJ6qXo/preview" allowfullscreen></iframe>
 
+If you want a written overview of todays session, MDN has created [an article on responsive web design](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design){:target="\_blank"}, that is worth a read.
+
 ### Flexbox
+
+Flexbox is a CSS layout model that makes it easier to arrange items in a rows or columns. It creates a container that can adapt to different screen sizes, letting its child elements grow, shrink, or align neatly. Watch the video below to get an overview of the problems Flexbox tries to solve and how to use it.
 
 <iframe class="video" src="https://drive.google.com/file/d/1F444WY1-zNNrNsWjrgKNiMUogZb0ov5d/preview" allowfullscreen></iframe>
 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+CSS-Tricks has [a comprehensive guide on Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/){:target="\_blank"}, that covers everything from basic terminology and properties to useful examples and tricks. Give it a read to explore Flexbox in depth.
 
 ### CSS Grid
 
-> Video on CSS Grid
+CSS Grid is a powerful two-dimensional layout system that organizes content into rows and columns, giving you precise control over both horizontal and vertical alignment. Because most websites naturally follow a grid structure, CSS Grid is especially well-suited for designing the overall layout of a page. Watch the video below to get a deeper understand of how it works.
+
+<iframe class="video" src="https://drive.google.com/file/d/1a8hC3q84ci-Ekm1bSWo9sVSR7bdONvCX/preview" allowfullscreen></iframe>
+
+You can read about [CSS Grid on CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/){:target="\_blank"}.
 
 ### Media Queries
 
-> Video on Media Queries
+Flexbox and Grid are inherently responsive and often sufficient for most layouts. However, media queries let you go further by applying styles conditionally based on factors like screen size or device features. They allow you to define breakpoints - specific screen width ranges where the design changes - so you can fine-tune layouts beyond what Flexbox and Grid can handle on their own.
+
+<iframe class="video" src="https://drive.google.com/file/d/1uzgq1ngyuzjfiRUXAwSISthaJx-hzcuq/preview" allowfullscreen></iframe>
+
+If you want to learn more about media queries and the various media features, take a look at [web.dev's article on media queries](https://web.dev/learn/design/media-queries){:target="\_blank"}.
+
+The videos in this session didn't cover [basic CSS positioning](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning){:target="\_blank"}, since its use cases have become less common with the rise of Flexbox and Grid. However, positioning remains very useful in certain small scale layout scenarios (e.g. for tooltips, modal dialogs, and fixed headers). I recommend reading up on it to get an understanding of the different positioning methods, such as `relative`, `absolute` and `fixed`.
 
 ## Exercises :writing_hand_tone2:
 
-### Basic Responsiveness
+ :construction: Under Construction :construction:
+
+<!-- ### Basic Responsiveness
 
 You have been hired to make the website for the startup "EcoBottles" more responsive. Using the provided HTML code and [the product banner](https://github.com/KasperKnop/WEB1/blob/main/resources/eco-bottle.png?raw=true){:target="\_blank"}, please address the following issues:
 
@@ -217,9 +233,9 @@ Learn the basics of CSS Grid with [Grid Garden](https://cssgridgarden.com/){:tar
 
 Focus on how grid-area, grid-template, and the fr unit work and try to explain it in your own words.
 
-### Media Queries Exercise
+### media queries Exercise
 
-### Common Layout Patterns
+### Common Layout Patterns -->
 
 <!-- ### Layout Reflections
 
