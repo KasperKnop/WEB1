@@ -10,7 +10,7 @@ In this session, we'll dive into CSS layouts. You’ll learn how to make web pag
 
 ### Responsive Web Design
 
-HTML is naturally responsive, but once you start styling your website, that flexibility can break. Fixed widths and absolute positioning may look fine on your current device, but it's important to consider how your site appears across different screen sizes. Watch the video below for an introduction to the basics of responsive design, and learn how to work *with* the browser rather than against it!
+HTML is naturally responsive, but once you start styling your website, that flexibility can break. Fixed widths and absolute positioning may look fine on your current device, but it's important to consider how your site appears across different screen sizes. Watch the video below for an introduction to the basics of responsive design, and learn how to work _with_ the browser rather than against it!
 
 <iframe class="video" src="https://drive.google.com/file/d/1vxfyvjf9VOWt9B4lceF9-DJbGgYJ6qXo/preview" allowfullscreen></iframe>
 
@@ -44,15 +44,13 @@ The videos in this session didn't cover [basic CSS positioning](https://develope
 
 ## Exercises :writing_hand_tone2:
 
- :construction: Under Construction :construction:
-
-<!-- ### Basic Responsiveness
+### Basic Responsiveness
 
 You have been hired to make the website for the startup "EcoBottles" more responsive. Using the provided HTML code and [the product banner](https://github.com/KasperKnop/WEB1/blob/main/resources/eco-bottle.png?raw=true){:target="\_blank"}, please address the following issues:
 
-- **Text Width**: The text content currently extends across the entire screen on large displays. Please constrain the text to a maximum width of 1000 pixels.
-- **Image Responsiveness**: The product banner image overflows its container on smaller screens, forcing horizontal scrolling. Ensure the image scales down fluidly to fit within the viewport.
-- **Mobile Optimization**: The website lacks the proper viewport meta tag, which is essential for ensuring correct scaling and a good user experience on mobile devices. Please add the necessary tag to resolve this.
+-   **Text Width**: The text content currently extends across the entire screen on large displays. Please constrain the text to a maximum width of 1000 pixels.
+-   **Image Responsiveness**: The product banner image overflows its container on smaller screens, forcing horizontal scrolling. Ensure the image scales down fluidly to fit within the viewport.
+-   **Mobile Optimization**: The website lacks the proper viewport meta tag, which is essential for ensuring correct scaling and a good user experience on mobile devices. Please add the necessary tag to resolve this.
 
 ```html
 <!DOCTYPE html>
@@ -158,74 +156,165 @@ You have been hired to make the website for the startup "EcoBottles" more respon
 </html>
 ```
 
-### Maybe Exercise With Position
-
-### FlexBox Froggy
+### Flexbox Froggy
 
 Practice your flexbox skills by playing [Flexbox Froggy](https://flexboxfroggy.com/){:target="\_blank"}!
 
 Pay attention to how properties like justify-content, align-items, and flex-direction affect the placement of the frogs and try to explain in your own words what each property does.
 
-### One More Flexbox Exercise
+### Tag Arrangement
 
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Flexbox
+Using the code below as a starting point, create a layout for the tags, that resembles the image below.
 
-### Flexible NavBar
+<img style="display: block; margin: auto;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/pasta-solution-flex.png?raw=true">
 
-Implement the navigation bar from last week using FlexBox. See if you can arrange the menu so that it looks similar to the one in the picture below.
+```html
+<html>
+<head>
+    <style>
+        body {
+            font: 1.2em / 1.5 sans-serif;
+            background: #eee;
+        }
 
-> Image
+        .recipe {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            max-width: 350px;
+        }
+
+        p {
+            margin-bottom: 0px;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 12px;
+        }
+
+        .recipe h2 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .tags {
+            list-style: none;
+            padding: 0px;
+            margin: 0.25rem 0.25rem 1rem 0.25rem;
+        }
+
+        .tags>li {
+            background: #e4ffe0;
+            color: #305a24;
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.85rem;
+        }
+
+        .tags {
+            /* YOUR CODE HERE */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="recipe">
+            <h2>Pasta Primavera</h2>
+            <ul class="tags">
+                <li>Vegetarian</li>
+                <li>Vegan</li>
+                <li>Gluten-free</li>
+                <li>Healthy</li>
+                <li>Light</li>
+                <li>Seasonal</li>
+                <li>Italian</li>
+                <li>Comfort food</li>
+                <li>Quick meal</li>
+                <li>Family-friendly</li>
+            </ul>
+            <img src="https://raw.githubusercontent.com/KasperKnop/WEB1/refs/heads/main/resources/pasta-primavera.png">
+        <p>A light and fresh italian pasta dish with seasonal vegetables.</p>
+    </div>
+</body>
+</html>
+```
+
+??? note "Example Solution"
+    ```css
+    tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25rem;
+    }
+    ```
+
+### Nav Reloaded
+
+Reimplement the navigation bar from last week using Flexbox. Try to make it look the same:
+
+<img style="display: block; margin: auto;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/navbar.png?raw=true">
+
+```html
+<nav>
+    <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+```
 
 ??? note "Example Solution"
     ```html
     <html>
-    <head>
-        <style>
-            nav {
-                text-align: center;
-                font-family: sans-serif;
-                font-weight: bold;
-                background: #2196f3;
-            }
+        <head>
+            <style>
+                nav {
+                    font-family: sans-serif;
+                    font-weight: bold;
+                    background: #2196f3;
+                }
 
-            nav ul {
-                margin: 0;
-                padding: 0;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                list-style: none;
-            }
+                nav ul {
+                    padding: 0px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    list-style: none;
+                }
 
-            nav a {
-                text-decoration: none;
-                color: white;
-                padding: 1rem;
-                display: block;
-            }
+                nav a {
+                    text-decoration: none;
+                    color: white;
+                    padding: 1rem;
+                    display: block;
+                }
 
-            nav a:hover {
-                background: #1976d275;
-            }
+                nav a:hover {
+                    background: #1976d275;
+                }
 
-            nav a.active {
-                background: #1976d2;
-            }
-        </style>
-    </head>
-    <body>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </body>
+                nav a.active {
+                    background: #1976d2;
+                }
+            </style>
+        </head>
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </body>
     </html>
     ```
-
 
 ### Grid Garden
 
@@ -233,13 +322,186 @@ Learn the basics of CSS Grid with [Grid Garden](https://cssgridgarden.com/){:tar
 
 Focus on how grid-area, grid-template, and the fr unit work and try to explain it in your own words.
 
-### media queries Exercise
+### A Grid Of Items!
 
-### Common Layout Patterns -->
+:construction: Under construction! :construction:
 
-<!-- ### Layout Reflections
+### The Holy Grail
 
-Consider the following questions:
+The classic layout pattern below is known as the holy grail. It has a header, footer, left sidebar, right sidebar, and main content. Any left over space is allocated for the main content. Try implementing it with Grid.
 
-- When would you use Flexbox vs Grid?
-- How do media queries make a site responsive? -->
+<img style="display: block; margin: auto;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/holy-grail.png?raw=true">
+
+??? note "Example Solution"
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                font-family: sans-serif;
+                font-size: 4rem;
+                text-align: center;
+            }
+
+            .wrapper {
+                display: grid;
+                grid-template: auto 1fr auto / auto 1fr auto;
+                height: 100vh;
+                grid-template-areas:
+                    "header header header"
+                    "left main right"
+                    "footer footer footer";
+            }
+
+            .section {
+                padding: 2rem;
+            }
+
+            header {
+                grid-area: header;
+                background-color: #FFEDDB;
+            }
+
+            .left-side {
+                grid-area: left;
+                background-color: #CEF;
+            }
+
+            main {
+                grid-area: main;
+                background-color: #EAFDE7;
+            }
+
+            .right-side {
+                grid-area: right;
+                background-color: #FFDBFF;
+            }
+
+            footer {
+                grid-area: footer;
+                background-color: #FFEDDB;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="section">Header</header>
+            <div class="left-side section">Left Sidebar</div>
+            <main class="section">Main Content</main>
+            <div class="right-side section">Right Sidebar</div>
+            <footer class="section">Footer</footer>
+        </div>
+    </body>
+    </html>
+    ```
+
+### Stacking
+
+The customer was very satisfied with your work on arranging tags earlier. However, now they want the tags on top of the image, as illustrated below!
+
+<img style="display: block; margin: auto;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/pasta-solution-grid.png?raw=true">
+
+You might have to add a grid container, that can hold both the image and the list of tags.
+
+??? note "Example Solution"
+    ```html
+    <html>
+    <head>
+        <style>
+            body {
+                font: 1.2em / 1.5 sans-serif;
+                background: #eee;
+            }
+
+            .recipe {
+                background: #fff;
+                border-radius: 12px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                padding: 1rem;
+                max-width: 350px;
+            }
+
+            p {
+                margin-bottom: 0px;
+            }
+
+            img {
+                max-width: 100%;
+                border-radius: 12px;
+                grid-area: stack;
+            }
+
+            .recipe h2 {
+                margin-top: 0;
+                margin-bottom: 0.5rem;
+                text-align: center;
+            }
+
+            .tags {
+                list-style: none;
+                padding: 0px;
+                margin: 0.25rem 0.25rem 1rem 0.25rem;
+            }
+
+            .tags>li {
+                background: #e4ffe0;
+                color: #305a24;
+                padding: 0.25rem 0.75rem;
+                border-radius: 12px;
+                font-size: 0.85rem;
+            }
+
+            .tags {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.25rem;
+                grid-area: stack;
+                align-items: center;
+                align-content: start;
+                z-index: 1;
+            }
+
+            #grid {
+                display: grid;
+                grid-template-areas: "stack"
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="recipe">
+            <div id="grid">
+                <h2>Pasta Primavera</h2>
+                <ul class="tags">
+                    <li>Vegetarian</li>
+                    <li>Vegan</li>
+                    <li>Gluten-free</li>
+                    <li>Healthy</li>
+                    <li>Light</li>
+                    <li>Seasonal</li>
+                    <li>Italian</li>
+                    <li>Comfort food</li>
+                    <li>Quick meal</li>
+                    <li>Family-friendly</li>
+                </ul>
+                <img src="https://raw.githubusercontent.com/KasperKnop/WEB1/refs/heads/main/resources/pasta-primavera.png">
+            </div>
+            <p>A light and fresh italian pasta dish with seasonal vegetables.</p>
+        </div>
+    </body>
+    </html>
+    ```
+
+### Introducing Breakpoints
+
+:construction: Under construction! :construction: 
+
+### Improving Layouts
+
+You now have the tools necessary to improve the layout of the websites that you made previously. Pick one (Star Pizza, your personal site, or CSS Zen Garden) and focus on finding good use cases for Flexbox, Grid and media queries. Share the link in the comments when you are done.
+
+### Nice Work!
+
+Take some time to browse through the layouts shared in the comments. Consider whether they have applied Flexbox, Grid, and media queries appropriately. If you can assess whether the right tools are chosen for each layout, you're on the right path to mastering responsive web design!
