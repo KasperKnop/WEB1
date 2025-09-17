@@ -166,7 +166,7 @@ Pay attention to how properties like justify-content, align-items, and flex-dire
 
 Using the code below as a starting point, create a layout for the tags, that resembles the image below.
 
-<img style="display: block; margin: auto;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/pasta-solution-flex.png?raw=true">
+<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/pasta-solution-flex.png?raw=true">
 
 ```html
 <html>
@@ -330,7 +330,7 @@ Focus on how grid-area, grid-template, and the fr unit work and try to explain i
 
 The classic layout pattern below is known as the holy grail. It has a header, footer, left sidebar, right sidebar, and main content. Any left over space is allocated for the main content. Try implementing it with Grid.
 
-<img style="display: block; margin: auto;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/holy-grail.png?raw=true">
+<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/holy-grail.png?raw=true">
 
 ??? note "Example Solution"
     ```html
@@ -401,7 +401,7 @@ The classic layout pattern below is known as the holy grail. It has a header, fo
 
 The customer was very satisfied with your work on arranging tags earlier. However, now they want the tags on top of the image, as illustrated below!
 
-<img style="display: block; margin: auto;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/pasta-solution-grid.png?raw=true">
+<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/pasta-solution-grid.png?raw=true">
 
 You might have to add a grid container, that can hold both the image and the list of tags.
 
@@ -496,7 +496,51 @@ You might have to add a grid container, that can hold both the image and the lis
 
 ### Introducing Breakpoints
 
-:construction: Under construction! :construction: 
+Use media queries to make sure only the appropriate header is shown. Try not to touch the HTML (you will need to find a way to select each header individually). It's worth noting that you can hide an element by setting its `display` property to `none`.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries Exercise</title>
+    <style>
+        /* YOUR CODE HERE */
+    </style>
+</head>
+<body>
+    <h1>Mobile</h1>
+    <h1>Tablet</h1>
+    <h1>Desktop</h1>
+</body>
+</html>
+```
+
+??? note "Example Solution"
+    ```css
+    h1 {
+      display: none;
+    }
+
+    @media (max-width: 480px) {
+      h1:nth-of-type(1) {
+        display: block;
+      }
+    }
+    
+    @media (min-width: 481px) and (max-width: 1024px) {
+      h1:nth-of-type(2) {
+        display: block;
+      }
+    }
+    
+    @media (min-width: 1025px) {
+      h1:nth-of-type(3) {
+        display: block;
+      }
+    }
+    ```
 
 ### Improving Layouts
 
