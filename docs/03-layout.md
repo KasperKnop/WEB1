@@ -322,9 +322,73 @@ Learn the basics of CSS Grid with [Grid Garden](https://cssgridgarden.com/){:tar
 
 Focus on how grid-area, grid-template, and the fr unit work and try to explain it in your own words.
 
-### A Grid Of Items!
+### Responsive Grids
 
-:construction: Under construction! :construction:
+Create a responsive grid of cards where all items keep the same size and the grid adapts to the viewport: more columns on wide screens, fewer on small screens.
+
+Focus on the use of grid-template-columns, gap, and responsive patterns with repeat(), auto-fill/auto-fit and minmax().
+
+Use the code below as a starting point.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Grid Exercise</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Roboto, Arial;
+            padding: 2rem;
+            background: #f6f7fb;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+            display: grid;
+            place-items: center;
+            font-size: 2rem;
+            aspect-ratio: 1 / 1;
+        }
+
+        .grid {
+            /* YOUR CODE HERE */
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="grid">
+            <article class="card">1</article>
+            <article class="card">2</article>
+            <article class="card">3</article>
+            <article class="card">4</article>
+            <article class="card">5</article>
+            <article class="card">6</article>
+            <article class="card">7</article>
+            <article class="card">8</article>
+            <article class="card">9</article>
+        </section>
+    </main>
+</body>
+</html>
+```
+
+??? note "Example Solution"
+    ```css
+    .grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    ```
 
 ### The Holy Grail
 
@@ -403,7 +467,7 @@ The customer was very satisfied with your work on arranging tags earlier. Howeve
 
 <img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/pasta-solution-grid.png?raw=true">
 
-You might have to add a grid container, that can hold both the image and the list of tags.
+You might have to add a grid container, that can hold both the image and the list of tags, and use the `z-index` property to determine which element is rendered on top.
 
 ??? note "Example Solution"
     ```html
