@@ -251,7 +251,7 @@ Using the code below as a starting point, create a layout for the tags, that res
     }
     ```
 
-### Nav Reloaded
+### Navigation Bar With Flexbox
 
 Reimplement the navigation bar from last week using Flexbox. Try to make it look the same:
 
