@@ -12,7 +12,7 @@ In this session, we'll take our first steps into the world of CSS – Cascading 
 
 In the first video, we'll explore the different ways you can apply CSS to your HTML, understand how inheritance works, and get familiar with some of the most common styling properties.
 
-<iframe class="video" src="https://drive.google.com/file/d/1XvC8BMbY9lt2ZNJ-97nsWfANW2v4p-zW/preview" allowfullscreen></iframe>
+<iframe class="video" src="https://drive.google.com/file/d/1XvC8BMbY9lt2ZNJ-97nsWfANW2v4p-zW/preview" allow="autoplay" allowfullscreen></iframe>
 
 You can read about the concepts in depth here:
 
@@ -24,7 +24,7 @@ You can read about the concepts in depth here:
 
 Next we'll look at how to work with colors in CSS. We'll cover three popular color formats: RGB, hex and HSL. You'll also get a quick intro to hexadecimal numbers along the way.
 
-<iframe class="video" src="https://drive.google.com/file/d/1fimNcpaDhcWL5bdxnCWXbR1ozwEkdjKD/preview" allowfullscreen></iframe>
+<iframe class="video" src="https://drive.google.com/file/d/1fimNcpaDhcWL5bdxnCWXbR1ozwEkdjKD/preview" allow="autoplay" allowfullscreen></iframe>
 
 If you want to know more, web.dev has [a good resource on colors](https://web.dev/learn/css/color){:target="\_blank"}. <br>
 
@@ -32,7 +32,7 @@ If you want to know more, web.dev has [a good resource on colors](https://web.de
 
 Let's explore the CSS box model — a core concept for understanding how elements are sized and spaced on a web page. You'll learn how content, padding, borders, and margins all fit together to shape every element on the screen.
 
-<iframe class="video" src="https://drive.google.com/file/d/1jcLiZk18M21mjsUDfqBDMOYZrwh8Qunv/preview" allowfullscreen></iframe>
+<iframe class="video" src="https://drive.google.com/file/d/1jcLiZk18M21mjsUDfqBDMOYZrwh8Qunv/preview" allow="autoplay" allowfullscreen></iframe>
 
 Web.dev also has [a good resource on the box model](https://web.dev/learn/css/box-model){:target="\_blank"} that you can check out.
 
@@ -40,7 +40,7 @@ Web.dev also has [a good resource on the box model](https://web.dev/learn/css/bo
 
 Lastly, we'll look at CSS selectors and how they let you target specific elements on your page. You'll also learn about specificity and the cascade — the rules CSS uses to decide which styles win when there's a conflict.
 
-<iframe class="video" src="https://drive.google.com/file/d/1a9kIszPbCU5wx7ZjStNavVKGzGz1o3Ir/preview" allowfullscreen></iframe>
+<iframe class="video" src="https://drive.google.com/file/d/1a9kIszPbCU5wx7ZjStNavVKGzGz1o3Ir/preview" allow="autoplay" allowfullscreen></iframe>
 
 The concepts are also covered on web.dev:
 

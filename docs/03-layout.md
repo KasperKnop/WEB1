@@ -12,7 +12,7 @@ In this session, we'll dive into CSS layouts. You’ll learn how to make web pag
 
 HTML is naturally responsive, but once you start styling your website, that flexibility can break. Fixed widths and absolute positioning may look fine on your current device, but it's important to consider how your site appears across different screen sizes. Watch the video below for an introduction to the basics of responsive design, and learn how to work _with_ the browser rather than against it!
 
-<iframe class="video" src="https://drive.google.com/file/d/1vxfyvjf9VOWt9B4lceF9-DJbGgYJ6qXo/preview" allowfullscreen></iframe>
+<iframe class="video" src="https://drive.google.com/file/d/1vxfyvjf9VOWt9B4lceF9-DJbGgYJ6qXo/preview" allow="autoplay" allowfullscreen></iframe>
 
 If you want a written overview of todays session, MDN has created [an article on responsive web design](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design){:target="\_blank"}, that is worth a read.
 
@@ -20,7 +20,7 @@ If you want a written overview of todays session, MDN has created [an article on
 
 Flexbox is a one-dimensional layout model that makes it easier to arrange items in rows or columns. It creates a container that can adapt to different screen sizes, letting its child elements grow, shrink, or align neatly. Watch the video below to get an overview of the problems Flexbox tries to solve and how to use it.
 
-<iframe class="video" src="https://drive.google.com/file/d/1F444WY1-zNNrNsWjrgKNiMUogZb0ov5d/preview" allowfullscreen></iframe>
+<iframe class="video" src="https://drive.google.com/file/d/1F444WY1-zNNrNsWjrgKNiMUogZb0ov5d/preview" allow="autoplay" allowfullscreen></iframe>
 
 CSS-Tricks has [a comprehensive guide on Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/){:target="\_blank"}, that covers everything from basic terminology and properties to useful examples and tricks. Give it a read to explore Flexbox in depth.
 
@@ -28,7 +28,7 @@ CSS-Tricks has [a comprehensive guide on Flexbox](https://css-tricks.com/snippet
 
 CSS Grid is a powerful two-dimensional layout model that organizes content into rows and columns, giving you precise control over both horizontal and vertical alignment. Because most websites naturally follow a grid structure, CSS Grid is especially well-suited for designing the overall layout of a page. Watch the video below to get a deeper understand of how it works.
 
-<iframe class="video" src="https://drive.google.com/file/d/1a8hC3q84ci-Ekm1bSWo9sVSR7bdONvCX/preview" allowfullscreen></iframe>
+<iframe class="video" src="https://drive.google.com/file/d/1a8hC3q84ci-Ekm1bSWo9sVSR7bdONvCX/preview" allow="autoplay" allowfullscreen></iframe>
 
 You can also read about [CSS Grid on CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/){:target="\_blank"}.
 
@@ -36,7 +36,7 @@ You can also read about [CSS Grid on CSS-Tricks](https://css-tricks.com/snippets
 
 Flexbox and Grid are inherently responsive and often sufficient for most layouts. However, media queries let you go further by applying styles conditionally based on factors like screen size or device features. They allow you to define breakpoints - specific screen widths where the design changes - so you can fine-tune layouts beyond what Flexbox and Grid can handle on their own.
 
-<iframe class="video" src="https://drive.google.com/file/d/1uzgq1ngyuzjfiRUXAwSISthaJx-hzcuq/preview" allowfullscreen></iframe>
+<iframe class="video" src="https://drive.google.com/file/d/1uzgq1ngyuzjfiRUXAwSISthaJx-hzcuq/preview" allow="autoplay" allowfullscreen></iframe>
 
 If you want to learn more about media queries and the various media features, take a look at [web.dev's article on media queries](https://web.dev/learn/design/media-queries){:target="\_blank"}.
 

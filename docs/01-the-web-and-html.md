@@ -12,7 +12,7 @@ In your first session, we'll cover how the web works — from internet basics to
 
 Start by watching the video below. It introduces the core infrastructure behind the web — from how the internet works to how browsers retrieve and display websites — covering essential concepts like IP addresses, DNS, HTTP, and the client-server model.
 
-<iframe class="video" src="https://drive.google.com/file/d/1yZIrnc5s_JVPRzkFlq5-Nsv4iGTZjnDu/preview" allowfullscreen></iframe>
+<iframe class="video" src="https://drive.google.com/file/d/1yZIrnc5s_JVPRzkFlq5-Nsv4iGTZjnDu/preview" allow="autoplay" allowfullscreen></iframe>
 
 If you want to learn more, here are some additional resources on the topic:
 
@@ -33,7 +33,7 @@ The choice of IDE or text editor is up to you, but the recommended steps below w
 
 Watch the video below to create your first website by learning the fundamentals of HTML, including the structure of web pages through elements, tags, attributes, and best practices like semantic markup and proper nesting.
 
-<iframe class="video" src="https://drive.google.com/file/d/1e__FNnjDuzckCgq9r8XrH_77ksOMImC5/preview" allowfullscreen></iframe>
+<iframe class="video" src="https://drive.google.com/file/d/1e__FNnjDuzckCgq9r8XrH_77ksOMImC5/preview" allow="autoplay" allowfullscreen></iframe>
 
 After watching the video, explore these additional resources from MDN to deepen your understanding:
 
