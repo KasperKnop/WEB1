@@ -4,9 +4,17 @@ comments: true
 
 # Forms
 
+... Lorem
+
 ## Preparation :books:
 
-### Foo
+### HTML Form Basics
+
+<iframe class="video" src="https://drive.google.com/file/d/1h0eAhQGs--q3hvPPCmGE_IYpDhRsd43b/preview" allowfullscreen></iframe>
+
+### Styling Forms
+
+Lorem...
 
 ## Exercises :writing_hand_tone2:
 
