@@ -541,3 +541,12 @@ Create a payment form for credit cards. It should contain at least the cardholde
     ```
 
 ### Your Own Survey
+
+Use what you have learned to create and style your own survey. You decice what the survey is for, but you must include as many form controls as possible: Range sliders, radio buttons, color pickers, file pickers, date/time pickers, drop-downs, multi-line text fields...
+
+When you are done, publish the survey and share it in the comment section below.
+
+### Nice Work!
+
+Take a few minutes to browse the forms created by your classmates. Leave a comment if something catches your attention :slight_smile:
+ 
