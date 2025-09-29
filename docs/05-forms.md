@@ -364,103 +364,177 @@ Create a payment form for credit cards. It should contain at least the cardholde
     <html lang="en">
         <head>
             <meta charset="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>Create Account</title>
+            <title>Payment Form</title>
             <style>
                 :root {
-                    --primary: hsl(211, 100%, 50%);
-                    --valid: hsl(143, 100%, 26%);
-                    --invalid: hsl(348, 55%, 49%);
+                    --primary: #007bff;
+                    --secondary: #0056b3;
+                    --valid: #4caf50;
+                    --invalid: #f44336;
+                    --border: #ccc;
+                    --bg: #eeeded;
+                    --card-bg: #f9f9f9;
+                    --text: hsl(0, 0%, 24%);
                 }
 
                 * {
                     box-sizing: border-box;
-                }
-
-                input,
-                button {
-                    font: inherit;
+                    margin: 0;
                 }
 
                 body {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    min-height: 100vh;
-                    margin: 0px;
-                    background: #f0f2f5;
                     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 1.125rem;
+                    line-height: 1.6;
+                    color: var(--text);
+                    background: var(--bg);
+                    padding-block-start: 10vb;
                 }
 
-                form {
-                    background: #fff;
-                    padding: 40px;
-                    border-radius: 18px;
-                    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+                input,
+                button,
+                select {
+                    border: 1px solid var(--border);
+                    border-radius: 8px;
+                    padding: 0.5rem;
+                    outline: 1px solid transparent;
+                }
+
+                #card-details {
+                    display: grid;
+                    grid-column-gap: 0.8rem;
+                    grid-template-columns: max-content 1fr;
+                }
+
+                #card-details > div:nth-child(2) {
+                    grid-row: 2/3;
+                    grid-column: 1/2;
                 }
 
                 h2 {
                     text-align: center;
-                    margin-bottom: 40px;
-                    color: #555;
-                }
-
-                label {
-                    display: block;
-                    margin-bottom: 6px;
-                    color: #555;
-                    font-weight: 500;
-                }
-
-                input {
-                    width: 100%;
-                    padding: 12px 15px;
-                    margin-bottom: 20px;
-                    border: 0px solid;
-                    border-radius: 8px;
-                    font-size: 16px;
-                    outline: 3px solid rgba(0, 123, 255, 0.2);
+                    margin-bottom: 1rem;
                 }
 
                 button {
-                    width: 100%;
-                    padding: 12px;
-                    background-color: var(--primary);
-                    color: white;
-                    border: none;
-                    border-radius: 8px;
-                    font-size: 16px;
-                    font-weight: 600;
+                    background: var(--primary);
+                    color: var(--bg);
                     cursor: pointer;
+                }
+
+                button:hover {
+                    background: var(--secondary);
+                }
+
+                label {
+                    text-transform: uppercase;
+                    font-size: 0.75rem;
+                }
+
+                form {
+                    display: grid;
+                    padding: 2rem;
+                    border-radius: 12px;
+                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                    max-width: 350px;
+                    gap: 1.5rem;
+                    margin: auto;
+                    background: var(--card-bg);
+                }
+
+                .form-group {
+                    display: grid;
+                }
+
+                #cvv {
+                    max-width: 6ch;
                 }
 
                 input:not(:placeholder-shown):invalid {
                     outline-color: var(--invalid);
                 }
 
-                input:not(:placeholder-shown):valid {
+                input:not(:placeholder-shown):valid,
+                select:not(:placeholder-shown):valid {
                     outline-color: var(--valid);
                 }
 
                 input:focus:invalid {
                     outline-color: var(--primary);
                 }
+
+                select:focus {
+                    outline-color: var(--primary);
+                }
             </style>
         </head>
         <body>
-            <form action="/submit" method="post">
-                <h2>Create an Account</h2>
+            <form action="/payment" method="post">
+                <h2>Payment Details</h2>
 
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" placeholder="John Doe" required minlength="2" maxlength="50" />
+                <div class="form-group">
+                    <label for="name">Cardholder Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe" />
+                </div>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="example@mail.com" required />
+                <div class="form-group">
+                    <label for="card">Card Number</label>
+                    <input type="text" id="card" name="card" pattern="\d{16}|\d{4} \d{4} \d{4} \d{4}" placeholder="1234 5678 9012 3456" required />
+                </div>
 
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="Enter password" required minlength="6" />
-
-                <button>Create Account</button>
+                <div id="card-details">
+                    <label for="expiry-month">Expiry Date</label>
+                    <div id="expiry">
+                        <select id="expiry-month" name="expiry-month" required>
+                            <option value="">--</option>
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="8">08</option>
+                            <option value="9">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <span>/</span>
+                        <select id="expiry-year" name="expiry-year" required>
+                            <option value="">----</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                            <option value="2031">2031</option>
+                            <option value="2032">2032</option>
+                            <option value="2033">2033</option>
+                            <option value="2034">2034</option>
+                            <option value="2035">2035</option>
+                            <option value="2036">2036</option>
+                            <option value="2037">2037</option>
+                            <option value="2038">2038</option>
+                            <option value="2039">2039</option>
+                            <option value="2040">2040</option>
+                            <option value="2041">2041</option>
+                            <option value="2042">2042</option>
+                            <option value="2043">2043</option>
+                            <option value="2044">2044</option>
+                            <option value="2045">2045</option>
+                            <option value="2046">2046</option>
+                            <option value="2047">2047</option>
+                            <option value="2048">2048</option>
+                            <option value="2049">2049</option>
+                            <option value="2050">2050</option>
+                        </select>
+                    </div>
+                    <label for="cvv">CVV</label>
+                    <input id="cvv" name="cvv" required pattern="\d{3}" placeholder="123" />
+                </div>
+                <button>Pay Now</button>
             </form>
         </body>
     </html>
