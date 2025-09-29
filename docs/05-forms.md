@@ -230,7 +230,7 @@ The account creation form below is lacking real time feedback for validating the
                 <h2>Create an Account</h2>
 
                 <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" placeholder="John Doe" required minlength="2" maxlength="50" />
+                <input type="text" id="name" name="name" placeholder="John Doe" required minlength="2" maxlength="50" autofocus />
 
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="example@mail.com" required />
@@ -338,7 +338,7 @@ The account creation form below is lacking real time feedback for validating the
                 <h2>Create an Account</h2>
 
                 <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" placeholder="John Doe" required minlength="2" maxlength="50" />
+                <input type="text" id="name" name="name" placeholder="John Doe" required minlength="2" maxlength="50" autofocus />
 
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="example@mail.com" required />
@@ -474,7 +474,7 @@ Create a payment form for credit cards. It should contain at least the cardholde
 
                 <div class="form-group">
                     <label for="name">Cardholder Name</label>
-                    <input type="text" id="name" name="name" required placeholder="John Doe" />
+                    <input type="text" id="name" name="name" required placeholder="John Doe" minlength="2" maxlength="50" autofocus />
                 </div>
 
                 <div class="form-group">
