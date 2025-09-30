@@ -403,12 +403,9 @@ Create a payment form for credit cards. It should contain at least the cardholde
                 #card-details {
                     display: grid;
                     grid-column-gap: 0.8rem;
+                    grid-auto-flow: column;
                     grid-template-columns: max-content 1fr;
-                }
-
-                #card-details > div:nth-child(2) {
-                    grid-row: 2/3;
-                    grid-column: 1/2;
+                    grid-template-rows: max-content max-content;
                 }
 
                 h2 {
