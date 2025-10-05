@@ -471,18 +471,18 @@ Create a payment form for credit cards. It should contain at least the cardholde
 
                 <div class="form-group">
                     <label for="name">Cardholder Name</label>
-                    <input type="text" id="name" name="name" required placeholder="John Doe" minlength="2" maxlength="50" autofocus />
+                    <input type="text" id="name" name="name" required placeholder="John Doe" minlength="2" maxlength="50" autocomplete="cc-name" autofocus />
                 </div>
 
                 <div class="form-group">
                     <label for="card">Card Number</label>
-                    <input type="text" id="card" name="card" pattern="\d{16}|\d{4} \d{4} \d{4} \d{4}" placeholder="1234 5678 9012 3456" required />
+                    <input type="text" id="card" name="card" pattern="\d{16}|\d{4} \d{4} \d{4} \d{4}" placeholder="1234 5678 9012 3456" autocomplete="cc-number" required />
                 </div>
 
                 <div id="card-details">
                     <label for="expiry-month">Expiry Date</label>
                     <div id="expiry">
-                        <select id="expiry-month" name="expiry-month" required>
+                        <select id="expiry-month" name="expiry-month" autocomplete="cc-exp-month" required>
                             <option value="">--</option>
                             <option value="1">01</option>
                             <option value="2">02</option>
@@ -498,7 +498,7 @@ Create a payment form for credit cards. It should contain at least the cardholde
                             <option value="12">12</option>
                         </select>
                         <span>/</span>
-                        <select id="expiry-year" name="expiry-year" required>
+                        <select id="expiry-year" name="expiry-year" autocomplete="cc-exp-year" required>
                             <option value="">----</option>
                             <option value="2025">2025</option>
                             <option value="2026">2026</option>
@@ -529,7 +529,7 @@ Create a payment form for credit cards. It should contain at least the cardholde
                         </select>
                     </div>
                     <label for="cvv">CVV</label>
-                    <input id="cvv" name="cvv" required pattern="\d{3}" placeholder="123" />
+                    <input id="cvv" name="cvv" required pattern="\d{3}" placeholder="123" autocomplete="cc-csc" />
                 </div>
                 <button>Pay Now</button>
             </form>
