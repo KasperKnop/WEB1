@@ -10,7 +10,7 @@ In this session, we will explore web design from a developer's perspective. Whil
 
 ### Web Design Overview
 
-In the video below, we will explore the core principles of user experience (UX) and user interface (UI) design, showing how thoughtful design decisions - like creating prototypes, planning layouts, and evaluating usability - can improve the way users interact with a website. You will also see how structured approaches, such as design systems and heuristic evaluation, help ensure consistency, clarity, and a better overall user experience.
+In the video below, we will explore the core principles of user experience (UX) and user interface (UI) design, showing how thoughtful design decisions - like creating prototypes and planning layouts - can improve the way users interact with a website. You will also see how structured approaches, such as design systems and heuristic evaluation, help ensure consistency, clarity, and a better overall user experience.
 
 <iframe class="video" src="https://drive.google.com/file/d/1WM2ab5K9deLL7LG3eDqNw6BofzIFb7un/preview" allow="autoplay" allowfullscreen></iframe>
 
