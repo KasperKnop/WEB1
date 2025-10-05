@@ -40,7 +40,7 @@ nav:
     - "03 Layout": 03-layout.md
     - "04 First Project": 04-first-project.md
     - "05 Forms": 05-forms.md
-    # - "06 Web Design": 06-web-design.md
+    - "06 Web Design": 06-web-design.md
     # - "07 Second Project": 07-second-project.md
     # - "08 JavaScript": 08-javascript.md
     # - "09 Browser APIs": 09-browser-apis.md
