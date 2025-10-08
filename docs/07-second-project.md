@@ -18,7 +18,7 @@ Requirements:
 - Use semantic HTML elements and ARIA attributes to enhance accessibility and communicate form structure to assistive technologies.
 - Use a coherent and accessible color scheme for your application.
 - Optimize the experience for mobile users by using appropriate input types (e.g. tel, email, date), and ensuring your layout is responsive and touch-friendly.
-- Use heuristic evaluations, accessibility auditing tools, or conduct usability tests to evaluate your form, and use the results to iterate and improve the user experience.
+- Use heuristic evaluations, accessibility auditing tools, and/or conduct usability tests to evaluate your form, and use the results to iterate and improve the user experience.
 
 You are more than welcome to get creative and add more requirements - e.g. conditional form fields based on user input, multi-step forms with progress bars, modals or popovers for extra information, or introducting light/dark theming.
 
