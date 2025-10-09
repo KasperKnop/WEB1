@@ -394,7 +394,8 @@ Pick a website to evaluate. It can be one that drives you crazy when you use it,
 - [Userinyerface](https://userinyerface.com/)
 - [Mit VIA](https://mit.via.dk/)
 - [Awesome Store](https://www.tpgarcdemo.com/)
-- [The inaccessible service](https://school-trip-d648ce08743c.herokuapp.com/)
+
+Feel free to share your findings in the comments :slight_smile:
 
 ### Prototyping & Wireframing
 
@@ -402,4 +403,4 @@ Still have some time? You'll soon be creating wireframes for your websites befor
 
 ### Nice Work!
 
-Take a few minutes to browse the Lighthouse audits shared by your classmates. Leave a comment if something catches your attention :slight_smile:
+Take a few minutes to browse the Lighthouse audits and usability assessments shared by your classmates. Leave a comment if something catches your attention :slight_smile:
