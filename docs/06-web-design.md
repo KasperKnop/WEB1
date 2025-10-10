@@ -12,7 +12,7 @@ In this session, we will explore web design from a developer's perspective. Whil
 
 In the video below, we will explore the core principles of user experience (UX) and user interface (UI) design, showing how thoughtful design decisions - like creating prototypes and planning layouts - can improve the way users interact with a website. You will also see how structured approaches, such as design systems and heuristic evaluation, help ensure consistency, clarity, and a better overall user experience.
 
-<iframe class="video" src="https://drive.google.com/file/d/1WM2ab5K9deLL7LG3eDqNw6BofzIFb7un/preview" allow="autoplay" allowfullscreen></iframe>
+<iframe title="Web Design Overview" class="video" src="https://drive.google.com/file/d/1WM2ab5K9deLL7LG3eDqNw6BofzIFb7un/preview" allow="autoplay" allowfullscreen></iframe>
 
 Still unsure about what UX is and why it matters? Watch this short video on [the ROI of user experience](https://www.youtube.com/watch?v=O94kYyzqvTc){:target="\_blank"}.
 
@@ -24,7 +24,7 @@ If you are want more concrete graphical tips on designing your UI, you can take 
 
 Accessibility is a fundamental part of user experience in web development because it ensures that all users, including those with disabilities, can effectively interact with your website. In the video below, we will introduce the fundamentals of web accessibility. You will learn how proper focus management, semantic HTML, ARIA attributes, meaningful link and image text, and thoughtful color and contrast choices all contribute to an inclusive web experience. We will also cover practical testing methods, including using developer tools to simulate visual impairments, running accessibility audits with Lighthouse, and understanding how screen readers interact with web content.
 
-<iframe class="video" src="https://drive.google.com/file/d/14OBv5ikiTgFslMAIMl5jfjjfJ12RnSi6/preview" allow="autoplay" allowfullscreen></iframe>
+<iframe title="Accessibilty" class="video" src="https://drive.google.com/file/d/14OBv5ikiTgFslMAIMl5jfjjfJ12RnSi6/preview" allow="autoplay" allowfullscreen></iframe>
 
 If you want to learn more, W3 Schools has created [a comprehensive tutorial on accessibility](https://www.w3schools.com/accessibility/index.php){:target="\_blank"}. This [article on how to review for accessibility](https://web.dev/articles/how-to-review) also gives a good brief overview.
 
@@ -42,7 +42,7 @@ Share the website with the lowest accessibility score in the comments and descri
 
 ### Screen Reader & Keyboard
 
-<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/via-trips.png?raw=true">
+<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/via-trips.png?raw=true" alt="A preview of the VIA trips website">
 
 You are about to experience temporary vision loss! Install a screen reader (e.g. [NVDA](https://assistivlabs.com/assistive-tech/screen-readers/nvda){:target="\_blank"}), and try to book a trip on [VIA Trips](https://kasperknop.github.io/via-trips/){:target="\_blank"}. The website is blurred and does not allow for mouse input. You can toggle the blur on and off by pressing "b" on the keyboard if you need a little help :wink:
 
@@ -203,7 +203,7 @@ Assume that the existing CSS rules for the `a` selector cannot be modified. Modi
 
 ### Reaching 100 in Lighthouse
 
-<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/100-accessibility.png?raw=true">
+<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/100-accessibility.png?raw=true" alt="From 61 to 100 accessibility">
 
 The [funion website (.zip)](https://github.com/KasperKnop/WEB1/raw/refs/heads/main/resources/the-funion.zip) has accessibility issues. Fix them without touching the CSS!
 
@@ -375,7 +375,7 @@ Let's improve the accessibility of the funion website further by providing a ski
 
 Testing the contrast ratio of text on your website is important. While tools like Lighthouse usually perform this check automatically, the browser cannot always determine the ratio accurately when backgrounds include transparency, images, or other complex effects.
 
-<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/contrast-ratio.png?raw=true">
+<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/contrast-ratio.png?raw=true" alt="The contrast ratio feature in the DevTools color picker">
 
 Visit [historian of the future](https://www.historianofthefuturex.com/), and check the contrast ratio of the text manually using the color picker in the DevTools.
 
