@@ -1,6 +1,8 @@
 # Second Project
 
-## A User-Friendly Account Creation :writing_hand_tone2:
+## To be announced...
+
+<!-- ## A User-Friendly Account Creation :writing_hand_tone2:
 
 In this project, you will design and implement a web form for creating a user account. The form should collect a variety of personal and preference-related data, while following best practices for usability, accessibility, and responsive design.
 
@@ -37,4 +39,4 @@ You must host the web form using GitHub Pages and submit a .pdf file to the hand
 
 - A link to the web form.
 - The wireframe or mockup you have created.
-- A small description and reflection on the evaluation methods you have used (~1000 characters).
+- A small description and reflection on the evaluation methods you have used (~1000 characters). -->

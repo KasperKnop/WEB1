@@ -41,7 +41,7 @@ nav:
     - "04 First Project": 04-first-project.md
     - "05 Forms": 05-forms.md
     - "06 Web Design": 06-web-design.md
-    # - "07 Second Project": 07-second-project.md
+    - "07 Second Project": 07-second-project.md
     # - "08 JavaScript": 08-javascript.md
     # - "09 Browser APIs": 09-browser-apis.md
     # - "10 Third Project": 10-third-project.md
