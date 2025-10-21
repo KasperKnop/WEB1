@@ -27,7 +27,7 @@ JavaScript or any external libraries or frameworks are still not allowed.
 !!! tip "Tips"
     - The projects will be discussed at the exam. Focus on applying what you’ve learned to make it easier to explain and showcase your skills. A more interesting project might lead to a more interesting discussion.
     - Provide helpful validation feedback: Indicate errors clearly, and if possible, offer hints on how to fix them. Instant feedback reduces frustration.
-    - Put yourself in the users’ shoes: Consider their needs, background, and potential challenges when filling out your form.
+    - Put yourself in the shoes of the user: Consider their needs, background, and potential challenges when filling out your form.
 
 ## Submission📤
 
