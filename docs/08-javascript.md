@@ -10,6 +10,28 @@ comments: true
 
 ## Exercises :writing_hand_tone2:
 
+### Hello, JavaScript!
+
+In this session, the output of all exercises will be shown in the DevTools.
+
+Start by creating an HTML document that includes an external JavaScrip file, that logs the message "Hello, JavaScript" to the console.
+
+To make your workflow easier, open the HTML file with Live Server, and undock the console from the browser window — we won't need to view the web page itself during this session.
+
+??? note "Example Solution"
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <script src="my-script.js"></script>
+    </head>
+    <body></body>
+    </html>
+    ```
+    ```js
+    console.log("Hello, JavaScript")
+    ```
+
 ### Variables
 
 ### Constants
@@ -26,39 +48,14 @@ comments: true
 
 ### Built in Objects
 
-### Loops
-
-Pyramide?
-
-### Loops
-
-Loop through the array of Pokemon and log any fire Pokemon to the console.
-
-### Average
-
-I have an array of grades and want to find the average of the grades. Your task is to complete the code so that it sums up all the grades in a loop and calculates the average.
-
-```js
-let total = 0
-let grades = [12, 7, 4, -3, 4, 10, 4]
-
-console.log(getAverage(grades))
-
-function getAverage(array) {
-    // Your code here
-}
-```
-
-### Functions
-
 ### Military Time
 
-MilitaryTime represents the current time using the 24-hour format. For example, a value of 1700 means it's 5:00 PM.
+Military time represents the current time using the 24-hour format. For example, a value of 1700 means it's 5:00 PM.
 Assuming that the user correctly provides a number between 0000 - 2359, write a function that determines whether the current time falls into one of the following categories:
 
-- Morning: Any time before 08:00 AM
-- School: Between 08:00 AM and 04:00 PM
-- Evening: Any time after 04:00 PM
+-   Morning: Any time before 08:00 AM
+-   School: Between 08:00 AM and 04:00 PM
+-   Evening: Any time after 04:00 PM
 
 ```js
 console.log(timeOfDay(prompt("Input military time (0000 - 2359)")))
@@ -81,11 +78,68 @@ console.log(timeOfDay(prompt("Input military time (0000 - 2359)")))
     }
     ```
 
+### Average
+
+You're a Pokémon trainer that wants to find the average base stats of your team.
+Complete the code so that it loops through all the pokémon's base stats, sums them up, and then calculates the average.
+
+```js
+let total = 0
+let baseStats = [525, 395, 320, 490, 435, 600, 680]
+
+console.log(getAverage(baseStats))
+
+function getAverage(array) {
+    // Your code here
+}
+```
+
+??? note "Example Solution"
+    ```js
+    function getAverage(array) {
+        total = 0
+        for (let value of array) {
+            total += value
+        }
+        return total / array.length
+    }
+    ```
+
+### Loops & Objects
+
+Loop through the array of Pokemon and log any fire Pokemon to the console.
+
+```js
+const pokemonList = [
+    { name: "Charmander", type: "Fire" },
+    { name: "Squirtle", type: "Water" },
+    { name: "Pikachu", type: "Electric" },
+    { name: "Vulpix", type: "Fire" },
+    { name: "Growlithe", type: "Fire" },
+    { name: "Geodude", type: "Rock/Ground" },
+    { name: "Eevee", type: "Normal" },
+    { name: "Abra", type: "Psychic" },
+]
+```
+
+??? note "Example Solution"
+    ```js
+    for (let i = 0; i < pokemonList.length; i++) {
+        if (pokemonList[i].type === "Fire") {
+            console.log(pokemonList[i].name)
+        }
+    }
+    ```
+
+### Functions
+
 ### Calculator
 
 ### Binary Number Calculator?
 
 ### Mario Pyramid
+
+<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/mario-reverse.gif?raw=true" alt="The Mario Pyramid!">
 
 Recreate the famous pyramid from the Mario games using hashtags and console.log!
 
@@ -105,31 +159,30 @@ Expected output:
 */
 ```
 
-<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/mario.gif?raw=true" alt="The Mario Pyramid!">
-
 ??? note "Example Solution"
     ```js
     function marioPyramid(height) {
         for (let i = 1; i <= height; i++) {
-            let row = ''
+            let row = ""
             for (let j = 0; j < i; j++) {
-                row += '#'
+                row += "#"
             }
+
             console.log(row)
+
         }
     }
 
     // OR
 
     function marioPyramid(height) {
-        for (let line = "#"; line.length <= height; line += "#")
-            console.log(line)
+        for (let line = "#"; line.length <= height; line += "#") console.log(line)
     }
     ```
 
 ### Mirror Mode!
 
-If you have played Mario, you have probably noticed that the game was mirrored in the previous exercise! This time, you should implement the real pyramid from Mario! Depending on how you have implemented the previous exercise, you might be able to solve this by adding only a few lines of code!
+If you have played Mario, you probably noticed that the game was mirrored in the previous exercise! This time, you should implement the real pyramid from Mario! Depending on how you have implemented the previous exercise, you might be able to solve this by adding only a few lines of code!
 
 ```js
 function realMarioPyramid(height) {
