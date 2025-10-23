@@ -31,7 +31,7 @@ JavaScript or any external libraries or frameworks are still not allowed.
 
 ## Submission📤
 
-This is a group project to be completed with your existing SEP1 group. The deadline can be found on itslearning. Hand in before the deadline if you want feedback.
+This is a group project to be completed with your existing SEP group. The deadline can be found on itslearning. Hand in before the deadline if you want feedback.
 
 You must host the web form using GitHub Pages and submit a .pdf file to the handin slot on itslearning, containing the following:
 
