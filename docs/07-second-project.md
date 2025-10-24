@@ -10,7 +10,7 @@ You are free to choose the context for the form — for example, it could be for
 
 Requirements:
 
-- Before starting the implementation, you must create a wireframe or mockup of the form (using e.g. Figma, Balsamiq, or a white board).
+- Before starting the implementation, you must create wireframes or mockups of the form (using e.g. Figma, Balsamiq, or a white board).
 - Incorporate a wide variety of form controls, including but not limited to: text input, textareas, dropdowns, radio buttons, checkboxes, file uploads, range sliders, and date pickers.
 - Implement input validation to ensure that required fields are completed and values match the expected format (e.g. email, password rules, number ranges).
 - Provide intuitive feedback to users as they interact with the form.
@@ -36,5 +36,5 @@ This is a group project to be completed with your existing SEP group. The deadli
 You must host the web form using GitHub Pages and submit a .pdf file to the handin slot on itslearning, containing the following:
 
 - A link to the web form.
-- The wireframe or mockup you have created.
+- The wireframes or mockups you have created.
 - A small description and reflection on the evaluation methods you have used (~1000 characters).
