@@ -6,9 +6,9 @@ comments: true
 
 ## Preparation :books:
 
-### Foo
+Working on it! :construction: Should be ready no later than Tuesday :relaxed:
 
-## Exercises :writing_hand_tone2:
+<!-- ## Exercises :writing_hand_tone2:
 
 ### Hello, JavaScript!
 
@@ -409,4 +409,4 @@ Expected output:
     }
     ```
     
-### Nice Work!
+### Nice Work! -->
