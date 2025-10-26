@@ -203,7 +203,7 @@ console.log(x)
 ### A Stack Overflow
 
 The function below doesn't work as intended. Run the code and observe the error message in the console.
-Then, use the debugger to understand what happens step by step:
+Then, use [the debugger](https://developer.chrome.com/docs/devtools/javascript) to understand what happens step by step:
 Set a breakpoint inside the function in the "Sources" tab of the DevTools and follow the code execution line by line.
 
 Can you fix the function?
