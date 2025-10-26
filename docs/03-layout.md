@@ -242,7 +242,7 @@ Using the code below as a starting point, create a layout for the tags, that res
 </html>
 ```
 
-??? note "Example Solution"
+??? note "Solution"
     ```css
     tags {
         display: flex;
@@ -268,7 +268,7 @@ Reimplement the navigation bar from last week using Flexbox. Try to make it look
 </nav>
 ```
 
-??? note "Example Solution"
+??? note "Solution"
     ```html
     <html>
         <head>
@@ -396,7 +396,7 @@ The classic layout pattern below is known as the holy grail. It has a header, fo
 
 <img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/holy-grail.png?raw=true">
 
-??? note "Example Solution"
+??? note "Solution"
     ```html
     <!DOCTYPE html>
     <html>
@@ -581,7 +581,7 @@ Use media queries to make sure only the appropriate header is shown. Try not to 
 </html>
 ```
 
-??? note "Example Solution"
+??? note "Solution"
     ```css
     h1 {
       display: none;

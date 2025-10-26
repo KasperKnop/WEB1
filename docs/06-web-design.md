@@ -72,7 +72,7 @@ Update the markup below to use appropriate semantic HTML.
 </div>
 ```
 
-??? note "Example Solution"
+??? note "Solution"
     ``` html
     <header>
     <h1>My Website</h1>
@@ -107,7 +107,7 @@ The search form below needs better accessibility for screen readers.
 </form>
 ```
 
-??? note "Example Solution"
+??? note "Solution"
     ``` html
     <form role="search">
     <input
@@ -224,7 +224,7 @@ Try taking a look at the website first, to see if you can identify any issues yo
 
 Can you get all the way to an accessibility score of 100?
 
-??? note "Example Solution"
+??? note "Solution"
     ``` html
     <!DOCTYPE html>
     <html lang="en">
