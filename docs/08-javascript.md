@@ -130,6 +130,19 @@ console.log({} == {})
     console.log({} == {}) // false
     ```
 
+### Meow! Meow! Meow!
+
+Write a function that prints "Meow!" to the console n times, where n is a number provided as input to the function.
+
+??? note "Solution"
+    ```js
+    function meowing(n) {
+        for(let i = 0; i < n ; i++) {
+            console.log("Meow!")
+        }
+    }
+    ```
+
 ### Military Time
 
 Military time represents the current time using the 24-hour format. For example, a value of 1700 means it's 5:00 PM.
@@ -156,19 +169,6 @@ console.log(timeOfDay(prompt("Input military time (0000 - 2359)")))
             return "School"
         } else {
             return "Evening"
-        }
-    }
-    ```
-
-### Meow! Meow! Meow!
-
-Write a function that prints "Meow!" to the console n times, where n is a number provided as input to the function.
-
-??? note "Solution"
-    ```js
-    function meowing(n) {
-        for(let i = 0; i < n ; i++) {
-            console.log("Meow!")
         }
     }
     ```
