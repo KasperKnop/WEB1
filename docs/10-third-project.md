@@ -31,7 +31,7 @@ Requirements:
 - The game must use localStorage to save game progress, scores, or settings.
 - The game must display correctly and be fully playable on a desktop with a resolution of 1920×1080. There is no other requirements for responsiveness.
     
-Animations are not a requirement, but they can bring your game to life. You can explore and use CSS animations to add effects like blinking, fading, or sliding elements, if you want an extra challenge!
+Animations are not a requirement, but they can bring your game to life. You can explore and use [CSS animations](https://www.w3schools.com/css/css3_animations.asp) to add effects like blinking, fading, or sliding elements, if you want an extra challenge!
 
 External libraries, frameworks and game engines are not allowed.
 
