@@ -30,6 +30,8 @@ Requirements:
 - The game must be based on the DOM API - that is, no Canvas or WebGL.
 - The game must use localStorage to save game progress, scores, or settings.
 - The game must display correctly and be fully playable on a desktop with a resolution of 1920×1080. There is no other requirements for responsiveness.
+    
+Animations are not a requirement, but they can bring your game to life. You can explore and use CSS animations to add effects like blinking, fading, or sliding elements, if you want an extra challenge!
 
 External libraries, frameworks and game engines are not allowed.
 
@@ -41,7 +43,6 @@ External libraries, frameworks and game engines are not allowed.
     - Big problems needs to be broken down. Analyse the game that you want to make. What systems does it consist of? (UI, game logic, score board, persistence...). Can these systems be broken down further? Can you divide the work so everyone can develop their part without constantly depending on each other?
     - Keep your code modular. Use functions for each piece of logic (e.g., `checkAnswer()`, `updateScore()`, `resetGame()`), so it’s easier to understand and explain.
     - Many game ideas require timing or repetition. Use [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout) to schedule something once after a delay, and [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval) to repeat actions at fixed intervals (with can be stopped with [clearInterval()](https://developer.mozilla.org/en-US/docs/Web/API/Window/clearInterval)).
-    - Animations can bring your game to life. Even though we aren't covering them in WEB1, you can explore and use CSS animations to add effects like blinking, fading, or sliding elements, if you want an extra challenge!
     - Consider collaborating directly through your GitHub repository, and/or use the [Live Share](https://visualstudio.microsoft.com/services/live-share/) plugin in VS Code to code together in real time.
 
 ## Submission📤

@@ -47,6 +47,8 @@ There are many more browser APIs to explore! For instance, [setTimeout](https://
 
 <!-- ### Under Construction :construction:
 
+// something with 
+
 ### Execution Order
 
 ### Passenger Counter App
@@ -61,6 +63,8 @@ Train conductor for DSB...
 
 ### Timings
 
+### SetInterval
+
 ### A Grocery List + Persistence
 
 ### BMI Calculator
@@ -73,4 +77,4 @@ Train conductor for DSB...
 
 ### Dynamic Change A Page / components
 
-### Openended Game? -->
+### Small Game -->
