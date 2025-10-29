@@ -22,7 +22,6 @@ For a written reference, check out W3Schools' resources:
 - [Changing HTML](https://www.w3schools.com/js/js_htmldom_html.asp)
 - [Changing CSS](https://www.w3schools.com/js/js_htmldom_css.asp)
 
-
 ### Events
 
 In the next video, we'll explore DOM events - how JavaScript can respond to user actions and browser-triggered events on a web page. You'll learn how to detect events like clicks, key presses, and pointer movements, and how to handle them using event listeners to make your pages interactive.
@@ -47,14 +46,125 @@ There are many more browser APIs to explore! For instance, [setTimeout](https://
 
 ### Under Construction :construction:
 
-<!-- 
-// something with 
+<!-- ### Execution Order
 
-### Execution Order
+The website below has a bug. Figure out what is wrong and fix it!
+
+=== "index.html"
+    ```html
+    <html>
+        <head>
+            <script src="main.js"></script>
+        </head>
+        <body>
+            <h1>Hello, World!</h1>
+        </body>
+    </html>
+    ```
+=== "main.js"
+    ```js 
+    const heading = document.querySelector("h1")
+    heading.textContent = "Hello, JavaScript!"
+    ```
+
+??? note "Solution"
+    ```html
+    <html>
+        <head></head>
+        <body>
+            <h1>Hello, World!</h1>
+            <script src="main.js"></script>
+        </body>
+    </html>
+
+     <!-- OR -->
+    
+    <html>
+        <head>
+            <script src="main.js" defer></script>
+        </head>
+        <body>
+            <h1>Hello, World!</h1>
+        </body>
+    </html>
+    ```
 
 ### Passenger Counter App
 
-Train conductor for DSB... 
+You have been hired by DSB to create a passenger counter application for train conductors. It should display the current passenger count and have a button to increment it. Since conductors may work on multiple trains during a shift, make sure the count can also be reset.
+
+??? note "Solution"
+    ```html
+    <html>
+        <head></head>
+        <body>
+            <p>Passenger Count: <span>0</span></p>
+            <button onclick="increment()">+</button>
+            <button onclick="reset()">Reset</button>
+
+            <script>
+                const countElement = document.querySelector("span")
+                let count = 0
+                countElement.textContent = count
+
+                function increment() {
+                    count++
+                    countElement.textContent = count
+                }
+
+                function reset() {
+                    count = 0
+                    countElement.textContent = count
+                }
+            </script>
+        </body>
+    </html>
+    ```
+
+### Persisting Data
+
+Make sure that train conductors can't accidentally refresh the page to lose the count.
+
+!!! tip "Tip"
+    - `localStorage` stores the value as a string. Convert it to a number (e.g. using the `Number()` function) to make sure you don't become a victim to unexpected type coercion!
+
+??? note "Solution"
+    ```html
+    <html>
+        <head></head>
+        <body>
+            <p>Passenger Count: <span>0</span></p>
+            <button onclick="increment()">+</button>
+            <button onclick="reset()">Reset</button>
+
+            <script>
+                const countElement = document.querySelector("span")
+                let storedCount = localStorage.getItem("count")
+
+                let count
+                if (storedCount != null) {
+                    count = Number(storedCount)
+                } else {
+                    count = 0
+                }
+                
+                countElement.textContent = count
+
+                function increment() {
+                    count++
+                    localStorage.setItem("count", count)
+                    countElement.textContent = count
+                }
+
+                function reset() {
+                    count = 0
+                    localStorage.setItem("count", count)
+                    countElement.textContent = count
+                }
+            </script>
+        </body>
+    </html>
+    ```
 
 ### Activting Classes
 
