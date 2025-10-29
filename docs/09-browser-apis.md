@@ -45,8 +45,9 @@ There are many more browser APIs to explore! For instance, [setTimeout](https://
 
 ## Exercises :writing_hand_tone2:
 
-<!-- ### Under Construction :construction:
+### Under Construction :construction:
 
+<!-- 
 // something with 
 
 ### Execution Order
