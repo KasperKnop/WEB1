@@ -31,7 +31,7 @@ Requirements:
 - The game must use localStorage to save game progress, scores, or settings.
 - The game must display correctly and be fully playable on a desktop with a resolution of 1920×1080. There is no other requirements for responsiveness.
     
-Animations are not a requirement, but they can bring your game to life. You can explore and use [CSS animations](https://www.w3schools.com/css/css3_animations.asp) to add effects like blinking, fading, or sliding elements, if you want an extra challenge!
+Animations are not a requirement, but they can bring your game to life. You can explore and use [CSS animations](https://www.w3schools.com/css/css3_animations.asp) and/or [manually animate elements with JavaScript](https://www.w3schools.com/js/js_htmldom_animate.asp) to add effects like blinking, fading, or moving elements, if you want an extra challenge!
 
 External libraries, frameworks and game engines are not allowed.
 
@@ -41,7 +41,7 @@ External libraries, frameworks and game engines are not allowed.
     - Don't jump straight into code. Plan your UI and game flow before implementing it.
     - Start with a minimal viable product (MVP). What is the player doing most of the time? (guessing, reacting, choosing, etc.) Build that first, and then expand around it with UI, polish and extra game mechanics.
     - Big problems needs to be broken down. Analyse the game that you want to make. What systems does it consist of? (UI, game logic, score board, persistence...). Can these systems be broken down further? Can you divide the work so everyone can develop their part without constantly depending on each other?
-    - Keep your code modular. Use functions for each piece of logic (e.g., `checkAnswer()`, `updateScore()`, `resetGame()`), so it’s easier to understand and explain.
+    - Keep your code modular. Use functions for each piece of logic (e.g., `checkAnswer()`, `updateScore()`, `resetGame()`), so it's easier to understand and explain.
     - Many game ideas require timing or repetition. Use [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout) to schedule something once after a delay, and [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval) to repeat actions at fixed intervals (with can be stopped with [clearInterval()](https://developer.mozilla.org/en-US/docs/Web/API/Window/clearInterval)).
     - Consider collaborating directly through your GitHub repository, and/or use the [Live Share](https://visualstudio.microsoft.com/services/live-share/) plugin in VS Code to code together in real time.
 
