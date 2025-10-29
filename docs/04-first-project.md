@@ -26,7 +26,7 @@ Don’t worry if you don’t have much content yet — feel free to use placehol
 You are more than welcome to get creative and add more requirements, but we are focusing on learning the fundamentals, so don't use JavaScript or any external libraries or frameworks (e.g., Bootstrap and Tailwind) yet.
 
 !!! tip "Tips"
-    - The projects will be discussed at the exam. Focus on applying what you’ve learned to make it easier to explain and showcase your skills. A more interesting project might lead to a more interesting discussion.
+    - The projects will be discussed at the exam. Focus on applying what you've learned to make it easier to explain and showcase your skills. A more interesting project might lead to a more interesting discussion.
     - Plan before you code! Sketch the website (at various screen sizes) and come up with a good layout approach before you start the implementation. It is often easier to start with the mobile layout first (mobile-first design) and only introduce media queries when needed.
 
 ## Submission📤

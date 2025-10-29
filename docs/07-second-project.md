@@ -25,9 +25,10 @@ You are more than welcome to get creative and add more requirements - e.g. condi
 JavaScript or any external libraries or frameworks are still not allowed.
 
 !!! tip "Tips"
-    - The projects will be discussed at the exam. Focus on applying what you’ve learned to make it easier to explain and showcase your skills. A more interesting project might lead to a more interesting discussion.
+    - The projects will be discussed at the exam. Focus on applying what you've learned to make it easier to explain and showcase your skills. A more interesting project might lead to a more interesting discussion.
     - Provide helpful validation feedback: Indicate errors clearly, and if possible, offer hints on how to fix them. Instant feedback reduces frustration.
     - Put yourself in the shoes of the user: Consider their needs, background, and potential challenges when filling out your form.
+    - Consider collaborating directly through your GitHub repository, and/or use the [Live Share](https://visualstudio.microsoft.com/services/live-share/) plugin in VS Code to code together in real time.
 
 ## Submission📤
 

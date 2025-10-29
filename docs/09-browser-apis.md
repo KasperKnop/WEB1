@@ -45,4 +45,32 @@ There are many more browser APIs to explore! For instance, [setTimeout](https://
 
 ## Exercises :writing_hand_tone2:
 
-### Under Construction :construction:
+<!-- ### Under Construction :construction:
+
+### Execution Order
+
+### Passenger Counter App
+
+Train conductor for DSB... 
+
+### Activting Classes
+
+### Theme Switcher?
+
+### Show/Hide Drawer
+
+### Timings
+
+### A Grocery List + Persistence
+
+### BMI Calculator
+
+### Color Picker
+
+### A Keyboard Keyboard!
+
+### Clock? / Count Down?
+
+### Dynamic Change A Page / components
+
+### Openended Game? -->
