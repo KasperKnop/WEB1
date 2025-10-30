@@ -93,7 +93,7 @@ The code below has an error. Run the code in the browser and examine the console
 const userName = "Kasper"
 userName = "Troels"
 
-console.log(name)
+console.log(userName)
 ```
 
 ??? note "Solution"
