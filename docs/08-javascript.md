@@ -37,7 +37,7 @@ To get an overview of the language, take a look at W3Schools' resources:
 
 In this session, the output of all exercises will be shown in the console of the DevTools.
 
-Start by creating an HTML document that includes a JavaScrip file, which logs the message `Hello, JavaScript` to the console.
+Start by creating an HTML document that includes a JavaScript file, which logs the message `Hello, JavaScript` to the console.
 
 To make your workflow easier, open the HTML file with Live Server, and undock the console from the browser window — we won't need to view the web page itself during this session.
 
