@@ -46,7 +46,7 @@ There are many more browser APIs to explore! For instance, [setTimeout](https://
 
 ### Under Construction :construction:
 
-### Manipulating the DOM
+<!-- ### Manipulating the DOM
 
 Change the code so that the paragraph displays "Welcome!"
 
@@ -454,4 +454,4 @@ Make sure you write JavaScript that:
 
 ### Clock
 
-### Small Game
+### Small Game -->
