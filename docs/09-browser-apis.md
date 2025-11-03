@@ -12,7 +12,7 @@ Now that you know the basics of JavaScript, it's time to see how it truly comes 
 
 In this video, we'll explore the Document Object Model - the structured representation of a web page that JavaScript can interact with. You'll learn how to access elements, change their content, attributes and styles - all through DOM methods that let you manipulate the page dynamically.
 
-> The videoes are coming soon! Use the resources below if you want to prepare sooner!
+<iframe title="Accessibilty" class="video" src="https://drive.google.com/file/d/1xqBVzTNCz4Dsxw0u3hfd6kTZSikX7prk/preview" allow="autoplay" allowfullscreen></iframe>
 
 For a written reference, check out W3Schools' resources:
 
@@ -26,7 +26,7 @@ For a written reference, check out W3Schools' resources:
 
 In the next video, we'll explore DOM events - how JavaScript can respond to user actions and browser-triggered events on a web page. You'll learn how to detect events like clicks, key presses, and pointer movements, and how to handle them using event listeners to make your pages interactive.
 
-> Coming soon!
+> The videoes are coming soon! Use the resources below if you want to prepare sooner!
 
 W3Schools also has some good resource on [DOM events](https://www.w3schools.com/js/js_htmldom_events.asp) and [eventListeners](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
 
@@ -46,11 +46,11 @@ There are many more browser APIs to explore! For instance, [setTimeout](https://
 
 ### Under Construction :construction:
 
-<!-- ### Manipulating the DOM
+### Manipulating the DOM
 
 Change the code so that the paragraph displays "Welcome!"
 
-!!! tip "Tip"
+??? tip "Tip"
     - Find the element and change the `textContent`.
 
 ```html
@@ -157,7 +157,7 @@ You have been hired by DSB to create a passenger counter application for train c
 
 Make sure that train conductors can't accidentally lose the count when refreshing the page.
 
-!!! tip "Tips"
+??? tip "Tips"
     - `localStorage` stores the value as a string. Convert it to a number (e.g. using the `Number()` function) to make sure that you don't fall victim to unexpected type coercion!
     - You can edit and keep track of the stored data using the browsers DevTools ("Application > Storage").
 
@@ -209,7 +209,7 @@ Create a simple BMI (Body Mass Index) calculator using HTML and JavaScript. The 
 - Display the calculated BMI when a button is clicked.
 - Round the result to one decimal place.
 
-!!! tip "Tips"
+??? tip "Tips"
     - BMI = weight(kg) / height(m)²
     - Use the `value` property to get an input field's content.
     - Consider using `Number()` to convert input values from strings to numbers.
@@ -288,7 +288,7 @@ Make sure you write JavaScript that:
 - Toggles the menu button between `✖` when open and `☰` when closed.
 - Closes the navigation drawer when scrolling occurs.
 
-!!! tip "Tips"
+??? tip "Tips"
     - According to the media query, the menu button is only visible on screens with a maximum width of 640px.
     - The menu button does not respond to button clicks. Create a "click" eventlistener for the button.
     - You can access the collection of class attributes of an element with [the classList property](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList).
@@ -405,7 +405,7 @@ Make sure you write JavaScript that:
             padding-inline: 2rem;
             min-height: calc(100dvh - 75px);
             background: var(--color-primary);
-            transition: all 0.5s ease;
+            transition: left 0.5s ease;
         }
 
         nav.active ul {
@@ -444,14 +444,14 @@ Make sure you write JavaScript that:
 
 ### SetInterval
 
+### InnerHTML
+
 ### A Grocery List + Persistence
 
 ### Form Validation
 
-### Count Down?
+### Count Down
 
 ### Clock
 
-### Dynamic Change A Page / components
-
-### Small Game -->
+### Small Game
