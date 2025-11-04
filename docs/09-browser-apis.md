@@ -12,7 +12,7 @@ Now that you know the basics of JavaScript, it's time to see how it truly comes 
 
 In this video, we'll explore the Document Object Model - the structured representation of a web page that JavaScript can interact with. You'll learn how to access elements, change their content, attributes and styles - all through DOM methods that let you manipulate the page dynamically.
 
-<iframe title="Accessibilty" class="video" src="https://drive.google.com/file/d/1xqBVzTNCz4Dsxw0u3hfd6kTZSikX7prk/preview" allow="autoplay" allowfullscreen></iframe>
+<iframe title="The Document Object Model" class="video" src="https://drive.google.com/file/d/1xqBVzTNCz4Dsxw0u3hfd6kTZSikX7prk/preview" allow="autoplay" allowfullscreen></iframe>
 
 For a written reference, check out W3Schools' resources:
 
@@ -26,7 +26,7 @@ For a written reference, check out W3Schools' resources:
 
 In the next video, we'll explore DOM events - how JavaScript can respond to user actions and browser-triggered events on a web page. You'll learn how to detect events like clicks, key presses, and pointer movements, and how to handle them using event listeners to make your pages interactive.
 
-> The videoes are coming soon! Use the resources below if you want to prepare sooner!
+<iframe title="Events" class="video" src="https://drive.google.com/file/d/1QJZbuBjlMQjoFWMNrMuz6mq1UfyFGsjP/preview" allow="autoplay" allowfullscreen></iframe>
 
 MDN also has some good [introduction to events](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events), that is worth a read.
 
@@ -34,7 +34,7 @@ MDN also has some good [introduction to events](https://developer.mozilla.org/en
 
 The Web Storage APIs let JavaScript store key/value pairs directly in the browser. This allows you to persist data across page reloads, without relying on the server. They're mostly used to store small amounts of data, allowing web pages to remember user preferences, save form inputs and track application state. In this video, we'll explore `localStorage` and `sessionStorage`, showing how to store data either permanently or just for the current session.
 
-> Coming soon!
+> The video is coming soon! Use the resources below if you want to prepare sooner!
 
 If you want to learn more, MDN has [a good resource on the Web Storage APIs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API).
 
