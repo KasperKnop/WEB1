@@ -28,7 +28,7 @@ In the next video, we'll explore DOM events - how JavaScript can respond to user
 
 > The videoes are coming soon! Use the resources below if you want to prepare sooner!
 
-W3Schools also has some good resource on [DOM events](https://www.w3schools.com/js/js_htmldom_events.asp) and [eventListeners](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+MDN also has some good [introduction to events](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events), that is worth a read.
 
 ### Web Storage APIs
 
