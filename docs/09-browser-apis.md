@@ -28,7 +28,7 @@ In the next video, we'll explore DOM events - how JavaScript can respond to user
 
 <iframe title="Events" class="video" src="https://drive.google.com/file/d/1QJZbuBjlMQjoFWMNrMuz6mq1UfyFGsjP/preview" allow="autoplay" allowfullscreen></iframe>
 
-MDN also has some good [introduction to events](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events), that is worth a read.
+MDN also has a good [introduction to events](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events), that is worth a read.
 
 ### Web Storage APIs
 
@@ -38,9 +38,15 @@ The Web Storage APIs let JavaScript store key/value pairs directly in the browse
 
 If you want to learn more, MDN has [a good resource on the Web Storage APIs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API).
 
-### More APIs
+### Timing Functions
 
-There are many more browser APIs to explore! For instance, [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout) runs a function after a specified delay, the [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) can be used for drawing 2D graphics and the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) retrieves resources (we will learn about fetch in a later session). If you want an overview of what you can do in the browser, take a look at this [list of web APIs from MDN](https://developer.mozilla.org/en-US/docs/Web/API).
+The browser-provided functions `setTimeout` and `setInterval` let you schedule code to run in the future. `setTimeout` runs a function once after a delay, while `setInterval` runs it repeatedly at a fixed interval. Watch the video below to see them in action!
+
+<iframe title="Timing Functions" class="video" src="https://drive.google.com/file/d/1oqI_Lvy8Hs-hfUr1MLeiU2K2Nuf5HoUp/preview" allow="autoplay" allowfullscreen></iframe>
+
+To learn more, visit MDNs resources on [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout) and [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval).
+
+There are many more browser APIs to explore! If you want an overview of what you can do in the browser, take a look at this [list of web APIs from MDN](https://developer.mozilla.org/en-US/docs/Web/API).
 
 ## Exercises :writing_hand_tone2:
 
