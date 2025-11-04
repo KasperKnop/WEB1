@@ -34,7 +34,7 @@ MDN also has some good [introduction to events](https://developer.mozilla.org/en
 
 The Web Storage APIs let JavaScript store key/value pairs directly in the browser. This allows you to persist data across page reloads, without relying on the server. They're mostly used to store small amounts of data, allowing web pages to remember user preferences, save form inputs and track application state. In this video, we'll explore `localStorage` and `sessionStorage`, showing how to store data either permanently or just for the current session.
 
-> The video is coming soon! Use the resources below if you want to prepare sooner!
+<iframe title="Web Storage APIs" class="video" src="https://drive.google.com/file/d/1fChy7l2hZLeKegzu0yV4XnOULb_u1sOj/preview" allow="autoplay" allowfullscreen></iframe>
 
 If you want to learn more, MDN has [a good resource on the Web Storage APIs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API).
 
