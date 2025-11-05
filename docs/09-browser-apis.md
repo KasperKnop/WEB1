@@ -50,9 +50,7 @@ There are many more browser APIs to explore! If you want an overview of what you
 
 ## Exercises :writing_hand_tone2:
 
-### Under Construction :construction:
-
-<!-- ### Manipulating the DOM
+### Manipulating the DOM
 
 Change the code so that the paragraph displays "Welcome!"
 
@@ -125,6 +123,41 @@ The website below has a bug. Figure out what is wrong and fix it! Notice that th
             <h1>Hello, World!</h1>
         </body>
     </html>
+    ```
+
+### Dynamic HTML Content
+
+You have received some HTML from your trusted server. Insert it into the DOM when the button is clicked!
+
+```html
+<html>
+    <head>
+        <title>Dynamic HTML Content</title>
+    </head>
+    <body>
+        <h2>Latest Blog Post</h2>
+        <button>Load Post</button>
+        <div id="post"></div>
+
+        <script>
+            const button = document.querySelector("button")
+            const postContainer = document.querySelector("#post")
+
+            const fakeServerResponse =
+                 "<h3>How to Stay Productive!</h3><p>Here are three tips to stay productive:</p><ul><li><strong>Sleep like a Snorlax:</strong> Recharge fully so you can tackle your tasks with full energy.</li><li><strong>Chocolate power-up:</strong> Reward yourself with a little chocolate to boost your focus and energy.</li><li><strong>Stay hydrated like Squirtle:</strong> Drink water regularly to keep your brain and body in top shape!</li></ul>";
+
+            // Your code here
+
+        </script>
+    </body>
+</html>
+```
+
+??? note "Solution"
+    ```js
+    button.addEventListener("click", () => {
+        postContainer.innerHTML = fakeServerResponse
+    })
     ```
 
 ### Passenger Counter App
@@ -211,6 +244,160 @@ Make sure that train conductors can't accidentally lose the count when refreshin
     </html>
     ```
 
+### Hide 'N Seek!
+
+<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/cat.jpg?raw=true" alt="Hide 'N Seek!">
+
+A cat wants to play hide 'n seek! Use the button to show or hide its image. Make sure you also change the text of the button to "show" or "hide".
+
+??? tip "Tips"
+    - Use `classList.toggle` to add or remove a class.
+    - Use `classList.contains` to check if a class is already on an element.
+
+```html
+<html>
+    <head>
+        <title>Hide and Seek</title>
+        <script src="solution.js" defer></script> <!-- Write this script! -->
+    </head>
+    <body>
+        <button>Hide</button>
+        <img src="https://github.com/KasperKnop/WEB1/blob/main/resources/cat.jpg?raw=true" />
+        <style>
+            img {
+                display: block;
+                margin-top: 1rem;
+            }
+
+            .hidden {
+                display: none;
+            }
+        </style>
+    </body>
+</html>
+```
+
+??? note "Solution"
+    ```js
+    const btn = document.querySelector("button")
+    const img = document.querySelector("img")
+
+    btn.addEventListener("click", () => {
+        img.classList.toggle("hidden")
+
+        if (img.classList.contains("hidden")) {
+            btn.textContent = "Show"
+        } else {
+            btn.textContent = "Hide"
+        }
+    })
+    ```
+
+### Character Counter
+
+You're building a comment box for a website. As the user types, show how many characters they've entered.
+
+??? tip "Tip"
+    - Use `value.length` to count characters.
+
+```html
+<html>
+    <head>
+        <title>Character Counter</title>
+        <script src="solution.js" defer></script> <!-- Write this script! -->
+    </head>
+    <body>
+        <h2>Leave a Comment</h2>
+        <textarea placeholder="Type your comment here..." rows="5" cols="40"></textarea>
+        <p>Characters: <span id="counter">0</span></p>
+    </body>
+</html>
+```
+
+??? note "Solution"
+    ```js
+    const textarea = document.querySelector("textarea")
+    const counter = document.querySelector("#counter")
+
+    textarea.addEventListener("input", () => {
+        counter.textContent = textarea.value.length
+    })
+    ```
+
+### Live Clock
+
+You're building a simple digital clock. Use setInterval to update the time every second and display it in the browser.
+
+??? tip "Tip"
+    - You can use the `toLocaleTimeString` on a `Date` object to get the current time
+
+```html
+<html>
+    <head>
+        <title>Live Clock</title>
+        <script src="solution.js" defer></script> <!-- Write this script! -->
+    </head>
+    <body>
+        <h2>Current Time</h2>
+        <p id="clock">--:--:--</p>
+    </body>
+</html>
+```
+
+??? note "Solution"
+    ```js
+    const clock = document.querySelector("#clock")
+
+    function updateClock() {
+        clock.textContent = new Date().toLocaleTimeString()
+    }
+
+    setInterval(updateClock, 1000)
+    updateClock()
+    ```
+
+### Temporary Notification
+
+You're building a simple blog editor. When the user types in the `<textarea>`, the app should automatically “save” the draft 2 seconds after they stop typing. The “Draft saved!” message should appear, then disappear 1 seconds later.
+
+??? tip "Tips"
+    - Use `setTimeout` to delay the save action.
+    - Use `clearTimeout` to cancel the previous timer if the user types again before 2 seconds.
+    - You can use a second `setTimeout` to hide the message after it appears.
+
+```html
+<html>
+    <head>
+        <title>Auto-Save Draft</title>
+        <script src="solution.js" defer></script> <!-- Write this script! -->
+    </head>
+    <body>
+        <h2>Blog Editor</h2>
+        <textarea placeholder="Write your post..." rows="6" cols="50"></textarea>
+        <p id="status"></p>
+    </body>
+</html>
+```
+
+??? note "Solution"
+    ```js
+    const textarea = document.querySelector("textarea")
+    const status = document.querySelector("#status")
+
+    let timeoutID
+
+    textarea.addEventListener("input", () => {
+        clearTimeout(timeoutID)
+
+        timeoutID = setTimeout(() => {
+            status.textContent = "Draft saved!"
+            setTimeout(() => {
+                status.textContent = ""
+            }, 1000)
+        }, 2000)
+    })
+    ```
+
 ### BMI Calculator
 
 Create a simple BMI (Body Mass Index) calculator using HTML and JavaScript. The calculator should:
@@ -219,9 +406,11 @@ Create a simple BMI (Body Mass Index) calculator using HTML and JavaScript. The 
 - Display the calculated BMI when a button is clicked.
 - Round the result to one decimal place.
 
+<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/bmi.png?raw=true" alt="BMI">
+
 ??? tip "Tips"
     - BMI = weight(kg) / height(m)²
-    - Use the `value` property to get an input field's content.
+    - Remember that you can use the `value` property to get an input field's content.
     - Consider using `Number()` to convert input values from strings to numbers.
     - `toFixed(n)` returns a number as a string with `n` number of decimal places.
 
@@ -261,13 +450,9 @@ Create a simple BMI (Body Mass Index) calculator using HTML and JavaScript. The 
     </html>
     ```
 
-### Hide and Seek
-
-### Image Switcher
-
 ### Selecting List Items
 
-Create an interactive list, where one element can be selected. Follow these rules:
+Finish the interactive list, where one element can be selected. Follow these rules:
 
 - When a user clicks on a list item, it should become "active" by adding the active class to the element.
 - Only one item should be active at a time.
@@ -280,6 +465,7 @@ Use the code below as a starting point.
 <html>
     <head>
         <title>An Interactive List</title>
+        <script src="solution.js" defer></script> <!-- Write this script! -->
     </head>
     <body>
         <ul>
@@ -300,72 +486,82 @@ Use the code below as a starting point.
                 font-weight: bold;
             }
         </style>
-
-        <script>
-            // Your code here
-        </script>
     </body>
 </html>
 ```
 
 ??? tip "Tips"
-    - Use document.querySelectorAll to select all list items.
+    - Use `document.querySelectorAll` to select all list items.
     - Loop through the items and add a click event listener to each.
-    - Use classList.add() and classList.remove() to manage the active class.
-    - You can use document.querySelector(".active") to find the currently active item.
+    - Use `classList.add` and `classList.remove` to manage the active class.
+    - You can use `document.querySelector(".active")` to find the currently active item.
     - You can check what element invoked the click event with `event.target`.
 
 ??? note "Solution"
-    ```html
-    <html>
-        <head>
-            <title>Selecting List Items</title>
-        </head>
-        <body>
-            <ul>
-                <li>Apples</li>
-                <li>Bananas</li>
-                <li>Cherries</li>
-                <li>Dates</li>
-            </ul>
+    ```js
+    const items = document.querySelectorAll("li")
 
-            <style>
-                li {
-                    cursor: pointer;
-                    padding: 0.5rem;
-                }
+    for (const item of items) {
+        item.addEventListener("click", () => {
+            const current = document.querySelector(".active")
+            if (current) {
+                current.classList.remove("active")
+                if (current === event.target) return
+            }
 
-                .active {
-                    background-color: #cce5ff;
-                    font-weight: bold;
-                }
-            </style>
+            item.classList.add("active")
+        })
+    }
+    ```
 
-            <script>
-                const items = document.querySelectorAll("li")
+### A Grocery List
 
-                for (const item of items) {
-                    item.addEventListener("click", () => {
-                        const current = document.querySelector(".active")
-                        if (current) {
-                            current.classList.remove("active")
-                            if (current === event.target) return
-                        }
+You're building a grocery list app. Users can type an item into the input field and click the button to add it to the list. Make sure that you cannot add an item if the input field is empty, and make sure that the input is cleared each time an item is added to the list.
 
-                        item.classList.add("active")
-                    })
-                }
-            </script>
-        </body>
-    </html>
+??? tip "Tips"
+    - You can create elements using `document.createElement` and append them to an element using `append`.
+    - You can `trim` the input to remove potential whitespace.
+
+```html
+<html>
+    <head>
+        <title>Grocery List</title>
+        <script src="solution.js" defer></script> <!-- Write this script! -->
+    </head>
+    <body>
+        <h2>My Grocery List</h2>
+        <input type="text" placeholder="Enter an item" />
+        <button>Add Item</button>
+        <ul></ul>
+    </body>
+</html>
+```
+
+??? note "Solution"
+    ```js
+    const input = document.querySelector("input")
+    const btn = document.querySelector("button")
+    const list = document.querySelector("ul")
+
+    btn.addEventListener("click", () => {
+        const itemName = input.value.trim()
+        if (itemName === "") return
+
+        const li = document.createElement("li")
+        li.textContent = itemName
+        list.append(li)
+
+        input.value = ""
+    })
     ```
 
 ### A Color Picker
 
 The color picker below is almost done, but the event handling has not yet been set up. Finish it!
 
+<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/color-picker.png?raw=true" alt="Color Picker">
+
 ```html
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -456,13 +652,11 @@ The color picker below is almost done, but the event handling has not yet been s
     })
     ```
 
-### InnerHTML
-
-### Live Character Counter
-
 ### Mobile Navigation
 
 A common responsive design pattern is to replace the navigation bar on smaller screens with a menu button that, when clicked, reveals a navigation drawer.
+
+<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/mobile-nav.png?raw=true" alt="Mobile Nav">
 
 The website below follows this pattern, but the JavaScript is missing. Fix it!
 
@@ -475,10 +669,10 @@ Make sure you write JavaScript that:
 ??? tip "Tips"
     - According to the media query, the menu button is only visible on screens with a maximum width of 640px.
     - The menu button does not respond to button clicks. Create a "click" eventlistener for the button.
-    - You can access the collection of class attributes of an element with [the classList property](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList).
+    - Remember that you can access the collection of class attributes of an element with the `classList` property.
     - The styles has rules for `nav` elements with an `active` class attached. Toggle the `active` class on the `nav` element when the menu button is clicked.
     - Use `classList.contains` to determine whether to set the menu button's textContent to `✖` or `☰`.
-    - On the [scroll event](https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event), remember to set the menu button's textContent to `☰`.
+    - On the `scroll` event, remember to set the menu button's textContent to `☰`.
 
 === "index.html"
     ```html
@@ -486,6 +680,7 @@ Make sure you write JavaScript that:
         <head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <link rel="stylesheet" href="styles.css"></link>
+            <script src="solution.js" defer></script> <!-- Write this script! -->
         </head>
         <body>
             <header>
@@ -515,7 +710,6 @@ Make sure you write JavaScript that:
                     <h2 id="contact">Contact</h2>
                 </section>
             </main>
-            <script src="main.js"></script>
         </body>
     </html>
     ```
@@ -601,6 +795,7 @@ Make sure you write JavaScript that:
         }
     }
     ```
+
 ??? note "Solution"
     ```js
     const menuButton = document.querySelector("#menu-button")
@@ -622,10 +817,11 @@ Make sure you write JavaScript that:
     })
     ```
 
-
 ### A Keyboard Keyboard!
 
-The keyboard below is almost done, but the event handling is missing. Make it possible to use the keyboard with both the numbers on the keyboard and the mouse, and make sure to provide visual feedback that the key is pressed!
+The keyboard below is almost done, but the event handling is missing. Add support so the keys can be triggered both by clicking with the mouse and by pressing the corresponding number keys on the physical keyboard. Also make sure each key gives clear visual feedback when it is pressed!
+
+<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/keyboardkeyboard.png?raw=true" alt="Hide 'N Seek!">
 
 ??? tip "Tips"
     - The `keydown` and `keyup` will be useful here.
@@ -752,7 +948,7 @@ The keyboard below is almost done, but the event handling is missing. Make it po
 ```
 
 ??? note "Solution"
-    ```html
+    ```js
     const buttons = document.querySelectorAll("button")
 
     document.addEventListener("keydown", event => {
@@ -775,17 +971,16 @@ The keyboard below is almost done, but the event handling is missing. Make it po
     }
     ```
 
-### Timings
+### Build Anything!
 
-### SetInterval
+If you still have time to spare, feel free to create a small app of your choice and share it with everyone in the comment section below! It doesn't have to be big - just something fun, interactive, or useful. 
 
-### A Grocery List + Persistence
+Here's some inspiration:
 
-### Form Validation
+- Build another interactive instrument or toy.
+- Make a flashcard app so everyone can practice for the exam!
+- Create a tiny hacker challenge that others must solve by interacting with the page and DevTools.
 
-### Count Down
+### Nice Work!
 
-### Clock
-
-### Small Game -->
-
+Great job on completing so many exercises! Take a break and check out any applications shared below. And if you have questions, don't hesitate to leave them in the comments.
