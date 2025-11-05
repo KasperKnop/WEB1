@@ -211,37 +211,6 @@ Make sure that train conductors can't accidentally lose the count when refreshin
     </html>
     ```
 
-### A Keyboard Keyboard!
-
-The keyboard below is almost done, but the event handling is missing. Fix it!
-
-??? tip "Tips"
-    - 
-
-??? note "Solution"
-    ```html
-    const buttons = document.querySelectorAll("button")
-
-    document.addEventListener("keydown", event => {
-        const key = event.key
-        if (key < "1" || key > "9" || event.repeat) return
-        playSound(key)
-        buttons[key - 1].classList.add("active")
-    })
-
-    document.addEventListener("keyup", event => {
-        const key = event.key
-        if (key < "1" || key > "9") return
-        buttons[key - 1].classList.remove("active")
-    })
-
-    for (const btn of buttons) {
-        btn.addEventListener("pointerdown", event => {
-            playSound(event.target.textContent)
-        })
-    }
-    ```
-
 ### BMI Calculator
 
 Create a simple BMI (Body Mass Index) calculator using HTML and JavaScript. The calculator should:
@@ -295,6 +264,101 @@ Create a simple BMI (Body Mass Index) calculator using HTML and JavaScript. The 
 ### Hide and Seek
 
 ### Image Switcher
+
+### Selecting List Items
+
+Create an interactive list, where one element can be selected. Follow these rules:
+
+- When a user clicks on a list item, it should become "active" by adding the active class to the element.
+- Only one item should be active at a time.
+- Clicking a new item should remove the active class from the previously selected one.
+- If the active item is clicked, it should no longer be active.
+
+Use the code below as a starting point.
+
+```html
+<html>
+    <head>
+        <title>An Interactive List</title>
+    </head>
+    <body>
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+            <li>Dates</li>
+        </ul>
+
+        <style>
+            li {
+                cursor: pointer;
+                padding: 0.5rem;
+            }
+
+            .active {
+                background-color: #cce5ff;
+                font-weight: bold;
+            }
+        </style>
+
+        <script>
+            // Your code here
+        </script>
+    </body>
+</html>
+```
+
+??? tip "Tips"
+    - Use document.querySelectorAll to select all list items.
+    - Loop through the items and add a click event listener to each.
+    - Use classList.add() and classList.remove() to manage the active class.
+    - You can use document.querySelector(".active") to find the currently active item.
+    - You can check what element invoked the click event with `event.target`.
+
+??? note "Solution"
+    ```html
+    <html>
+        <head>
+            <title>Selecting List Items</title>
+        </head>
+        <body>
+            <ul>
+                <li>Apples</li>
+                <li>Bananas</li>
+                <li>Cherries</li>
+                <li>Dates</li>
+            </ul>
+
+            <style>
+                li {
+                    cursor: pointer;
+                    padding: 0.5rem;
+                }
+
+                .active {
+                    background-color: #cce5ff;
+                    font-weight: bold;
+                }
+            </style>
+
+            <script>
+                const items = document.querySelectorAll("li")
+
+                for (const item of items) {
+                    item.addEventListener("click", () => {
+                        const current = document.querySelector(".active")
+                        if (current) {
+                            current.classList.remove("active")
+                            if (current === event.target) return
+                        }
+
+                        item.classList.add("active")
+                    })
+                }
+            </script>
+        </body>
+    </html>
+    ```
 
 ### A Color Picker
 
@@ -558,7 +622,158 @@ Make sure you write JavaScript that:
     })
     ```
 
-### Toggle With Loop
+
+### A Keyboard Keyboard!
+
+The keyboard below is almost done, but the event handling is missing. Make it possible to use the keyboard with both the numbers on the keyboard and the mouse, and make sure to provide visual feedback that the key is pressed!
+
+??? tip "Tips"
+    - The `keydown` and `keyup` will be useful here.
+    - Make sure that you are only responding to the keypresses 1-9.
+    - You are going to work with arrays - both for the sounds and for the buttons. How does the array of buttons map to the key that was pressed? How does the `textContent` of the button map to the array of sounds?
+    - The styles already has the visual feedback set up in the `active` class. You just need to use it!
+    - To avoid triggering the same event repeatedly while a key is held down, you can use the `event.repeat` property.
+    - Use the `pointerdown` event to respond immediately when the user presses, without waiting for them to lift their finger.
+
+```html
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Keyboard Keyboard!</title>
+        <style>
+            body {
+                color: #485042;
+                display: flex;
+                height: 100dvh;
+                flex-direction: column;
+                margin: 0;
+                font-family: "Segoe UI";
+                background-color: #aec2a0;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #keyboard {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1rem;
+                padding: 2rem;
+                background: #dfdfdf;
+                border-radius: 1rem;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+                margin: 1rem;
+            }
+
+            button {
+                padding: 2rem;
+                font-size: 2rem;
+                border: none;
+                border-radius: 8px;
+                background-color: #fff;
+                color: #485042;
+                cursor: pointer;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                width: 100px;
+                height: 100px;
+                outline: none;
+            }
+
+            h1 {
+                font-size: 6rem;
+                text-align: center;
+            }
+
+            p {
+                margin: 0.5rem;
+            }
+
+            #psst {
+                font-size: 1.2rem;
+                margin-top: 5rem;
+                font-style: italic;
+                text-align: center;
+            }
+
+            button:active,
+            .active {
+                box-shadow: none;
+                border: 2px solid #dfdfdf;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Keyboard Keyboard!</h1>
+        <div id="keyboard">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+        </div>
+        <div id="psst">
+            ...Psst!:
+            <p>2-3-4-2-6-6-5</p>
+            <p>1-2-3-1-5-5-4-3-2</p>
+            <p>2-2-4-2-4-5-3-2-1-1-5-4</p>
+            <p>2-3-4-2-6-6-5</p>
+            <p>1-2-3-1-8-3-4-3-2</p>
+            <p>2-3-4-2-4-5-3-2-1-1-5-4</p>
+        </div>
+    </body>
+</html>
+<script>
+    const sounds = [
+        new Audio("https://github.com/KasperKnop/WEB1/raw/refs/heads/main/resources/sounds/c4.mp3"),
+        new Audio("https://github.com/KasperKnop/WEB1/raw/refs/heads/main/resources/sounds/d4.mp3"),
+        new Audio("https://github.com/KasperKnop/WEB1/raw/refs/heads/main/resources/sounds/e4.mp3"),
+        new Audio("https://github.com/KasperKnop/WEB1/raw/refs/heads/main/resources/sounds/f4.mp3"),
+        new Audio("https://github.com/KasperKnop/WEB1/raw/refs/heads/main/resources/sounds/g4.mp3"),
+        new Audio("https://github.com/KasperKnop/WEB1/raw/refs/heads/main/resources/sounds/a4.mp3"),
+        new Audio("https://github.com/KasperKnop/WEB1/raw/refs/heads/main/resources/sounds/b4.mp3"),
+        new Audio("https://github.com/KasperKnop/WEB1/raw/refs/heads/main/resources/sounds/c5.mp3"),
+        new Audio("https://github.com/KasperKnop/WEB1/raw/refs/heads/main/resources/sounds/d5.mp3"),
+    ]
+
+    function playSound(i) {
+        if (sounds[i]) {
+            sounds[i].currentTime = 0
+            sounds[i].play()
+        }
+    }
+
+    // Your code here
+    
+</script>
+```
+
+??? note "Solution"
+    ```html
+    const buttons = document.querySelectorAll("button")
+
+    document.addEventListener("keydown", event => {
+        const key = event.key
+        if (key < "1" || key > "9" || event.repeat) return
+        playSound(key - 1)
+        buttons[key - 1].classList.add("active")
+    })
+
+    document.addEventListener("keyup", event => {
+        const key = event.key
+        if (key < "1" || key > "9") return
+        buttons[key - 1].classList.remove("active")
+    })
+
+    for (const btn of buttons) {
+        btn.addEventListener("pointerdown", event => {
+            playSound(event.target.textContent - 1)
+        })
+    }
+    ```
 
 ### Timings
 
@@ -572,5 +787,5 @@ Make sure you write JavaScript that:
 
 ### Clock
 
-### Small Game
- -->
+### Small Game -->
+
