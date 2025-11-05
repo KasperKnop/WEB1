@@ -465,16 +465,6 @@ Use the code below as a starting point.
 <html>
     <head>
         <title>An Interactive List</title>
-        <script src="solution.js" defer></script> <!-- Write this script! -->
-    </head>
-    <body>
-        <ul>
-            <li>Apples</li>
-            <li>Bananas</li>
-            <li>Cherries</li>
-            <li>Dates</li>
-        </ul>
-
         <style>
             li {
                 cursor: pointer;
@@ -486,6 +476,15 @@ Use the code below as a starting point.
                 font-weight: bold;
             }
         </style>
+        <script src="solution.js" defer></script> <!-- Write this script! -->
+    </head>
+    <body>
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+            <li>Dates</li>
+        </ul>
     </body>
 </html>
 ```
