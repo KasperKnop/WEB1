@@ -834,7 +834,6 @@ The keyboard below is almost done, but the event handling is missing. Add suppor
 ```html
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Keyboard Keyboard!</title>
         <style>
             body {
@@ -847,12 +846,12 @@ The keyboard below is almost done, but the event handling is missing. Add suppor
                 background-color: #aec2a0;
                 justify-content: center;
                 align-items: center;
+                touch-action: manipulation;
             }
 
             #keyboard {
                 display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
+                align-items: center;
                 gap: 1rem;
                 padding: 2rem;
                 background: #dfdfdf;
@@ -862,7 +861,7 @@ The keyboard below is almost done, but the event handling is missing. Add suppor
             }
 
             button {
-                padding: 2rem;
+                padding: 1rem;
                 font-size: 2rem;
                 border: none;
                 border-radius: 8px;
@@ -870,14 +869,13 @@ The keyboard below is almost done, but the event handling is missing. Add suppor
                 color: #485042;
                 cursor: pointer;
                 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-                width: 100px;
-                height: 100px;
                 outline: none;
+                width: 80px;
+                height: 80px;
             }
 
             h1 {
                 font-size: 6rem;
-                text-align: center;
             }
 
             p {
