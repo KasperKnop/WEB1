@@ -137,23 +137,26 @@ You have been hired by DSB to create a passenger counter application for train c
         <head></head>
         <body>
             <p>Passenger Count: <span>0</span></p>
-            <button onclick="increment()">+</button>
-            <button onclick="reset()">Reset</button>
+            <button id="increment">+</button>
+            <button id="reset">Reset</button>
 
             <script>
                 const countElement = document.querySelector("span")
+                const incrementBtn = document.querySelector("#increment")
+                const resetBtn = document.querySelector("#reset")
+
                 let count = 0
                 countElement.textContent = count
 
-                function increment() {
+                incrementBtn.addEventListener("click", () => {
                     count++
                     countElement.textContent = count
-                }
+                })
 
-                function reset() {
+                resetBtn.addEventListener("click", () => {
                     count = 0
                     countElement.textContent = count
-                }
+                })
             </script>
         </body>
     </html>
@@ -161,7 +164,7 @@ You have been hired by DSB to create a passenger counter application for train c
 
 ### Persisting Data
 
-Make sure that train conductors can't accidentally lose the count when refreshing the page.
+Make sure that train conductors can't accidentally lose the count when refreshing the page or closing the browser tab.
 
 ??? tip "Tips"
     - `localStorage` stores the value as a string. Convert it to a number (e.g. using the `Number()` function) to make sure that you don't fall victim to unexpected type coercion!
@@ -173,39 +176,71 @@ Make sure that train conductors can't accidentally lose the count when refreshin
         <head></head>
         <body>
             <p>Passenger Count: <span>0</span></p>
-            <button onclick="increment()">+</button>
-            <button onclick="reset()">Reset</button>
+            <button id="increment">+</button>
+            <button id="reset">Reset</button>
 
             <script>
                 const countElement = document.querySelector("span")
-                let storedCount = localStorage.getItem("count")
+                const incrementBtn = document.querySelector("#increment")
+                const resetBtn = document.querySelector("#reset")
 
+                let storedCount = localStorage.getItem("count")
                 let count
+
                 if (storedCount != null) {
                     count = Number(storedCount)
                 } else {
                     count = 0
                 }
-                
+
                 countElement.textContent = count
 
-                function increment() {
+                incrementBtn.addEventListener("click", () => {
                     count++
                     localStorage.setItem("count", count)
                     countElement.textContent = count
-                }
+                })
 
-                function reset() {
+                resetBtn.addEventListener("click", () => {
                     count = 0
                     localStorage.setItem("count", count)
                     countElement.textContent = count
-                }
+                })
             </script>
         </body>
     </html>
     ```
 
 ### A Keyboard Keyboard!
+
+The keyboard below is almost done, but the event handling is missing. Fix it!
+
+??? tip "Tips"
+    - 
+
+??? note "Solution"
+    ```html
+    const buttons = document.querySelectorAll("button")
+
+    document.addEventListener("keydown", event => {
+        const key = event.key
+        if (key < "1" || key > "9" || event.repeat) return
+        playSound(key)
+        buttons[key - 1].classList.add("active")
+    })
+
+    document.addEventListener("keyup", event => {
+        const key = event.key
+        if (key < "1" || key > "9") return
+        buttons[key - 1].classList.remove("active")
+    })
+
+    for (const btn of buttons) {
+        btn.addEventListener("pointerdown", event => {
+            playSound(event.target.textContent)
+        })
+    }
+    ```
 
 ### BMI Calculator
 
@@ -229,20 +264,27 @@ Create a simple BMI (Body Mass Index) calculator using HTML and JavaScript. The 
             <h1>BMI Calculator</h1>
             <label>Weight (kg): <input id="weight" type="number" /></label>
             <label>Height (m): <input id="height" type="number" /></label>
-            <button onclick="calculateBMI()">Calculate BMI</button>
-            <p>Your BMI is: <span id="result">-</span></p>
+            <button>Calculate BMI</button>
+            <p>Your BMI is: <span >-</span></p>
 
             <script>
+                const btn = document.querySelector("button")
+                const result = document.querySelector("span")
+                const weightInput = document.querySelector("#weight")
+                const heightInput = document.querySelector("#height")
+
+                btn.addEventListener("click", calculateBMI)
+
                 function calculateBMI() {
-                    const weight = Number(document.querySelector("#weight").value)
-                    const height = Number(document.querySelector("#height").value)
+                    const weight = Number(weightInput.value)
+                    const height = Number(heightInput.value)
 
                     if (weight > 0 && height > 0) {
                         const bmi = weight / (height * height)
                         const roundedBMI = bmi.toFixed(1)
-                        document.querySelector("#result").textContent = roundedBMI
+                        result.textContent = roundedBMI
                     } else {
-                        document.querySelector("#result").textContent = "Invalid input"
+                        result.textContent = "Invalid input"
                     }
                 }
             </script>
@@ -252,35 +294,107 @@ Create a simple BMI (Body Mass Index) calculator using HTML and JavaScript. The 
 
 ### Hide and Seek
 
-### Color Picker
+### Image Switcher
+
+### A Color Picker
+
+The color picker below is almost done, but the event handling has not yet been set up. Finish it!
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Color Picker App</title>
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                box-sizing: 0px;
+            }
+
+            body {
+                display: flex;
+                height: 100dvh;
+                font-family: Arial;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .container {
+                text-align: center;
+                padding: 2rem;
+                border-radius: 1rem;
+                background-color: rgba(255, 255, 255, 0.8);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            }
+
+            .controls {
+                margin-top: 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Color Picker</h1>
+            <div class="controls">
+                <label> R: <input type="number" value="255" /> </label>
+                <label> G: <input type="number" value="255" /> </label>
+                <label> B: <input type="number" value="255" /> </label>
+                <button id="randomColor">Random Color</button>
+            </div>
+        </div>
+
+        <script>
+            const inputs = document.querySelectorAll("input")
+            const randomColorBtn = document.getElementById("randomColor")
+
+            function updateUI(r, g, b) {
+                document.body.style.background = "rgb(" + r + ", " + g + ", " + b + ")"
+                inputs[0].value = r
+                inputs[1].value = g
+                inputs[2].value = b
+            }
+
+            function clampInput(e) {
+                e.target.value = Math.max(0, Math.min(e.target.value, 255))
+            }
+
+            function randomColorIntensity() {
+                return Math.floor(Math.random() * 256)
+            }
+
+            // Your code here
+
+        </script>
+    </body>
+</html>
+```
+
+??? tip "Tip"
+    - Notice that the input fields have been stored in an array. It will probably be a good idea to loop through it when adding the event listeners!
 
 ??? note "Solution"
-    ```html
-    <html>
-        <head></head>
-        <body>
-            <h1>Hex Color Picker</h1>
-            <label>Enter Hex Code: #<input type="text" id="hexInput" /></label>
-            <button onclick="applyColor()">Apply Color</button>
+    ```js
+    for (const input of inputs) {
+        input.addEventListener("input", e => {
+            clampInput(e)
+            updateUI(inputs[0].value, inputs[1].value, inputs[2].value)
+        })
+    }
 
-            <script>
-                function applyColor() {
-                    const hex = document.querySelector("#hexInput").value
-
-                    if (/^([0-9A-Fa-f]{3}|[0-9A-Fa-f]{6})$/.test(hex)) {
-                        document.body.style.backgroundColor = hex
-                    } else {
-                        alert("Please enter a valid hex code (e.g. #ff5733 or #f80)")
-                    }
-                }
-            </script>
-        </body>
-    </html>
+    randomColorBtn.addEventListener("click", () => {
+        updateUI(randomColorIntensity(), randomColorIntensity(), randomColorIntensity())
+    })
     ```
 
-### Live Character Counter
+### InnerHTML
 
-### Image Switcher
+### Live Character Counter
 
 ### Mobile Navigation
 
@@ -450,8 +564,6 @@ Make sure you write JavaScript that:
 
 ### SetInterval
 
-### InnerHTML
-
 ### A Grocery List + Persistence
 
 ### Form Validation
@@ -460,4 +572,5 @@ Make sure you write JavaScript that:
 
 ### Clock
 
-### Small Game -->
+### Small Game
+ -->
