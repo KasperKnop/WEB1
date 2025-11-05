@@ -406,7 +406,7 @@ Create a simple BMI (Body Mass Index) calculator using HTML and JavaScript. The 
 - Display the calculated BMI when a button is clicked.
 - Round the result to one decimal place.
 
-<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/bmi.png?raw=true" alt="BMI">
+<img style="display: block; margin: auto; border-radius: 0.5rem; width: 80%;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/bmi.png?raw=true" alt="BMI">
 
 ??? tip "Tips"
     - BMI = weight(kg) / height(m)²
