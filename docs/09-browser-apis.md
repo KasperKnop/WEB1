@@ -821,7 +821,7 @@ Make sure you write JavaScript that:
 
 The keyboard below is almost done, but the event handling is missing. Add support so the keys can be triggered both by clicking with the mouse and by pressing the corresponding number keys on the physical keyboard. Also make sure each key gives clear visual feedback when it is pressed!
 
-<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/keyboardkeyboard.png?raw=true" alt="Hide 'N Seek!">
+<img style="display: block; margin: auto; border-radius: 0.5rem; width: 80%;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/keyboardkeyboard.png?raw=true" alt="Hide 'N Seek!">
 
 ??? tip "Tips"
     - The `keydown` and `keyup` will be useful here.
