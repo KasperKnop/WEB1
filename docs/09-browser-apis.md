@@ -127,7 +127,10 @@ The website below has a bug. Figure out what is wrong and fix it! Notice that th
 
 ### Dynamic HTML Content
 
-You have received some HTML from your trusted server. Insert it into the DOM when the button is clicked!
+You have received some HTML from your trusted server. Insert it into the postContainer when the button is clicked!
+
+??? tip "Tip"
+    - The `innerHTML` property can be used to parse a string as HTML and replace all the element's descendants with the result.
 
 ```html
 <html>
