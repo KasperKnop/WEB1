@@ -42,7 +42,7 @@ Share the website with the lowest accessibility score in the comments and descri
 
 ### Screen Reader & Keyboard
 
-<img style="display: block; margin: auto; border-radius: 0.5rem;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/via-trips.png?raw=true" alt="A preview of the VIA trips website">
+<img style="display: block; margin: auto; border-radius: 0.5rem; width: 80%;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/via-trips.png?raw=true" alt="A preview of the VIA trips website">
 
 You are about to experience temporary vision loss! Install a screen reader (e.g. [NVDA](https://assistivlabs.com/assistive-tech/screen-readers/nvda){:target="\_blank"}), and try to book a trip on [VIA Trips](https://kasperknop.github.io/via-trips/){:target="\_blank"}. The website is blurred and does not allow for mouse input. You can toggle the blur on and off by pressing "b" on the keyboard if you need a little help :wink:
 

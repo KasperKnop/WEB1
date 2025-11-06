@@ -6,7 +6,9 @@ comments: true
 
 ## Preparation :books:
 
-### Foo
+### Fetch & JSON
+
+
 
 ## Exercises :writing_hand_tone2:
 
