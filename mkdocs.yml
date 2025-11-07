@@ -44,7 +44,7 @@ nav:
     - "07 Second Project": 07-second-project.md
     - "08 JavaScript": 08-javascript.md
     - "09 Browser APIs": 09-browser-apis.md
-    # - "10 Third Project": 10-third-project.md
+    - "10 Third Project": 10-third-project.md
     # - "11 Fetching Data": 11-fetching-data.md
     # - "12 Wrap Up": 12-wrap-up.md
 
