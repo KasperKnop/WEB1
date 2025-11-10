@@ -90,14 +90,14 @@ The website below has a bug. Figure out what is wrong and fix it! Notice that th
     ```html
     <html>
         <head>
-            <script src="main.js"></script>
+            <script src="script.js"></script>
         </head>
         <body>
             <h1>Hello, World!</h1>
         </body>
     </html>
     ```
-=== "main.js"
+=== "script.js"
     ```js 
     const heading = document.querySelector("h1")
     heading.textContent = "Hello, JavaScript!"
@@ -109,7 +109,7 @@ The website below has a bug. Figure out what is wrong and fix it! Notice that th
         <head></head>
         <body>
             <h1>Hello, World!</h1>
-            <script src="main.js"></script>
+            <script src="script.js"></script>
         </body>
     </html>
 
@@ -117,7 +117,7 @@ The website below has a bug. Figure out what is wrong and fix it! Notice that th
     
     <html>
         <head>
-            <script src="main.js" defer></script>
+            <script src="script.js" defer></script>
         </head>
         <body>
             <h1>Hello, World!</h1>

@@ -46,7 +46,7 @@ To make your workflow easier, open the HTML file with Live Server, and undock th
     <!DOCTYPE html>
     <html>
     <head>
-        <script src="my-script.js"></script>
+        <script src="script.js"></script>
     </head>
     <body></body>
     </html>
