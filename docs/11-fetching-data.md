@@ -452,7 +452,7 @@ Use the `catch` method to notify the user about the network error in the example
     })
     ```
 
-### Fetching Data From The Internet
+### Fetching Data From The Web
 
 <img style="display: block; margin: auto; border-radius: 0.5rem; width: 80%;" src="https://github.com/KasperKnop/WEB1/blob/main/resources/dog.png?raw=true" alt="Fetching Data From The Internet">
 
