@@ -10,11 +10,25 @@ As the final topic of the course, we'll explore how to retrieve data from web se
 
 ### JSON
 
-> Video coming soon...
+In this video, we'll explore JSON (JavaScript Object Notation) - a lightweight, human-readable format used for storing and exchanging data. We'll explore the syntax, examine real-world examples, and you'll learn how to serialize data into JSON and deserialize it back into usable objects in your programs.
+
+<iframe title="JSON" class="video" src="https://drive.google.com/file/d/15TAwgre9P5Ujlzwcx_xPGLz38glC321w/preview" allow="autoplay" allowfullscreen></iframe>
+
+W3schools also has some short guides that you can use for reference:
+
+- [JSON Intro](https://www.w3schools.com/js/js_json.asp)
+- [JSON Syntax](https://www.w3schools.com/js/js_json_syntax.asp)
+- [JSON Data Types](https://www.w3schools.com/js/js_json_datatypes.asp)
+- [JSON Parse](https://www.w3schools.com/js/js_json_parse.asp)
+- [JSON Stringify](https://www.w3schools.com/js/js_json_stringify.asp)
+- [JSON Objects](https://www.w3schools.com/js/js_json_objects.asp)
+- [JSON Arrays](https://www.w3schools.com/js/js_json_arrays.asp)
 
 ### Fetch
 
-> Video coming soon...
+> Video coming soon... Use the resource below if you want to prepare sooner!
+
+If you want to learn a bit more about fetch, you can also read this [guide on the Fetch API](https://www.geeksforgeeks.org/javascript/javascript-fetch-method/).
 
 ## Exercises :writing_hand_tone2:
 
