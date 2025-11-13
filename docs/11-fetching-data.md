@@ -218,6 +218,43 @@ The code below contains a JSON string that describes a user. Parse it into an ob
     ageElement.textContent = user.age
     ```
 
+### Serializing An Object
+
+Someone tried to store the state of their game as an object in `localStorage`, but the API only accepts strings - fix it!
+
+??? tip "Tip"
+    - While `JSON.parse` converts a JSON string into a JavaScript object, `JSON.stringify` does the reverse - it converts a JavaScript object into a JSON string.
+
+```js
+const state = {
+    playerName: "Kasper",
+    score: 1337,
+    level: 5
+}
+
+localStorage.setItem("state", state)
+
+const storedState = localStorage.getItem("gameState")
+
+console.log(storedState.score)
+```
+
+??? note "Solution"
+    ```js
+    const state = {
+        playerName: "Kasper",
+        score: 1337,
+        level: 5
+    }
+
+    localStorage.setItem("state", JSON.stringify(state))
+
+    const storedState = JSON.parse(localStorage.getItem("gameState"))
+
+    console.log(storedState.score)
+    ```
+
+
 ### Lock Your Screen!
 
 Have your friends ever left their laptop unlocked? Now is your chance to teach them an important lesson!
@@ -545,12 +582,9 @@ The code below asks for some data that the server cannot find. Update the code t
     if (!response.ok) throw new Error("HTTP error " + response.status)
     ```
 
-### Serializing an Object to JSON
+### Sending JSON with Fetch
 
 The code below simulates a real POST request for submitting a comment to a server. The server expects the data to be sent as a JSON string in the request body. Convert the `comment` object into a JSON string before sending it.
-
-??? tip "Tip"
-    - While `JSON.parse` converts a JSON string into a JavaScript object, `JSON.stringify` does the reverse - it converts a JavaScript object into a JSON string.
 
 ```html
 <html>
