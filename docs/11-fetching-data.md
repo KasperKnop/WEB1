@@ -218,7 +218,7 @@ The code below contains a JSON string that describes a user. Parse it into an ob
     ageElement.textContent = user.age
     ```
 
-### Serializing An Object
+### Serialize & Deserialize
 
 Someone tried to store the state of their game as an object in `localStorage`, but the API only accepts strings - fix it!
 
@@ -253,7 +253,6 @@ console.log(storedState.score)
 
     console.log(storedState.score)
     ```
-
 
 ### Lock Your Screen!
 
