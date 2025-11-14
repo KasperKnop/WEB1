@@ -1,6 +1,6 @@
 # Welcome To WEB1
 
-This is the course website for WEB1 - a course that serves as an introduction to front-end web development and core web standards. Students will gain proficiency in HTML, CSS, and JavaScript, while developing the competencies necessary to create responsive, user-friendly, interactive, and dynamic websites.
+This is the course website for WEB1 - a course that serves as an introduction to front-end web development and core web standards. You will gain proficiency in HTML, CSS, and JavaScript, while developing the competencies necessary to create responsive, user-friendly, interactive, and dynamic websites.
 
 In the sidebar, you'll find the course sessions, each with their own preparation material and exercises.
 
