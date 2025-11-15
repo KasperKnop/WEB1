@@ -26,9 +26,11 @@ W3schools also has some short guides that you can use for reference:
 
 ### Fetch
 
-> Video coming soon... Use the resource below if you want to prepare sooner!
+In this video, we're going to look at the basics of the Fetch API - the modern way for JavaScript to communicate with web servers using the HTTP protocol. Fetching data can be error-prone and take time, so we'll explore how we can wait for a response without blocking the rest of our code from running, and how to handle any errors that occur along the way.
 
-If you want to learn a bit more about fetch, you can also read this [guide on the Fetch API](https://www.geeksforgeeks.org/javascript/javascript-fetch-method/).
+<iframe title="Fetch" class="video" src="https://drive.google.com/file/d/1puyXpcbIx4dbM4cwUZyLDzaqlzVqrneV/preview" allow="autoplay" allowfullscreen></iframe>
+
+If you want to learn a bit more about `fetch`, you can also read this [guide on the Fetch API](https://www.geeksforgeeks.org/javascript/javascript-fetch-method/).
 
 ## Exercises :writing_hand_tone2:
 
