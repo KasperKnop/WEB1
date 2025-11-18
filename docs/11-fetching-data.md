@@ -607,6 +607,8 @@ The code below simulates a real POST request for submitting a comment to a serve
                 headers: { "Content-Type": "application/json" },
                 body: jsonString,
             })
+            /*...*/
+
         </script>
     </body>
 </html>
