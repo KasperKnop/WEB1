@@ -236,7 +236,7 @@ const state = {
 
 localStorage.setItem("state", state)
 
-const storedState = localStorage.getItem("gameState")
+const storedState = localStorage.getItem("state")
 
 console.log(storedState.score)
 ```
