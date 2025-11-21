@@ -46,7 +46,7 @@ nav:
     - "09 Browser APIs": 09-browser-apis.md
     - "10 Third Project": 10-third-project.md
     - "11 Fetching Data": 11-fetching-data.md
-    # - "12 Wrap Up": 12-wrap-up.md
+    - "12 Wrap Up": 12-wrap-up.md
 
 extra_css:
     - stylesheets/extra.css
