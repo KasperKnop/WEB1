@@ -12,7 +12,7 @@ So far, we've focused on building responsive and user-friendly websites using HT
 
 JavaScript shines when it interacts with HTML and CSS, but before we dive into that, we'll make sure that you understand the fundaments of the language. In the video below, we'll get hands-on with basic language features including variables, data types, conditionals, functions, arrays, objects, loops and more! You're likely already familiar with most of these concepts from Java, but keep an eye out for the key conceptual and syntactical differences!
 
-<iframe title="JavaScript Basics" class="video" src="https://drive.google.com/file/d/1rUFAg7yBmhp8RM_zK95oluANuwDx0TiT/preview" allow="autoplay" allowfullscreen></iframe>
+<iframe title="JavaScript Basics" class="video" src="https://cdnapisec.kaltura.com/p/2217991/embedPlaykitJs/uiconf_id/52242552?iframeembed=true&amp;entry_id=1_p35qgk99&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_ekl7b7ew%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D" allow="autoplay" allowfullscreen></iframe>
 
 To get an overview of the language, take a look at W3Schools' resources:
 

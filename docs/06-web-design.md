@@ -12,7 +12,7 @@ In this session, we will explore web design from a developer's perspective. Whil
 
 In the video below, we will explore the core principles of user experience (UX) and user interface (UI) design, showing how thoughtful design decisions - like creating prototypes and planning layouts - can improve the way users interact with a website. You will also see how structured approaches, such as design systems and heuristic evaluation, help ensure consistency, clarity, and a better overall user experience.
 
-<iframe title="Web Design Overview" class="video" src="https://drive.google.com/file/d/1WM2ab5K9deLL7LG3eDqNw6BofzIFb7un/preview" allow="autoplay" allowfullscreen></iframe>
+<iframe title="Web Design Overview" class="video" src="https://cdnapisec.kaltura.com/p/2217991/embedPlaykitJs/uiconf_id/52242552?iframeembed=true&amp;entry_id=1_m9m7lmlx&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_smlvdcfm%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D" allow="autoplay" allowfullscreen></iframe>
 
 Still unsure about what UX is and why it matters? Watch this short video on [the ROI of user experience](https://www.youtube.com/watch?v=O94kYyzqvTc){:target="\_blank"}.
 
@@ -24,7 +24,7 @@ If you are want more concrete graphical tips on designing your UI, you can take 
 
 Accessibility is a fundamental part of user experience in web development because it ensures that all users, including those with disabilities, can effectively interact with your website. In the video below, we will introduce the fundamentals of web accessibility. You will learn how proper focus management, semantic HTML, ARIA attributes, meaningful link and image text, and thoughtful color and contrast choices all contribute to an inclusive web experience. We will also cover practical testing methods, including using developer tools to simulate visual impairments, running accessibility audits with Lighthouse, and understanding how screen readers interact with web content.
 
-<iframe title="Accessibilty" class="video" src="https://drive.google.com/file/d/14OBv5ikiTgFslMAIMl5jfjjfJ12RnSi6/preview" allow="autoplay" allowfullscreen></iframe>
+<iframe title="Accessibilty" class="video" src="https://cdnapisec.kaltura.com/p/2217991/embedPlaykitJs/uiconf_id/52242552?iframeembed=true&amp;entry_id=1_3om7vu3n&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_4tvqx1v2%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D" allow="autoplay" allowfullscreen></iframe>
 
 If you want to learn more, W3 Schools has created [a comprehensive tutorial on accessibility](https://www.w3schools.com/accessibility/index.php){:target="\_blank"}. This [article on how to review for accessibility](https://web.dev/articles/how-to-review) also gives a good brief overview.
 

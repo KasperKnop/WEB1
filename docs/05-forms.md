@@ -12,7 +12,7 @@ So far, we have only created web pages, that the user can look at. In this sessi
 
 In the video below you will get an introduction to HTML forms. You’ll learn to create forms with different input types, understand how they send data to a server and how to validate the forms client-side using e.g regular expressions.
 
-<iframe class="video" src="https://drive.google.com/file/d/1h0eAhQGs--q3hvPPCmGE_IYpDhRsd43b/preview" allow="autoplay" allowfullscreen></iframe>
+<iframe class="video" src="https://cdnapisec.kaltura.com/p/2217991/embedPlaykitJs/uiconf_id/52242552?iframeembed=true&amp;entry_id=1_pceckcoc&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_wtkdoaxw%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D" allow="autoplay" allowfullscreen></iframe>
 
 If you want to take a deep dive into HTML forms, MDN has a [web forms module](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms){:target="\_blank"} that provides a comprehensive coverage of the topic. The "Your first form" section covers the basics.
 

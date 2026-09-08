@@ -12,7 +12,7 @@ Now that you know the basics of JavaScript, it's time to see how it truly comes 
 
 In this video, we'll explore the Document Object Model - the structured representation of a web page that JavaScript can interact with. You'll learn how to access elements, change their content, attributes and styles - all through DOM methods that let you manipulate the page dynamically.
 
-<iframe title="The Document Object Model" class="video" src="https://drive.google.com/file/d/1xqBVzTNCz4Dsxw0u3hfd6kTZSikX7prk/preview" allow="autoplay" allowfullscreen></iframe>
+<iframe title="The Document Object Model" class="video" src="https://cdnapisec.kaltura.com/p/2217991/embedPlaykitJs/uiconf_id/52242552?iframeembed=true&amp;entry_id=1_xkne83n4&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_z7mtexib%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D" allow="autoplay" allowfullscreen></iframe>
 
 For a written reference, check out W3Schools' resources:
 
@@ -26,7 +26,7 @@ For a written reference, check out W3Schools' resources:
 
 In the next video, we'll explore DOM events - how JavaScript can respond to user actions and browser-triggered events on a web page. You'll learn how to detect events like clicks, key presses, and pointer movements, and how to handle them using event listeners to make your pages interactive.
 
-<iframe title="Events" class="video" src="https://drive.google.com/file/d/1QJZbuBjlMQjoFWMNrMuz6mq1UfyFGsjP/preview" allow="autoplay" allowfullscreen></iframe>
+<iframe title="Events" class="video" src="https://cdnapisec.kaltura.com/p/2217991/embedPlaykitJs/uiconf_id/52242552?iframeembed=true&amp;entry_id=1_unk2thyf&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_93lxrh1g%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D" allow="autoplay" allowfullscreen></iframe>
 
 MDN also has a good [introduction to events](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events), that is worth a read.
 
@@ -34,7 +34,7 @@ MDN also has a good [introduction to events](https://developer.mozilla.org/en-US
 
 The Web Storage APIs let JavaScript store key/value pairs directly in the browser. This allows you to persist data across page reloads, without relying on the server. They're mostly used to store small amounts of data, allowing web pages to remember user preferences, save form inputs and track application state. In this video, we'll explore `localStorage` and `sessionStorage`, showing how to store data either permanently or just for the current session.
 
-<iframe title="Web Storage APIs" class="video" src="https://drive.google.com/file/d/1fChy7l2hZLeKegzu0yV4XnOULb_u1sOj/preview" allow="autoplay" allowfullscreen></iframe>
+<iframe title="Web Storage APIs" class="video" src="https://cdnapisec.kaltura.com/p/2217991/embedPlaykitJs/uiconf_id/52242552?iframeembed=true&amp;entry_id=1_8cmwjv7i&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_20iaz2a1%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D" allow="autoplay" allowfullscreen></iframe>
 
 If you want to learn more, MDN has [a good resource on the Web Storage APIs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API).
 
@@ -42,7 +42,7 @@ If you want to learn more, MDN has [a good resource on the Web Storage APIs](htt
 
 The browser-provided functions `setTimeout` and `setInterval` let you schedule code to run in the future. `setTimeout` runs a function once after a delay, while `setInterval` runs it repeatedly at a fixed interval. Watch the video below to see them in action!
 
-<iframe title="Timing Functions" class="video" src="https://drive.google.com/file/d/1oqI_Lvy8Hs-hfUr1MLeiU2K2Nuf5HoUp/preview" allow="autoplay" allowfullscreen></iframe>
+<iframe title="Timing Functions" class="video" src="ttps://cdnapisec.kaltura.com/p/2217991/embedPlaykitJs/uiconf_id/52242552?iframeembed=true&amp;entry_id=1_3ocpbfj2&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_0h6varmo%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D" allow="autoplay" allowfullscreen></iframe>
 
 To learn more, visit MDNs resources on [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout) and [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval).
 

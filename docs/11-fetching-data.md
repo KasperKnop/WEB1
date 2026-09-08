@@ -12,7 +12,7 @@ As the final topic of the course, we'll explore how to retrieve data from web se
 
 In this video, we'll explore JSON (JavaScript Object Notation) - a lightweight, human-readable format used for storing and exchanging data. We'll explore the syntax, examine real-world examples, and you'll learn how to serialize data into JSON and deserialize it back into usable objects in your programs.
 
-<iframe title="JSON" class="video" src="https://drive.google.com/file/d/15TAwgre9P5Ujlzwcx_xPGLz38glC321w/preview" allow="autoplay" allowfullscreen></iframe>
+<iframe title="JSON" class="video" src="https://cdnapisec.kaltura.com/p/2217991/embedPlaykitJs/uiconf_id/52242552?iframeembed=true&amp;entry_id=1_gnk4ozje&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_919j40vd%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D" allow="autoplay" allowfullscreen></iframe>
 
 W3schools also has some short guides that you can use for reference:
 
@@ -28,7 +28,7 @@ W3schools also has some short guides that you can use for reference:
 
 In this video, we're going to look at the basics of the Fetch API - the modern way for JavaScript to communicate with web servers using the HTTP protocol. Fetching data can be error-prone and take time, so we'll explore how we can wait for a response without blocking the rest of our code from running, and how to handle any errors that occur along the way.
 
-<iframe title="Fetch" class="video" src="https://drive.google.com/file/d/1puyXpcbIx4dbM4cwUZyLDzaqlzVqrneV/preview" allow="autoplay" allowfullscreen></iframe>
+<iframe title="Fetch" class="video" src="https://cdnapisec.kaltura.com/p/2217991/embedPlaykitJs/uiconf_id/52242552?iframeembed=true&amp;entry_id=1_9mc8tuut&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_cfj4sxar%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D" allow="autoplay" allowfullscreen></iframe>
 
 If you want to learn a bit more about `fetch`, you can also read this [guide on the Fetch API](https://www.geeksforgeeks.org/javascript/javascript-fetch-method/).
 
