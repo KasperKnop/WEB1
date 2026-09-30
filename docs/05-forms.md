@@ -26,7 +26,7 @@ User feedback in forms can be greatly improved by styling input fields with CSS 
 
 ### Your Own Search Engine!
 
-Use an HTML form to create your own web search, that initiates an HTTP GET request to a real search engine of your choice (Google, Bing, DuckDuckGo, Yahoo...). The form should have a input field with placeholder text and a search button for submitting the form. Make sure that the input field is automatically focused and that it is requied to fill in.
+Use an HTML form to create your own web search, that initiates an HTTP GET request to a real search engine of your choice (Google, Bing, DuckDuckGo, Yahoo...). The form should have a input field with placeholder text and a search button for submitting the form. Make sure that the input field is automatically focused and that it is required to fill in.
 
 ??? note "Example Solution"
     ```html
