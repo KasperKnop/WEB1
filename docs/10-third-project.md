@@ -36,7 +36,7 @@ Animations are not a requirement, but they can bring your game to life. You can 
 External libraries, frameworks and game engines are not allowed.
 
 !!! tip "Tips"
-    - The projects will be discussed at the exam. Focus on applying what you've learned to make it easier to explain and showcase your skills. A more interesting project might lead to a more interesting discussion.
+    <!-- - The projects will be discussed at the exam. Focus on applying what you've learned to make it easier to explain and showcase your skills. A more interesting project might lead to a more interesting discussion. -->
     - Keep it simple! The DOM is not designed for fast-paced or graphics-heavy games, so focus on mechanics that rely on simple interaction and logic rather than constant motion. Ask, if you are unsure about the scope of your game idea!
     - Don't jump straight into code. Plan your UI and game flow before implementing it.
     - Start with a minimal viable product (MVP). What is the player doing most of the time? (guessing, reacting, choosing, etc.) Build that first, and then expand around it with UI, polish and extra game mechanics.
