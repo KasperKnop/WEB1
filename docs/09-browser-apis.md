@@ -42,7 +42,7 @@ If you want to learn more, MDN has [a good resource on the Web Storage APIs](htt
 
 The browser-provided functions `setTimeout` and `setInterval` let you schedule code to run in the future. `setTimeout` runs a function once after a delay, while `setInterval` runs it repeatedly at a fixed interval. Watch the video below to see them in action!
 
-<iframe title="Timing Functions" class="video" src="ttps://cdnapisec.kaltura.com/p/2217991/embedPlaykitJs/uiconf_id/52242552?iframeembed=true&amp;entry_id=1_3ocpbfj2&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_0h6varmo%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D" allow="autoplay" allowfullscreen></iframe>
+<iframe title="Timing Functions" class="video" src="https://cdnapisec.kaltura.com/p/2217991/embedPlaykitJs/uiconf_id/52242552?iframeembed=true&amp;entry_id=1_3ocpbfj2&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_0h6varmo%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D" allow="autoplay" allowfullscreen></iframe>
 
 To learn more, visit MDNs resources on [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout) and [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval).
 
