@@ -104,7 +104,7 @@ console.log(userName)
     let userName = "Kasper"
     userName = "Troels"
 
-    console.log(name)
+    console.log(userName)
     ```
 
 ### Loose & Strict Equality
